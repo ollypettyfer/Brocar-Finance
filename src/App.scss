@@ -1,0 +1,20 @@
+.body {
+  margin: 0;
+}
+
+.navbar-wrapper img {
+  display: flex;
+
+  width: 200px;
+  height: 100px;
+}
+
+.navbar-items ul * {
+  padding: 10px;
+}
+
+.navbar-items {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
