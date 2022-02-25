@@ -1,6 +1,5 @@
 import "./App.scss";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-
 import { Home } from "./components/common/Home";
 import { Navbar } from "./components/common/Navbar";
 import { Contact } from "./components/Contact";

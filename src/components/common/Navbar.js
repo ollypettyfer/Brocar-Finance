@@ -1,5 +1,4 @@
 import React from "react";
-import bulma from "bulma";
 import { Link } from "react-router-dom";
 import logo from "../images/logo.jpg";
 
