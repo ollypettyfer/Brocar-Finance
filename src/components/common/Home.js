@@ -1,4 +1,7 @@
 import React from "react";
+import { Trustapilot } from "../Trustapilot";
+import { Contact } from "../Contact";
+import { Footer } from "./Footer";
 
 export const Home = () => {
   return (
@@ -116,69 +119,102 @@ export const Home = () => {
       </section>
 
       {/* Finace Options */}
+      <section className="section is-medium">
+        <div className="columns is-mobile">
+          <div className="column is-three-fifths is-offset-one-fifth has-text-centered">
+            <h1 className="title p-6">OUR FLEXIBLE FINANCE OPTIONS</h1>
+            <p className="subtitle pb-6">
+              Automotive finance can seem complicated. There are a few key
+              products designed to suit different buying needs. We can help you
+              to understand the options available. Please refer to Finance
+              Suitability Questions for further information
+            </p>
 
-      <div className="box">
-        <article className="media">
-          <div class="media-left">
-            <figure class="image is-64x64">
-              <img src="KAREL" alt="Image"></img>
-            </figure>
-          </div>
-          <div class="media-content">
-            <div class="content">
-              <p>
-                <strong>PERSONAL CONTRACT PURCHASE</strong>
-                <br></br>
-                An increasingly popular choice. PCP offers flexibility at the
-                end of your agreement along with low monthly payments and can be
-                the right option when opting out of a company car scheme.
-              </p>
+            <div className="columns">
+              <div className="column">
+                <div class="card">
+                  <div class="card-content">
+                    <div class="media">
+                      <div class="media">
+                        <figure class="image is-3by1">
+                          <img src="../images/logo.jpg" alt="KAREL"></img>
+                        </figure>
+                      </div>
+                    </div>
+                    <div class="content">
+                      <p class="title is-4">PERSONAL CONTRACT PURCHASE</p>
+                    </div>
+                    <div class="content">
+                      An increasingly popular choice. PCP offers flexibility at
+                      the end of your agreement along with low monthly payments
+                      and can be the right option when opting out of a company
+                      car scheme.
+                      <br></br>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="column">
+                {" "}
+                <div class="card">
+                  <div class="card-content">
+                    <div class="media">
+                      <div class="media">
+                        <figure class="image is-3by1">
+                          <img src="../images/logo.jpg" alt="KAREL"></img>
+                        </figure>
+                      </div>
+                    </div>
+                    <div class="content">
+                      <p class="title is-4">HIRE PURCHASE</p>
+                    </div>
+
+                    <div class="content">
+                      Hire Purchase (HP) is a simple and straightforward way to
+                      finance your new vehicle. A fixed rate of interest along
+                      with fixed monthly payments ensure budgeting is easy and
+                      predictable
+                      <br></br>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="column">
+                {" "}
+                <div class="card">
+                  <div class="card-content">
+                    <div class="media">
+                      <div class="media">
+                        <figure class="image is-3by1">
+                          <img src="../images/logo.jpg" alt="KAREL"></img>
+                        </figure>
+                      </div>
+                    </div>
+                    <div class="content">
+                      <p class="title is-4">LEASE PURCHASE</p>
+                    </div>
+                    <div class="content">
+                      A similar option to Hire Purchase, but with a final
+                      balloon payment at the end of the agreement. This can be
+                      the right choice where you want to keep monthly payments
+                      to a minimum.
+                      <br></br>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-        </article>
-      </div>
+        </div>
+      </section>
 
-      <div className="box">
-        <article className="media">
-          <div class="media-left">
-            <figure class="image is-64x64">
-              <img src="KAREL" alt="Image"></img>
-            </figure>
-          </div>
-          <div class="media-content">
-            <div class="content">
-              <p>
-                <strong>HIRE PURCHASE</strong>
-                <br></br>
-                Hire Purchase (HP) is a simple and straightforward way to
-                finance your new vehicle. A fixed rate of interest along with
-                fixed monthly payments ensure budgeting is easy and predictable
-              </p>
-            </div>
-          </div>
-        </article>
-      </div>
+      {/*TRUSTAPILOT WIDGET*/}
+      <Trustapilot />
 
-      <div className="box">
-        <article className="media">
-          <div class="media-left">
-            <figure class="image is-64x64">
-              <img src="KAREL" alt="Image"></img>
-            </figure>
-          </div>
-          <div class="media-content">
-            <div class="content">
-              <p>
-                <strong>LEASE PURCHASE</strong>
-                <br></br>A similar option to Hire Purchase, but with a final
-                balloon payment at the end of the agreement. This can be the
-                right choice where you want to keep monthly payments to a
-                minimum.
-              </p>
-            </div>
-          </div>
-        </article>
-      </div>
+      {/*CONTACT*/}
+
+      <Contact />
+      <Footer />
     </>
   );
 };

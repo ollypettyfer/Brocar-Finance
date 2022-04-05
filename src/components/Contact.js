@@ -5,69 +5,82 @@ export const Contact = () => {
     <>
       {/* column 1 */}
       <div class="columns">
-        <div class="column">
-          <div className="field">
-            <label className="label">Name</label>
-            <div className="control">
-              <input className="input" type="text" placeholder=""></input>
+        <div class="column is-offset-2">
+          <form
+            action="https://formsubmit.co/7b309fbcb1545a589984079739d143c1"
+            method="POST"
+          >
+            <div className="field">
+              <label className="label">Name</label>
+              <div className="control">
+                <input
+                  className="input"
+                  type="text"
+                  name="name"
+                  required
+                ></input>
+              </div>
             </div>
-          </div>
 
-          <div className="field">
-            <label className="label">Conact Number</label>
-            <div className="control has-icons-left has-icons-right">
-              <input
-                className="input "
-                type="text"
-                placeholder=""
-                value=""
-              ></input>
-              <span className="icon is-small is-left">
-                <i className="fas fa-user"></i>
-              </span>
-              <span className="icon is-small is-right">
-                <i className="fas fa-check"></i>
-              </span>
+            <div className="field">
+              <label className="label">Contact Number</label>
+              <div className="control has-icons-left has-icons-right">
+                <input
+                  className="input "
+                  type="text"
+                  name="number"
+                  required
+                ></input>
+                <span className="icon is-small is-left">
+                  <i className="fas fa-user"></i>
+                </span>
+                <span className="icon is-small is-right">
+                  <i className="fas fa-check"></i>
+                </span>
+              </div>
             </div>
-          </div>
 
-          <div className="field">
-            <label className="label">Email</label>
-            <div className="control has-icons-left has-icons-right">
-              <input
-                className="input"
-                type="email"
-                placeholder="Email input"
-                value="hello@"
-              ></input>
-              <span className="icon is-small is-left">
-                <i className="fas fa-envelope"></i>
-              </span>
-              <span className="icon is-small is-right">
-                <i className="fas fa-exclamation-triangle"></i>
-              </span>
+            <div className="field">
+              <label className="label">Email</label>
+              <div className="control has-icons-left has-icons-right">
+                <input
+                  className="input"
+                  type="email"
+                  name="email"
+                  required
+                ></input>
+                <span className="icon is-small is-left">
+                  <i className="fas fa-envelope"></i>
+                </span>
+                <span className="icon is-small is-right">
+                  <i className="fas fa-exclamation-triangle"></i>
+                </span>
+              </div>
             </div>
-          </div>
 
-          <div className="field">
-            <label className="label">Message</label>
-            <div className="control">
-              <textarea
-                className="textarea"
-                placeholder="What would you like to talk to us about today?"
-              ></textarea>
+            <div className="field">
+              <label className="label">Message</label>
+              <div className="control">
+                <input
+                  className="input"
+                  placeholder="What would you like to talk to us about today?"
+                  type="text"
+                  name="message"
+                  required
+                ></input>
+              </div>
             </div>
-          </div>
 
-          <div className="field is-grouped">
-            <div className="control">
-              <button className="button is-link">Submit</button>
+            <div className="field is-grouped">
+              <div className="control">
+                <button className="button is-link">Submit</button>
+              </div>
             </div>
-          </div>
-
-          {/* column 2 */}
+          </form>
         </div>
-        <div class="column">
+
+        {/* column 2 */}
+        <div class="column is-offset-2">
           <div className="field">
             <label className="label">GET IN TOUCH</label>
           </div>
