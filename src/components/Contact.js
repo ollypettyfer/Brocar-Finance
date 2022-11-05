@@ -5,8 +5,8 @@ export const Contact = () => {
     <>
       {/* column 1 */}
       <div className="contact-container has-background-dark has-text-white">
-        <div class="columns">
-          <div class="column is-6 column1">
+        <div className="columns">
+          <div className="column is-6 column1">
             <form
               action="https://formsubmit.co/7b309fbcb1545a589984079739d143c1"
               method="POST"
@@ -84,7 +84,7 @@ export const Contact = () => {
           </div>
 
           {/* column 2 */}
-          <div class="column is-6 column2">
+          <div className="column is-6 column2">
             <h1 className="title is-3 has-text-white">Get in touch</h1>
             <br></br>
 

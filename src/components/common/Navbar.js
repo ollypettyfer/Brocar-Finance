@@ -1,14 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
 import logo from "../images/logo.jpg";
 
 export const Navbar = () => {
   return (
     <>
       <nav className="navbar is-fixed-top is-black">
-        <div class="navbar-brand">
-          <a class="navbar-item" href="/">
+        <div className="navbar-brand">
+          <a className="navbar-item" href="/">
             <img
               src={logo}
               alt="Bulma: a modern CSS framework based on Flexbox"
@@ -17,7 +16,7 @@ export const Navbar = () => {
             ></img>
           </a>
           <div
-            class="navbar-burger"
+            className="navbar-burger"
             data-target="navbarExampleTransparentExample"
           >
             <span></span>
@@ -26,22 +25,21 @@ export const Navbar = () => {
           </div>
         </div>
 
-        <div d="navbarExampleTransparentExample" class="navbar-menu">
+        <div d="navbarExampleTransparentExample" className="navbar-menu">
           <div className="navbar-start"></div>
 
           <div className="navbar-end">
             <div className="navbar-item">
               <div className="buttons">
-                <Link to="finance-options" className="button is-danger">
+                <Link to="finance-options" className="button is-link">
                   Finace Options
                 </Link>
-                <Link to="car-types" className="button is-dark">
+                <Link to="car-types" className="button is-link">
                   Car Types
                 </Link>
-                <Link to="contact" className="button is-link">
+                <Link className="button is-link" to="contact">
                   Contact
                 </Link>
-                <button className="button is-warning">REQUEST A QUOTE</button>
               </div>
             </div>
           </div>

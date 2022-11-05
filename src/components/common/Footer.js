@@ -3,7 +3,7 @@ import React from "react";
 export const Footer = () => {
   return (
     <footer className="footer">
-      <nav class="breadcrumb is-centered" aria-label="breadcrumbs">
+      <nav className="breadcrumb is-centered" aria-label="breadcrumbs">
         <ul>
           <li>
             <a href="privacy" className="has-text-black">
