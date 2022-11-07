@@ -4,9 +4,9 @@ export const Contact = () => {
   return (
     <>
       {/* column 1 */}
-      <div className="contact-container has-background-dark has-text-white">
+      <section className="has-background-dark has-text-white section">
         <div className="columns">
-          <div className="column is-6 column1">
+          <div className="column">
             <form
               action="https://formsubmit.co/7b309fbcb1545a589984079739d143c1"
               method="POST"
@@ -82,9 +82,10 @@ export const Contact = () => {
               </div>
             </form>
           </div>
+          <hr></hr>
 
           {/* column 2 */}
-          <div className="column is-6 column2">
+          <div className="column has-text-centered">
             <h1 className="title is-3 has-text-white">Get in touch</h1>
             <br></br>
 
@@ -97,7 +98,7 @@ export const Contact = () => {
             <div className="field">
               <label className="label contact-label">Email</label>
               <div className="control has-icons-left has-icons-right">
-                <p>BROCARFINACE@GMAIL.COM</p>
+                <p>enquiries@brocarfinance.co.uk</p>
               </div>
             </div>
 
@@ -110,7 +111,7 @@ export const Contact = () => {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 };

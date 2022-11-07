@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import ReactDom from "react-dom";
 
 const MODAL_STYLES = {
@@ -22,14 +22,30 @@ const OVERLAY_STYLES = {
 };
 
 export default function Modal({ open, children, onClose }) {
+  // ** CLOSE ON CLICK - NOT WORKING **
+  // const [isOpen, setIsOpen] = useState(false);
+
+  // let modalRef = useRef();
+
+  // useEffect(() => {
+  //   let handler = (e) => {
+  //     if (!modalRef.current.contains(e.target)) {
+  //       setIsOpen(false);
+  //     }
+  //     console.log(modalRef.current);
+  //   };
+  //   document.addEventListener("mousedown", handler);
+  // });
+
   if (!open) return null;
   return ReactDom.createPortal(
     <>
       <div style={OVERLAY_STYLES}></div>
       <div style={MODAL_STYLES}>
-        <div className="container modal-dim ">
+        <div className="container modal-dim">
           <div className=" has-background-dark has-text-white is-mobile">
             <form
+              target="_blank"
               action="https://formsubmit.co/7b309fbcb1545a589984079739d143c1"
               method="POST"
             >
@@ -85,6 +101,7 @@ export default function Modal({ open, children, onClose }) {
                 </div>
               </div>
 
+              {/* MAKE MODAL CLOSE ON SUBMIT - TO DO!!!! */}
               <div className="field has-text-centered pb-2">
                 <div className="control">
                   <button className="button is-link is-centered">Submit</button>

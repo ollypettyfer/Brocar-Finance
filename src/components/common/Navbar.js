@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../images/logo.jpg";
+import * as Scroll from "react-scroll";
 
 export const Navbar = () => {
   return (
@@ -31,15 +32,36 @@ export const Navbar = () => {
           <div className="navbar-end">
             <div className="navbar-item">
               <div className="buttons">
-                <Link to="finance-options" className="button is-link">
+                <Scroll.Link
+                  to="finance-section"
+                  className="button is-link"
+                  spy={true}
+                  smooth={true}
+                  offset={50}
+                  duration={500}
+                >
                   Finace Options
-                </Link>
-                <Link to="car-types" className="button is-link">
+                </Scroll.Link>
+                <Scroll.Link
+                  to="cars-section"
+                  className="button is-link"
+                  spy={true}
+                  smooth={true}
+                  offset={50}
+                  duration={500}
+                >
                   Car Types
-                </Link>
-                <Link className="button is-link" to="contact">
+                </Scroll.Link>
+                <Scroll.Link
+                  className="button is-link"
+                  to="contact"
+                  spy={true}
+                  smooth={true}
+                  offset={-50}
+                  duration={500}
+                >
                   Contact
-                </Link>
+                </Scroll.Link>
               </div>
             </div>
           </div>
