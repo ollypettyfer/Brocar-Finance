@@ -1,13 +1,16 @@
-## Install Bulma
-NPM i bulma
+# BROCAR FINANCE APP
 
-
-
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An app that allows users to find car finance online, request a quote from Brocar.
 
 ## Available Scripts
+
+### Install Bulma
+
+NPM i bulma
+
+### Install React Scroll
+
+NPM i react-scroll
 
 In the project directory, you can run:
 

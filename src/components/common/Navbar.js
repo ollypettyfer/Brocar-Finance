@@ -1,7 +1,27 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import logo from "../images/logo.jpg";
 import * as Scroll from "react-scroll";
+
+document.addEventListener("DOMContentLoaded", () => {
+  // Get all "navbar-burger" elements
+  const $navbarBurgers = Array.prototype.slice.call(
+    document.querySelectorAll(".navbar-burger"),
+    0
+  );
+
+  // Add a click event on each of them
+  $navbarBurgers.forEach((el) => {
+    el.addEventListener("click", () => {
+      // Get the target from the "data-target" attribute
+      const target = el.dataset.target;
+      const $target = document.getElementById(target);
+
+      // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+      el.classList.toggle("is-active");
+      $target.classList.toggle("is-active");
+    });
+  });
+});
 
 export const Navbar = () => {
   return (
@@ -11,27 +31,35 @@ export const Navbar = () => {
           <a className="navbar-item" href="/">
             <img
               src={logo}
-              alt="Bulma: a modern CSS framework based on Flexbox"
+              alt="BROCAR FINANCE LOGO"
               width="112"
               height="50"
             ></img>
           </a>
           <div
+            role="button"
             className="navbar-burger"
-            data-target="navbarExampleTransparentExample"
+            aria-label="menu"
+            aria-expanded="false"
+            data-target="navMenu"
           >
-            <span></span>
-            <span></span>
-            <span></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
           </div>
         </div>
 
-        <div d="navbarExampleTransparentExample" className="navbar-menu">
+        <div className="navbar-menu" id="navMenu">
           <div className="navbar-start"></div>
 
-          <div className="navbar-end">
-            <div className="navbar-item">
-              <div className="buttons">
+          <div className="navbar-end ">
+            <div className="navbar-item ">
+              <div className="navbar-link is-arrowless">
+                <a className=" button is-link" href="/">
+                  Home
+                </a>
+              </div>
+              <div className="navbar-link is-arrowless">
                 <Scroll.Link
                   to="finance-section"
                   className="button is-link"
@@ -42,6 +70,9 @@ export const Navbar = () => {
                 >
                   Finace Options
                 </Scroll.Link>
+              </div>
+
+              <div className="navbar-link is-arrowless">
                 <Scroll.Link
                   to="cars-section"
                   className="button is-link"
@@ -52,6 +83,9 @@ export const Navbar = () => {
                 >
                   Car Types
                 </Scroll.Link>
+              </div>
+
+              <div className="navbar-link is-arrowless">
                 <Scroll.Link
                   className="button is-link"
                   to="contact"
