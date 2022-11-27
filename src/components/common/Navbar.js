@@ -26,16 +26,26 @@ document.addEventListener("DOMContentLoaded", () => {
 export const Navbar = () => {
   return (
     <>
-      <nav className="navbar is-fixed-top is-black">
+      <nav className="navbar is-fixed-top" id="navbar-color">
         <div className="navbar-brand">
-          <a className="navbar-item" href="/">
-            <img
-              src={logo}
-              alt="BROCAR FINANCE LOGO"
-              width="112"
-              height="50"
-            ></img>
-          </a>
+          <div className="navbar-link is-arrowless">
+            <a className=" button is-link navbar-btn" href="/">
+              Home
+            </a>
+          </div>
+          <div className="navbar-link is-arrowless">
+            <Scroll.Link
+              to="finance-section"
+              className="button navbar-btn is-link"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={500}
+            >
+              Finace Options
+            </Scroll.Link>
+          </div>
+
           <div
             role="button"
             className="navbar-burger"
@@ -50,35 +60,26 @@ export const Navbar = () => {
         </div>
 
         <div className="navbar-menu" id="navMenu">
-          <div className="navbar-start"></div>
-
+          {/* <div className="navbar-start"></div> */}
+          <div className="navbar-start nav-center">
+            <a className="navbar-item" href="/">
+              <img
+                src={logo}
+                alt="BROCAR FINANCE LOGO"
+                width="112"
+                height="50"
+              ></img>
+            </a>
+          </div>
           <div className="navbar-end ">
             <div className="navbar-item ">
               <div className="navbar-link is-arrowless">
-                <a className=" button is-link" href="/">
-                  Home
-                </a>
-              </div>
-              <div className="navbar-link is-arrowless">
-                <Scroll.Link
-                  to="finance-section"
-                  className="button is-link"
-                  spy={true}
-                  smooth={true}
-                  offset={50}
-                  duration={500}
-                >
-                  Finace Options
-                </Scroll.Link>
-              </div>
-
-              <div className="navbar-link is-arrowless">
                 <Scroll.Link
                   to="cars-section"
-                  className="button is-link"
+                  className="button navbar-btn is-link"
                   spy={true}
                   smooth={true}
-                  offset={50}
+                  offset={0}
                   duration={500}
                 >
                   Car Types
@@ -87,11 +88,11 @@ export const Navbar = () => {
 
               <div className="navbar-link is-arrowless">
                 <Scroll.Link
-                  className="button is-link"
+                  className="button navbar-btn is-link"
                   to="contact"
                   spy={true}
                   smooth={true}
-                  offset={-50}
+                  offset={-63}
                   duration={500}
                 >
                   Contact

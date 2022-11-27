@@ -17,7 +17,7 @@ export const About = () => {
               solution you need quickly and efficiently.
             </p>
 
-            <a href="#contact">
+            <a href="#scroll-to-contact">
               <button className="button">Contact Us</button>
             </a>
           </div>

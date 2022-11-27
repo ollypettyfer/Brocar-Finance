@@ -4,7 +4,10 @@ export const Contact = () => {
   return (
     <>
       {/* column 1 */}
-      <section className="has-background-dark has-text-white section">
+      <section
+        className="has-background-dark has-text-white section"
+        id="scroll-to-contact"
+      >
         <div className="columns">
           <div className="column">
             <form

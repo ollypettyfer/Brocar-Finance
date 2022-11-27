@@ -32,6 +32,7 @@ export const Cars = () => {
                       We can fund balances up to £10m. On certain models we can
                       offer balloon payments of up to 70% on two year deals
                       <br></br>
+                      <br></br>
                     </div>
                   </div>
                 </div>
@@ -55,6 +56,7 @@ export const Cars = () => {
                       Our panel of lenders can help us to provide you with a
                       lower cost funding solution than might be available
                       through a dealership
+                      <br></br>
                       <br></br>
                     </div>
                   </div>

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import ReactDom from "react-dom";
 
 const MODAL_STYLES = {
@@ -112,9 +112,9 @@ export default function Modal({ open, children, onClose }) {
           <div className="has-text-centered">
             <button
               onClick={onClose}
-              className="button is-danger has-text-centered"
+              className="button is-danger has-text-centered is-rounded"
             >
-              CLOSE
+              X
             </button>
           </div>
         </div>

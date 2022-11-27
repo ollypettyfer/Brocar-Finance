@@ -3,11 +3,32 @@ html{
     scroll-behavior: smooth;
 }
 
+body{
+    font-family: 'Oswald', sans-serif;
+}
+
 //NAV BAR LOGO SIZE
 .navbar-item img {
     max-height: 3rem;
 }
 
+.nav-center{
+flex-grow: 1; justify-content: center;
+}
+
+#navbar-color{
+    background: hsla(311, 53%, 20%, 1);
+    
+        background: linear-gradient(90deg, hsla(311, 53%, 20%, 0.7) 20%, hsla(100,
+            247,
+            122) 100%);
+    
+        background: -moz-linear-gradient(90deg, hsla(311, 53%, 20%, 0.7) 20%, rgb(100, 247, 122) 100%);
+    
+        background: -webkit-linear-gradient(90deg, hsla(311, 53%, 20%, 0.7) 20%, hsla(100, 247, 122) 100%);
+    
+        // filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#4E1844", endColorstr="#627AF7", GradientType=1);
+}
 
 //HERO IMAGE
 .hero{
@@ -27,7 +48,7 @@ html{
 
 //HERO CONTENT
 .hero-title{
-   font-size: 120px;
+   font-size: 75px;
 }
 
 
