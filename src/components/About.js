@@ -1,4 +1,5 @@
 import React from "react";
+import Facebook from "./images/Facebook.jpg";
 
 export const About = () => {
   return (
@@ -24,11 +25,8 @@ export const About = () => {
         </div>
       </section>
 
-      <div className="image is-5by3">
-        <img
-          alt="car"
-          src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
-        ></img>
+      <div className="image is-3by1">
+        <img alt="car" src={Facebook}></img>
       </div>
     </>
   );

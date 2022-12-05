@@ -8,6 +8,7 @@ import { About } from "./components/About";
 import { Finance } from "./components/Finance";
 import { Cars } from "./components/Cars";
 import Sum from "./components/Special/Sum";
+import { Complaints } from "./components/documentation/Complaints";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/car-types" element={<Cars />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
           <Route path="/sum" element={<Sum />}></Route>
+          <Route path="complaints" element={<Complaints />}></Route>
         </Routes>
       </BrowserRouter>
     </>

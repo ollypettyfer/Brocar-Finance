@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../images/logo.jpg";
+import navbarlogo from "../images/navbarlogo.png";
 import * as Scroll from "react-scroll";
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -28,23 +28,9 @@ export const Navbar = () => {
     <>
       <nav className="navbar is-fixed-top" id="navbar-color">
         <div className="navbar-brand">
-          <div className="navbar-link is-arrowless">
-            <a className=" button is-link navbar-btn" href="/">
-              Home
-            </a>
-          </div>
-          <div className="navbar-link is-arrowless">
-            <Scroll.Link
-              to="finance-section"
-              className="button navbar-btn is-link"
-              spy={true}
-              smooth={true}
-              offset={0}
-              duration={500}
-            >
-              Finace Options
-            </Scroll.Link>
-          </div>
+          <a className="navbar-item pl-6" href="/">
+            <img src={navbarlogo} alt="BROCAR FINANCE LOGO"></img>
+          </a>
 
           <div
             role="button"
@@ -61,44 +47,51 @@ export const Navbar = () => {
 
         <div className="navbar-menu" id="navMenu">
           {/* <div className="navbar-start"></div> */}
-          <div className="navbar-start nav-center">
-            <a className="navbar-item" href="/">
-              <img
-                src={logo}
-                alt="BROCAR FINANCE LOGO"
-                width="112"
-                height="50"
-              ></img>
+          <div className="navbar-start nav-center"></div>
+          <div className="navbar-link is-arrowless">
+            <a className=" navbar-item is-link navbar-btn" href="/">
+              Home
             </a>
           </div>
-          <div className="navbar-end ">
-            <div className="navbar-item ">
-              <div className="navbar-link is-arrowless">
-                <Scroll.Link
-                  to="cars-section"
-                  className="button navbar-btn is-link"
-                  spy={true}
-                  smooth={true}
-                  offset={0}
-                  duration={500}
-                >
-                  Car Types
-                </Scroll.Link>
-              </div>
+          <div className="navbar-link is-arrowless">
+            <Scroll.Link
+              to="finance-section"
+              className="navbar-item navbar-btn is-link"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={500}
+            >
+              Finace Options
+            </Scroll.Link>
+          </div>
+          <div className="navbar-link is-arrowless">
+            <Scroll.Link
+              to="cars-section"
+              className="navbar-item navbar-btn is-link"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={500}
+            >
+              Car Types
+            </Scroll.Link>
+          </div>
 
-              <div className="navbar-link is-arrowless">
-                <Scroll.Link
-                  className="button navbar-btn is-link"
-                  to="contact"
-                  spy={true}
-                  smooth={true}
-                  offset={-63}
-                  duration={500}
-                >
-                  Contact
-                </Scroll.Link>
-              </div>
-            </div>
+          <div className="navbar-link is-arrowless">
+            <Scroll.Link
+              className="navbar-item navbar-btn is-link"
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={-63}
+              duration={500}
+            >
+              Contact
+            </Scroll.Link>
+          </div>
+          <div className="navbar-end ">
+            <div className="navbar-item "></div>
           </div>
         </div>
       </nav>
