@@ -18,8 +18,8 @@ export const Trustapilot = () => {
       >
         <a
           href="https://uk.trustpilot.com/review/brocarfinance.co.uk"
-          target="_blank"
-          rel="noopener"
+          // target="_blank"
+          // rel="noopener"
         >
           Trustpilot
         </a>

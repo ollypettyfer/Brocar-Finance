@@ -51,11 +51,7 @@ export const Hero = () => {
           data-without-reviews-preferred-string-id="1"
           data-style-alignment="center"
         >
-          <a
-            href="https://uk.trustpilot.com/review/brocarfinance.co.uk"
-            target="_blank"
-            rel="noopener"
-          >
+          <a href="https://uk.trustpilot.com/review/brocarfinance.co.uk">
             Trustpilot
           </a>
         </div>
