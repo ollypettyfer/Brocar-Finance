@@ -9,6 +9,7 @@ import { Finance } from "./components/Finance";
 import { Cars } from "./components/Cars";
 import Sum from "./components/Special/Sum";
 import { Complaints } from "./components/documentation/Complaints";
+import { Fluent } from "./components/Fluent";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />}></Route>
+          <Route path="/fluent" element={<Fluent />}></Route>
           <Route path="/about-us" element={<About />}></Route>
           <Route path="/finance-options" element={<Finance />}></Route>
           <Route path="/car-types" element={<Cars />}></Route>

@@ -15,7 +15,9 @@ export const Footer = () => {
             <a href="cookies">Cookies</a>
           </li>
           <li>
-            <Link to="/Complaints">Complaints</Link>
+            <Link to="/Complaints" className="has-text-black">
+              Complaints
+            </Link>
           </li>
         </ul>
       </nav>

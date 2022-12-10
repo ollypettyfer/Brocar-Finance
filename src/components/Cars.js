@@ -5,83 +5,60 @@ export const Cars = () => {
     <>
       {/* How can we help section */}
 
-      <section className="section is-medium">
-        <h1 className="title p-6 has-text-centered">HOW WE CAN HELP</h1>
-        <p className="subtitle pb-6 has-text-centered">
-          Years of industry experience combine to deliver our clients essential
-          benefits.
-        </p>
-        <div className="columns ">
-          <div className="column is-three-fifths is-offset-one-fifth has-text-centered">
-            <div className="columns">
-              <div className="column">
-                <div className="card">
-                  <div className="card-content">
-                    <div className="media">
-                      <div className="media">
-                        <figure className="image is-3by1">
-                          <img src="../images/logo.jpg" alt="KAREL"></img>
-                        </figure>
-                      </div>
-                    </div>
-                    <div className="content">
-                      <p className="title is-4">FLEXIBLE PACKAGES</p>
-                    </div>
+      <section className="section">
+        <div className="container">
+          <h1 className="title p-6 has-text-centered">HOW IT WORKS</h1>
+          <p className="subtitle pb-6 has-text-centered">
+            Years of industry experience combine to deliver our clients
+            essential benefits.
+          </p>
+          <div className="columns">
+            <div className="column has-text-centered">
+              <div className="card">
+                <div className="card-content">
+                  <div className="content">
+                    <p className="title is-4">Find your car</p>
+                  </div>
 
-                    <div className="content">
-                      We can fund balances up to £10m. On certain models we can
-                      offer balloon payments of up to 70% on two year deals
-                      <br></br>
-                      <br></br>
-                    </div>
+                  <div className="content">
+                    Once you have sets your sights on the model you want, our
+                    team will explore options including how long you want to
+                    finance the car for, and what funding options may suit your
+                    lifestyle
                   </div>
                 </div>
               </div>
-              <div className="column">
-                {" "}
-                <div className="card">
-                  <div className="card-content">
-                    <div className="media">
-                      <div className="media">
-                        <figure className="image is-3by1">
-                          <img src="../images/logo.jpg" alt="KAREL"></img>
-                        </figure>
-                      </div>
-                    </div>
-                    <div className="content">
-                      <p className="title is-4">MONEY SAVINGS</p>
-                    </div>
+            </div>
+            <div className="column has-text-centered">
+              {" "}
+              <div className="card">
+                <div className="card-content">
+                  <div className="content">
+                    <p className="title is-4"> Apply for your finance</p>
+                  </div>
 
-                    <div className="content">
-                      Our panel of lenders can help us to provide you with a
-                      lower cost funding solution than might be available
-                      through a dealership
-                      <br></br>
-                      <br></br>
-                    </div>
+                  <div className="content">
+                    Once we have tailored your finance solution, the next step
+                    is to apply to the selected lender for a quick decision.
+                    <br></br>
+                    <br></br>
                   </div>
                 </div>
               </div>
-              <div className="column">
-                {" "}
-                <div className="card">
-                  <div className="card-content">
-                    <div className="media">
-                      <div className="media">
-                        <figure className="image is-3by1">
-                          <img src="../images/logo.jpg" alt="KAREL"></img>
-                        </figure>
-                      </div>
-                    </div>
-                    <div className="content">
-                      <p className="title is-4">PRACTICAL SOLUTIONS</p>
-                    </div>
+            </div>
+            <div className="column has-text-centered">
+              {" "}
+              <div className="card">
+                <div className="card-content">
+                  <div className="content">
+                    <p className="title is-4">Take Delivery</p>
+                  </div>
 
-                    <div className="content">
-                      We can re-finance or re-structure an existing agreement
-                      including equity release and negative equity financing.
-                      <br></br>
-                    </div>
+                  <div className="content">
+                    Upon approval, we pay the dealer, you take delivery of your
+                    vehicle. It really is that simple!
+                    <br></br>
+                    <br></br>
                   </div>
                 </div>
               </div>

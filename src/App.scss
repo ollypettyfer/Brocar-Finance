@@ -16,19 +16,16 @@ body{
 flex-grow: 1; justify-content: center;
 }
 
-// #navbar-color{
-//     background: hsla(311, 53%, 20%, 1);
-    
-//         background: linear-gradient(90deg, hsla(311, 53%, 20%, 0.7) 20%, hsla(100,
-//             247,
-//             122) 100%);
-    
-//         background: -moz-linear-gradient(90deg, hsla(311, 53%, 20%, 0.7) 20%, rgb(100, 247, 122) 100%);
-    
-//         background: -webkit-linear-gradient(90deg, hsla(311, 53%, 20%, 0.7) 20%, hsla(100, 247, 122) 100%);
-    
-//         // filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#4E1844", endColorstr="#627AF7", GradientType=1);
-// }
+.navbar{
+    position: fixed;
+        /* Make it stick/fixed */
+        top: -70px;
+        /* Hide the navbar 50 px outside of the top view */
+        width: 100%;
+        /* Full width */
+        transition: top 0.3s;
+        /* Transition effect when sliding down (and up) */
+}
 
 //HERO IMAGE
 .hero{
@@ -44,6 +41,10 @@ flex-grow: 1; justify-content: center;
     height: 100%;
 }
 
+//About
+.about-gap{
+    gap: 11em;
+}
 
 
 
@@ -100,3 +101,4 @@ flex-grow: 1; justify-content: center;
 button{
     margin-top: 30px;
 }
+

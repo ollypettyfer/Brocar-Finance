@@ -2,6 +2,20 @@ import React from "react";
 import navbarlogo from "../images/navbarlogo.png";
 import * as Scroll from "react-scroll";
 
+//navbar scroll
+window.onscroll = function () {
+  scrollFunction();
+};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("navbar-color").style.top = "0";
+  } else {
+    document.getElementById("navbar-color").style.top = "-70px";
+  }
+}
+
+//navbar burger
 document.addEventListener("DOMContentLoaded", () => {
   // Get all "navbar-burger" elements
   const $navbarBurgers = Array.prototype.slice.call(
@@ -26,7 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
 export const Navbar = () => {
   return (
     <>
-      <nav className="navbar is-fixed-top" id="navbar-color">
+      <nav className="navbar" id="navbar-color">
         <div className="navbar-brand">
           <a className="navbar-item pl-6" href="/">
             <img src={navbarlogo} alt="BROCAR FINANCE LOGO"></img>

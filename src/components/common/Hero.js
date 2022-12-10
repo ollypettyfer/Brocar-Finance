@@ -16,11 +16,15 @@ export const Hero = () => {
         <div className="hero-body">
           <div className="container has-text-centered">
             {/*SLOGAN MAYBE*/}
+
             {/* START OF MODAL */}
           </div>
           {/* <Modal open={isOpen} onClose={() => setIsOpen(false)}></Modal> */}
         </div>
         <div className="has-text-centered">
+          <div className=" container has-text-white is-size-5-mobile is-size-2-desktop mb-4">
+            Financial solutions for all your automotive needs
+          </div>
           <button className="button is-large mb-6 is-primary">
             <Scroll.Link
               className="has-text-black "
