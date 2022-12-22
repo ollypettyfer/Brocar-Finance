@@ -1,15 +1,23 @@
 import React from "react";
 import Facebook from "./images/Facebook.jpg";
+import tick from "./images/black-tick.webp";
 
 export const About = () => {
   return (
     <>
       <section className="section">
-        <div className="container">
-          <h1 className="title is-size-2 p-6 has-text-centered">Why Brocar</h1>
-          <div className="columns about-gap">
-            <div className="column has-text-centered">
-              <h2 className="subtitle is-size-3">Save time and effort</h2>
+        <div className="container ">
+          <h1 className="title is-size-2 p-6 has-text-centered title-edit">
+            Why Brocar
+          </h1>
+          <div className="columns about-gap ">
+            <div className="column has-text-centered ">
+              <div className="is-flex is-justify-content-center ">
+                <div className="image is-48x48 mr-4">
+                  <img src={tick} alt="car"></img>
+                </div>
+                <h2 className="subtitle is-size-3">Save Time and Effort</h2>
+              </div>
               <p className="content pb-6">
                 We will take the hard work of shopping the market of car finance
                 out of your hands, by comparing our hand selected panel of
@@ -18,9 +26,14 @@ export const About = () => {
               </p>
             </div>
             <div className="column has-text-centered">
-              <h2 className="subtitle is-size-3">
-                Professional Customer Service
-              </h2>
+              <div className="is-flex is-justify-content-center ">
+                <div className="image is-48x48 mr-4">
+                  <img src={tick} alt="car"></img>
+                </div>
+                <h2 className="subtitle is-size-3">
+                  Professional Customer Service
+                </h2>
+              </div>
               <p className="content pb-6">
                 Your dedicated account manager will be knowledgable, diligent
                 and efficient whilst presenting information to you in an easy to
@@ -39,7 +52,7 @@ export const About = () => {
           </div>
           <div className="container has-text-centered">
             <a href="#scroll-to-contact">
-              <button className="button is-primary has-text-black is-large">
+              <button className="button is-primary has-text-black ">
                 Contact Us
               </button>
             </a>

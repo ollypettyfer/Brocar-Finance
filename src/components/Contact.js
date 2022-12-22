@@ -1,14 +1,16 @@
 import React from "react";
+import fb from "./images/fb.png";
+import insta from "./images/insta.png";
 
 export const Contact = () => {
   return (
     <>
       {/* column 1 */}
       <section
-        className="has-background-primary has-text-white section"
+        className="has-background-primary has-text-black section"
         id="scroll-to-contact"
       >
-        <div className="has-background-dark">
+        <div className="has-background-white-ter">
           <div className="columns">
             <div className="column">
               <form
@@ -16,7 +18,7 @@ export const Contact = () => {
                 action="https://formsubmit.co/7b309fbcb1545a589984079739d143c1"
                 method="POST"
               >
-                <h1 className="title is-3 has-text-centered has-text-white">
+                <h1 className="title is-3 has-text-centered has-text-black">
                   Send an enquiry
                 </h1>
                 <div className="field">
@@ -82,7 +84,9 @@ export const Contact = () => {
 
                 <div className="field is-grouped is-justify-content-center">
                   <div className="control">
-                    <button className="button is-primary ">Submit</button>
+                    <button className="button is-primary has-text-black ">
+                      Submit
+                    </button>
                   </div>
                 </div>
               </form>
@@ -91,7 +95,7 @@ export const Contact = () => {
 
             {/* column 2 */}
             <div className="column has-text-centered">
-              <h1 className="title is-3 has-text-white">Get in touch</h1>
+              <h1 className="title is-3 has-text-black">Get in touch</h1>
               <br></br>
 
               <div className="field">
@@ -113,6 +117,17 @@ export const Contact = () => {
                 <p>09:00-1700</p>
                 <h2>Sat</h2>
                 <p>09:00-1300</p>
+              </div>
+              <div className="field">
+                <label className="label contact-label">Address</label>
+                <p>
+                  Regus House, Fairbourne Drive, <br></br>Atterbury, Milton
+                  Keynes<br></br> MK10 9RG
+                </p>
+              </div>
+              <div className="field">
+                <img src={fb} alt="insta icon" className="pr-1"></img>
+                <img src={insta} alt="facebook icon"></img>
               </div>
             </div>
           </div>

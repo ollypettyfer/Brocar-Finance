@@ -76,7 +76,7 @@ export const Navbar = () => {
               offset={0}
               duration={500}
             >
-              Finace Options
+              Finance Options
             </Scroll.Link>
           </div>
           <div className="navbar-link is-arrowless">

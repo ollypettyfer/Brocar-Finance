@@ -1,11 +1,15 @@
 import React from "react";
-import logo4 from "./images/logo4.jpg";
+import car1 from "./images/car1.jpeg";
+import car2 from "./images/car2.jpeg";
+import car3 from "./images/car3.jpeg";
 
 export const Finance = () => {
   return (
     <section className="section is-medium ">
       <div className="container">
-        <h1 className="title p-6 has-text-centered">FINANCE OPTIONS</h1>
+        <h1 className="title p-6 has-text-centered title-edit">
+          FINANCE OPTIONS
+        </h1>
         <p className="subtitle pb-2 has-text-centered">
           Automotive finance can seem complicated. There are a few key products
           designed to suit different buying needs. We can help you to understand
@@ -19,7 +23,7 @@ export const Finance = () => {
             <div className="card">
               <div className="card-image">
                 <figure className="image is-3by2">
-                  <img src={logo4} alt="Placeholder"></img>
+                  <img src={car1} alt="Placeholder"></img>
                 </figure>
               </div>
               <div className="card-content">
@@ -48,7 +52,7 @@ export const Finance = () => {
             <div className="card">
               <div className="card-image">
                 <figure className="image is-3by2">
-                  <img src={logo4} alt="Placeholder"></img>
+                  <img src={car2} alt="Placeholder"></img>
                 </figure>
               </div>
               <div className="card-content">
@@ -79,7 +83,7 @@ export const Finance = () => {
             <div className="card">
               <div className="card-image">
                 <figure className="image is-3by2">
-                  <img src={logo4} alt="Placeholder"></img>
+                  <img src={car3} alt="Placeholder"></img>
                 </figure>
               </div>
               <div className="card-content">

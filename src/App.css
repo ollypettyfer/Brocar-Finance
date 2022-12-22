@@ -31,6 +31,10 @@ body {
   /* Transition effect when sliding down (and up) */
 }
 
+a.navbar-item:hover {
+  color: #19957c;
+}
+
 .hero {
   position: relative;
   overflow: hidden;
@@ -48,6 +52,10 @@ body {
 
 .about-gap {
   gap: 11em;
+}
+
+.title-edit {
+  color: #19957c;
 }
 
 .hero-title {
@@ -75,7 +83,8 @@ body {
 }
 
 .contact-label {
-  color: white;
+  color: black;
+  font-size: 1.2em;
 }
 
 .modal-container {
