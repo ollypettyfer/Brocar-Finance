@@ -35,26 +35,23 @@ export const Contact = () => {
 
                 <div className="field">
                   <label className="label contact-label">Contact Number</label>
-                  <div className="control has-icons-left has-icons-right">
-                    <input
-                      className="input "
-                      type="text"
-                      name="number"
-                      required
-                    ></input>
-                  </div>
+                  <input
+                    className="input "
+                    type="text"
+                    name="number"
+                    required
+                  ></input>
                 </div>
 
                 <div className="field">
                   <label className="label contact-label">Email</label>
-                  <div className="control has-icons-left has-icons-right">
-                    <input
-                      className="input"
-                      type="email"
-                      name="email"
-                      required
-                    ></input>
-                  </div>
+
+                  <input
+                    className="input"
+                    type="email"
+                    name="email"
+                    required
+                  ></input>
                 </div>
 
                 <div className="field">
