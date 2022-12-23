@@ -42,12 +42,6 @@ export const Contact = () => {
                       name="number"
                       required
                     ></input>
-                    <span className="icon is-small is-left">
-                      <i className="fas fa-user"></i>
-                    </span>
-                    <span className="icon is-small is-right">
-                      <i className="fas fa-check"></i>
-                    </span>
                   </div>
                 </div>
 
@@ -60,12 +54,6 @@ export const Contact = () => {
                       name="email"
                       required
                     ></input>
-                    <span className="icon is-small is-left">
-                      <i className="fas fa-envelope"></i>
-                    </span>
-                    <span className="icon is-small is-right">
-                      <i className="fas fa-exclamation-triangle"></i>
-                    </span>
                   </div>
                 </div>
 
@@ -133,8 +121,20 @@ export const Contact = () => {
                 </p>
               </div>
               <div className="field">
-                <img src={fb} alt="insta icon" className="pr-1"></img>
-                <img src={insta} alt="facebook icon"></img>
+                <a
+                  href="https://www.google.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={fb} alt="insta icon" className="pr-1"></img>
+                </a>
+                <a
+                  href="https://www.instagram.com/kbp1410_"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={insta} alt="facebook icon"></img>
+                </a>
               </div>
             </div>
           </div>
