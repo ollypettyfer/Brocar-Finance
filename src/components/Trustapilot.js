@@ -9,7 +9,7 @@ export const Trustapilot = () => {
         className="container 
       "
       >
-        <div className="has-text-centered title title-edit pb-3 is-2">
+        <div className="has-text-centered title title-edit pb-3 is-size-2-desktop">
           What Our Customers Say
         </div>
         <p className="subtitle has-text-centered">Our Reviews</p>
