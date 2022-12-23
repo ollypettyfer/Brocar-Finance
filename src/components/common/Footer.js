@@ -1,6 +1,9 @@
 import React from "react";
 
 export const Footer = () => {
+  const openInNewTab = (url) => {
+    window.open(url, "_blank", "noopener,noreferrer");
+  };
   return (
     <footer className="footer">
       <div className="container">
@@ -18,10 +21,9 @@ export const Footer = () => {
             </li>
             <li>
               <a
-                href="http://localhost:3000/complaints"
                 className="has-text-black"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="http://www.brocarfinance.co.uk/complaints"
+                onClick={() => openInNewTab("/complaints")}
               >
                 Complaints
               </a>
