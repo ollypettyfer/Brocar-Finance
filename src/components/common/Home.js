@@ -16,6 +16,9 @@ export const Home = () => {
       <Fluent />
       <About />
 
+      {/*TRUSTAPILOT WIDGET*/}
+      <Trustapilot />
+
       {/* How can we help section */}
       <Element id="cars-section">
         <Cars />
@@ -25,9 +28,6 @@ export const Home = () => {
       <Element id="finance-section">
         <Finance />
       </Element>
-
-      {/*TRUSTAPILOT WIDGET*/}
-      <Trustapilot />
 
       {/*CONTACT*/}
       <Element id="contact" name="contact">

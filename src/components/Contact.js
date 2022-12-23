@@ -7,7 +7,7 @@ export const Contact = () => {
     <>
       {/* column 1 */}
       <section
-        className="has-background-primary has-text-black section"
+        className="form-bg has-text-black section"
         id="scroll-to-contact"
       >
         <div className="has-background-white-ter">
@@ -70,7 +70,9 @@ export const Contact = () => {
                 </div>
 
                 <div className="field">
-                  <label className="label contact-label">Message</label>
+                  <label className="label contact-label">
+                    How can we help?
+                  </label>
                   <div className="control">
                     <input
                       className="input"
@@ -91,7 +93,7 @@ export const Contact = () => {
                 </div>
               </form>
             </div>
-            <hr></hr>
+            <hr className="hr"></hr>
 
             {/* column 2 */}
             <div className="column has-text-centered">
@@ -107,7 +109,12 @@ export const Contact = () => {
               <div className="field">
                 <label className="label contact-label">Email</label>
                 <div className="control has-icons-left has-icons-right">
-                  <p>enquiries@brocarfinance.co.uk</p>
+                  <a
+                    href="mailto:enquires@brocarfinance.co.uk"
+                    className=" g-hover"
+                  >
+                    enquiries@brocarfinance.co.uk
+                  </a>
                 </div>
               </div>
 

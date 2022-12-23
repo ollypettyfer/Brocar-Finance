@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 export const Footer = () => {
   return (
@@ -18,9 +17,14 @@ export const Footer = () => {
               </a>
             </li>
             <li>
-              <Link to="/Complaints" className="has-text-black">
+              <a
+                href="http://localhost:3000/complaints"
+                className="has-text-black"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Complaints
-              </Link>
+              </a>
             </li>
           </ul>
         </nav>

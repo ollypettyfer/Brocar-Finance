@@ -7,6 +7,15 @@ body{
     font-family: 'Oswald', sans-serif;
 }
 
+//global hover
+.g-hover{
+ color: black
+}
+
+.g-hover:hover {
+    color: rgba(18, 153, 106, 0.819)
+}
+
 //NAV BAR LOGO SIZE
 .navbar-item img {
     max-height: 3rem;
@@ -28,7 +37,7 @@ flex-grow: 1; justify-content: center;
 }
 
 a.navbar-item:hover{
-color: rgb(25, 149, 124)
+color: rgba(18, 153, 106, 0.819)
 }
 
 //HERO IMAGE
@@ -52,7 +61,7 @@ color: rgb(25, 149, 124)
 
 //Titles
 .title-edit{
-    color: rgb(25, 149, 124)
+    color: rgba(18, 153, 106, 0.819);
 }
 
 //HERO CONTENT
@@ -72,6 +81,19 @@ color: rgb(25, 149, 124)
     
 }
 
+.form-bg{
+    background-color: rgba(18, 153, 106, 0.819);
+}
+
+.hr{
+    background-color: black;
+}
+
+//FORM LABELS
+.contact-label {
+    color: black;
+    font-size: 1.2em;
+}
 
 //columns
 
@@ -90,11 +112,7 @@ color: rgb(25, 149, 124)
 }
 
 
-//FORM LABELS
-.contact-label{
-    color: black;
-    font-size: 1.2em;
-}
+
 
 
 //Modal
@@ -110,3 +128,31 @@ button{
     margin-top: 30px;
 }
 
+//carousel
+.carousel-container{
+    background: #c8e0d6;
+    display: flex;
+    // flex-wrap: nowrap;
+    overflow: hidden;
+    width: 85%;
+    border-radius: 16px;
+    
+}
+
+.carousel-item{
+    height: 20rem;
+    min-width: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+
+.add-border{
+    border: 6px solid rgba(18, 153, 106, 0.819);
+}
+
+.column-gap{
+    gap: 20px;
+}

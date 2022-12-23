@@ -7,8 +7,8 @@ export const Finance = () => {
   return (
     <section className="section is-medium ">
       <div className="container">
-        <h1 className="title p-6 has-text-centered title-edit">
-          FINANCE OPTIONS
+        <h1 className="title p-6 has-text-centered title-edit is-2">
+          Finance Options
         </h1>
         <p className="subtitle pb-2 has-text-centered">
           Automotive finance can seem complicated. There are a few key products

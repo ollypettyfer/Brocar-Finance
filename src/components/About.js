@@ -8,7 +8,7 @@ export const About = () => {
       <section className="section">
         <div className="container ">
           <h1 className="title is-size-2 p-6 has-text-centered title-edit">
-            Why Brocar
+            Why Brocar?
           </h1>
           <div className="columns about-gap ">
             <div className="column has-text-centered ">
