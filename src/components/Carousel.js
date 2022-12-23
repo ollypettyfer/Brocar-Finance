@@ -34,7 +34,7 @@ const Carousel = () => {
                 style={{ transform: `translate(-${currentIndex * 100}%)` }}
                 key={index}
               >
-                {item}
+                "{item}"
               </p>
             </>
           );
