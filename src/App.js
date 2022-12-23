@@ -10,6 +10,7 @@ import { Cars } from "./components/Cars";
 import Sum from "./components/Special/Sum";
 import { Complaints } from "./components/documentation/Complaints";
 import { Fluent } from "./components/Fluent";
+import { CookiePolicy } from "./components/documentation/CookiePolicy";
 
 function App() {
   return (
@@ -24,7 +25,12 @@ function App() {
           <Route path="/car-types" element={<Cars />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
           <Route path="/sum" element={<Sum />}></Route>
-          <Route path="/complaints" element={<Complaints />}></Route>
+          <Route
+            path="/complaints"
+            target="_blank"
+            element={<Complaints />}
+          ></Route>
+          <Route path="/cookies" element={<CookiePolicy />}></Route>
         </Routes>
       </BrowserRouter>
     </>

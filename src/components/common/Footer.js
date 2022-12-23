@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export const Footer = () => {
   const openInNewTab = (url) => {
@@ -15,9 +16,9 @@ export const Footer = () => {
               </a>
             </li>
             <li>
-              <a href="cookies" className="has-text-black">
+              <Link to="/cookies" target="_blank" className="has-text-black">
                 Cookies
-              </a>
+              </Link>
             </li>
             <li>
               <div
