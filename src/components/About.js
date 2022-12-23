@@ -1,6 +1,6 @@
 import React from "react";
 import Facebook from "./images/Facebook.jpg";
-import tick from "./images/black-tick.webp";
+import tick from "./images/tickupdate.png";
 
 export const About = () => {
   return (
