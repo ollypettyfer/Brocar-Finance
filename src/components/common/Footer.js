@@ -20,13 +20,12 @@ export const Footer = () => {
               </a>
             </li>
             <li>
-              <a
+              <div
                 className="has-text-black"
-                href="http://www.brocarfinance.co.uk/complaints"
                 onClick={() => openInNewTab("/complaints")}
               >
                 Complaints
-              </a>
+              </div>
             </li>
           </ul>
         </nav>
