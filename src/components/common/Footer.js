@@ -11,9 +11,9 @@ export const Footer = () => {
         <nav className="breadcrumb is-centered" aria-label="breadcrumbs">
           <ul>
             <li>
-              <a href="privacy" className="has-text-black">
+              <Link to={"./privacy"} className="has-text-black">
                 Privacy Policy
-              </a>
+              </Link>
             </li>
             <li>
               <Link to="/cookies" target="_blank" className="has-text-black">

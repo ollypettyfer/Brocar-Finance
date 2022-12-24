@@ -11,6 +11,7 @@ import Sum from "./components/Special/Sum";
 import { Complaints } from "./components/documentation/Complaints";
 import { Fluent } from "./components/Fluent";
 import { CookiePolicy } from "./components/documentation/CookiePolicy";
+import { PrivacyPolicy } from "./components/documentation/PrivacyPolicy";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
             element={<Complaints />}
           ></Route>
           <Route path="/cookies" element={<CookiePolicy />}></Route>
+          <Route path="/privacy" element={<PrivacyPolicy />}></Route>
         </Routes>
       </BrowserRouter>
     </>
