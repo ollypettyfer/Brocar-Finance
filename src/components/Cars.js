@@ -18,7 +18,7 @@ export const Cars = () => {
             essential benefits.
           </p>
           <div className="columns column-gap">
-            <div className="column has-text-centered add-border">
+            <div className="column has-text-centered add-border mb-3">
               <div className="">
                 <div className="card-content">
                   <div className="content">
@@ -38,7 +38,7 @@ export const Cars = () => {
                 </div>
               </div>
             </div>
-            <div className="column has-text-centered add-border">
+            <div className="column has-text-centered add-border mb-3">
               {" "}
               <div className="">
                 <div className="card-content">
@@ -60,7 +60,7 @@ export const Cars = () => {
                 </div>
               </div>
             </div>
-            <div className="column has-text-centered add-border ">
+            <div className="column has-text-centered add-border mb-3">
               {" "}
               <div className="">
                 <div className="card-content">

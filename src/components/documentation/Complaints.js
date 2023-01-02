@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Complaints = () => {
+export const Complaints = (setShowNav) => {
   return (
     <>
       <section className="section mt-6">

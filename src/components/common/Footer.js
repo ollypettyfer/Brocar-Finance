@@ -2,31 +2,29 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 export const Footer = () => {
-  const openInNewTab = (url) => {
-    window.open(url, "_blank", "noopener,noreferrer");
-  };
   return (
     <footer className="footer">
       <div className="container">
         <nav className="breadcrumb is-centered" aria-label="breadcrumbs">
           <ul>
             <li>
-              <Link to={"./privacy"} className="has-text-black">
+              <Link to={"/privacy"} target="_blank" className="has-text-black">
                 Privacy Policy
               </Link>
             </li>
             <li>
-              <Link to="/cookies" target="_blank" className="has-text-black">
+              <Link to={"/cookies"} target="_blank" className="has-text-black">
                 Cookies
               </Link>
             </li>
             <li>
-              <div
+              <Link
+                to={"/complaints"}
+                target="_blank"
                 className="has-text-black"
-                onClick={() => openInNewTab("/complaints")}
               >
                 Complaints
-              </div>
+              </Link>
             </li>
           </ul>
         </nav>

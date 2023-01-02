@@ -26,11 +26,7 @@ function App() {
           <Route path="/car-types" element={<Cars />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
           <Route path="/sum" element={<Sum />}></Route>
-          <Route
-            path="/complaints"
-            target="_blank"
-            element={<Complaints />}
-          ></Route>
+          <Route path="/complaints" element={<Complaints />}></Route>
           <Route path="/cookies" element={<CookiePolicy />}></Route>
           <Route path="/privacy" element={<PrivacyPolicy />}></Route>
         </Routes>
