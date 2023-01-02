@@ -8,21 +8,17 @@ export const Footer = () => {
         <nav className="breadcrumb is-centered" aria-label="breadcrumbs">
           <ul>
             <li>
-              <Link to={"/privacy"} target="_blank" className="has-text-black">
+              <Link to={"/privacy"} className="has-text-black">
                 Privacy Policy
               </Link>
             </li>
             <li>
-              <Link to={"/cookies"} target="_blank" className="has-text-black">
+              <Link to={"/cookies"} className="has-text-black">
                 Cookies
               </Link>
             </li>
             <li>
-              <Link
-                to={"/complaints"}
-                target="_blank"
-                className="has-text-black"
-              >
+              <Link to={"/complaints"} className="has-text-black">
                 Complaints
               </Link>
             </li>
