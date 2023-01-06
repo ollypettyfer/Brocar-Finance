@@ -15,7 +15,7 @@ export const Contact = () => {
             <div className="column">
               <form
                 className="p-6"
-                action="https://formsubmit.co/7b309fbcb1545a589984079739d143c1"
+                action="https://formsubmit.co/enquiries@brocarfinance.co.uk"
                 method="POST"
               >
                 <h1 className="title is-3 has-text-centered has-text-black">
