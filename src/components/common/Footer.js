@@ -1,24 +1,38 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useStateContext } from "../context/ContextProvider";
 
 export const Footer = () => {
+  const { setHomeLink } = useStateContext();
   return (
     <footer className="footer">
       <div className="container">
         <nav className="breadcrumb is-centered" aria-label="breadcrumbs">
           <ul>
             <li>
-              <Link to={"/privacy"} className="has-text-black">
+              <Link
+                to={"/privacy"}
+                className="has-text-black"
+                onClick={() => setHomeLink(true)}
+              >
                 Privacy Policy
               </Link>
             </li>
             <li>
-              <Link to={"/cookies"} className="has-text-black">
+              <Link
+                to={"/cookies"}
+                className="has-text-black"
+                onClick={() => setHomeLink(true)}
+              >
                 Cookies
               </Link>
             </li>
             <li>
-              <Link to={"/complaints"} className="has-text-black">
+              <Link
+                to={"/complaints"}
+                className="has-text-black"
+                onClick={() => setHomeLink(true)}
+              >
                 Complaints
               </Link>
             </li>

@@ -3,9 +3,9 @@ import React from "react";
 export const Complaints = (setShowNav) => {
   return (
     <>
-      <section className="section mt-6">
-        <div className="container content">
-          <h1>Complaints Procedure</h1>
+      <div className="container">
+        <div className="footer-links-wrapper">
+          <h1 className="title">Complaints Procedure</h1>
           <p>
             At Brocar finance customer service is of the utmost importance to
             what we do. Whilst we do our best to minimise the risk of any
@@ -14,13 +14,17 @@ export const Complaints = (setShowNav) => {
             experience so that we can continue to improve our service.
           </p>
           <br></br>
-          You can do so in the following ways:
+          <h3 className="subtitle">You can do so in the following ways:</h3>
           <ul>
-            <li> Telephone: </li>
+            <li>
+              {" "}
+              <b>Telephone: </b>
+              01908 032694
+            </li>
 
             <li>
               {" "}
-              Email:
+              <b>Email:</b>
               <a
                 className="has-text-warning pl-2"
                 href="mailto:complaints@brocarfinance.co.uk"
@@ -29,12 +33,16 @@ export const Complaints = (setShowNav) => {
               </a>
             </li>
             <li>
-              Post: Complaints Department Brocar Finance 15-17 Upper George
-              Street, Luton, LU1 2RD
+              <p>
+                <b>Post: </b>
+                Complaints Department Brocar Finance 15-17 Upper George Street,
+                Luton, LU1 2RD
+              </p>
             </li>
           </ul>
-          <h3>What you can expect from us:</h3>
           <br></br>
+          <h3 className="subtitle">What you can expect from us:</h3>
+
           <ul>
             <li>
               {" "}
@@ -54,8 +62,11 @@ export const Complaints = (setShowNav) => {
               provide an updated timeline or suggested way forward.
             </li>
           </ul>
-          <h3>If you are not satisfied with our response</h3>
           <br></br>
+          <h3 className="subtitle">
+            If you are not satisfied with our response
+          </h3>
+
           <p>
             If you are still not satisfied for any reason you could be eligible
             to refer your complaint to the Financial Ombudsman Service.
@@ -63,9 +74,12 @@ export const Complaints = (setShowNav) => {
           <br></br>
           <p>You can get in contact with them via the following methods:</p>
           <br></br>
-          <p>Telephone: 0800 023 4567</p>
           <p>
-            Email:
+            <b>Telephone: </b>
+            0800 023 4567
+          </p>
+          <p>
+            <b>Email:</b>
             <a
               className="has-text-warning pl-2"
               href="mailto:complaint.info@financial-ombudsman.org.uk"
@@ -91,7 +105,7 @@ export const Complaints = (setShowNav) => {
             Conduct Authority (944254)
           </p>
         </div>
-      </section>
+      </div>
     </>
   );
 };

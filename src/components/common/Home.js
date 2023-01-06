@@ -8,8 +8,12 @@ import { Finance } from "../Finance";
 import { Cars } from "../Cars";
 import { Element } from "react-scroll";
 import { Fluent } from "../Fluent";
+import { useStateContext } from "../context/ContextProvider";
 
 export const Home = () => {
+  const { setHomeLink } = useStateContext();
+
+  setHomeLink(false);
   return (
     <>
       <Hero />

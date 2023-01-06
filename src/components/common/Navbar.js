@@ -1,6 +1,7 @@
 import React from "react";
 import navbarlogo from "../images/navbarlogo.png";
 import * as Scroll from "react-scroll";
+import { useStateContext } from "../context/ContextProvider";
 
 //navbar scroll
 window.onscroll = function () {
@@ -38,6 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 export const Navbar = () => {
+  const { homeLink } = useStateContext();
   return (
     <>
       <nav className="navbar" id="navbar-color">
@@ -67,43 +69,49 @@ export const Navbar = () => {
               Home
             </a>
           </div>
-          <div className="navbar-link is-arrowless">
-            <Scroll.Link
-              to="finance-section"
-              className="navbar-item navbar-btn is-link"
-              spy={true}
-              smooth={true}
-              offset={0}
-              duration={500}
-            >
-              Finance Options
-            </Scroll.Link>
-          </div>
-          <div className="navbar-link is-arrowless">
-            <Scroll.Link
-              to="cars-section"
-              className="navbar-item navbar-btn is-link"
-              spy={true}
-              smooth={true}
-              offset={0}
-              duration={500}
-            >
-              Car Types
-            </Scroll.Link>
-          </div>
+          {homeLink ? (
+            false
+          ) : (
+            <>
+              <div className="navbar-link is-arrowless">
+                <Scroll.Link
+                  to="finance-section"
+                  className="navbar-item navbar-btn is-link"
+                  spy={true}
+                  smooth={true}
+                  offset={0}
+                  duration={500}
+                >
+                  Finance Options
+                </Scroll.Link>
+              </div>
+              <div className="navbar-link is-arrowless">
+                <Scroll.Link
+                  to="cars-section"
+                  className="navbar-item navbar-btn is-link"
+                  spy={true}
+                  smooth={true}
+                  offset={0}
+                  duration={500}
+                >
+                  Car Types
+                </Scroll.Link>
+              </div>
+              <div className="navbar-link is-arrowless">
+                <Scroll.Link
+                  to="Contact"
+                  className="navbar-item navbar-btn is-link"
+                  spy={true}
+                  smooth={true}
+                  offset={0}
+                  duration={500}
+                >
+                  Contact
+                </Scroll.Link>
+              </div>
+            </>
+          )}
 
-          <div className="navbar-link is-arrowless">
-            <Scroll.Link
-              className="navbar-item navbar-btn is-link"
-              to="contact"
-              spy={true}
-              smooth={true}
-              offset={-63}
-              duration={500}
-            >
-              Contact
-            </Scroll.Link>
-          </div>
           <div className="navbar-end ">
             <div className="navbar-item "></div>
           </div>

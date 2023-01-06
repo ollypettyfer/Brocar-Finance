@@ -88,7 +88,7 @@ export const Contact = () => {
               <div className="field">
                 <label className="label contact-label">CALL NOW</label>
 
-                <h2 className="">07496555110</h2>
+                <h2 className="">01908 032694</h2>
               </div>
 
               <div className="field">

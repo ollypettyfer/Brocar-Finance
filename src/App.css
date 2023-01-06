@@ -149,4 +149,8 @@ button {
 .column-gap {
   gap: 20px;
 }
+
+.footer-links-wrapper {
+  margin-top: 60px;
+}
 /*# sourceMappingURL=App.css.map */
