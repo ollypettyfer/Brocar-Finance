@@ -24,7 +24,6 @@ function App() {
           <Route path="/finance-options" element={<Finance />}></Route>
           <Route path="/car-types" element={<Cars />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
-
           <Route path="/complaints" element={<Complaints />}></Route>
           <Route path="/cookies" element={<CookiePolicy />}></Route>
           <Route path="/privacy" element={<PrivacyPolicy />}></Route>

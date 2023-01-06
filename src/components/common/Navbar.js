@@ -99,7 +99,7 @@ export const Navbar = () => {
               </div>
               <div className="navbar-link is-arrowless">
                 <Scroll.Link
-                  to="Contact"
+                  to="contact"
                   className="navbar-item navbar-btn is-link"
                   spy={true}
                   smooth={true}
