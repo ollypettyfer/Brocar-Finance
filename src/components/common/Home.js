@@ -34,7 +34,7 @@ export const Home = () => {
       </Element>
 
       {/*CONTACT*/}
-      <Element id="contact" name="contact">
+      <Element id="contact">
         <Contact />
       </Element>
 
