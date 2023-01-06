@@ -1,6 +1,6 @@
 // import React, { useState } from "react";
 // import Modal from "./Modal";
-import Mockup from "../images/Mockup.jpg";
+import Mockup from "../images/MockUpEdit.jpg";
 import * as Scroll from "react-scroll";
 
 export const Hero = () => {
