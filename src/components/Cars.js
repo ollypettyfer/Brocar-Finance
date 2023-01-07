@@ -10,7 +10,7 @@ export const Cars = () => {
 
       <section className="section">
         <div className="container">
-          <h1 className="title p-3 has-text-centered is-2 title-edit">
+          <h1 className="title is-2 p-3 has-text-centered is-2 title-edit">
             How It Works
           </h1>
           <p className="subtitle pb-4 has-text-centered">
@@ -18,14 +18,14 @@ export const Cars = () => {
             essential benefits.
           </p>
           <div className="columns column-gap">
-            <div className="column has-text-centered add-border mb-3">
+            <div className="column has-text-centered mb-3">
               <div className="">
                 <div className="card-content">
                   <div className="content">
-                    <p className="title is-2">1. Find your car</p>
+                    <p className="title">Find your car</p>
                   </div>
                   <div className="card-image">
-                    <figure className="image is-1by1">
+                    <figure className="image is-128x128">
                       <img src={find} alt="car"></img>
                     </figure>
                   </div>
@@ -38,15 +38,15 @@ export const Cars = () => {
                 </div>
               </div>
             </div>
-            <div className="column has-text-centered add-border mb-3">
+            <div className="column has-text-centered mb-3">
               {" "}
               <div className="">
                 <div className="card-content">
                   <div className="content">
-                    <p className="title is-2">2. Apply for your finance</p>
+                    <p className="title ">Apply for your finance</p>
                   </div>
                   <div className="card-image">
-                    <figure className="image is-1by1 ">
+                    <figure className="image is-128x128 ">
                       <img src={finance} alt="car"></img>
                     </figure>
                   </div>
@@ -60,15 +60,15 @@ export const Cars = () => {
                 </div>
               </div>
             </div>
-            <div className="column has-text-centered add-border mb-3">
+            <div className="column has-text-centered  mb-3">
               {" "}
               <div className="">
                 <div className="card-content">
                   <div className="content">
-                    <p className="title is-2">3. Take Delivery</p>
+                    <p className="title">Take Delivery</p>
                   </div>
                   <div className="card-image">
-                    <figure className="image ">
+                    <figure className="image is-128x128 ">
                       <img src={deliver} alt="car"></img>
                     </figure>
                   </div>

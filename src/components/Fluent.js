@@ -3,9 +3,9 @@ import React from "react";
 export const Fluent = () => {
   return (
     <>
-      <hr></hr>
-      <div className="section has-text-centered">
+      <div className="section has-text-centered" id="scroll-to-fluent">
         <div className="container">
+          <hr></hr>
           <div className=" title is-2 title-edit">Fluent In Finance</div>
           <div>
             After 15 years of experience working on behalf of various prestige
@@ -17,9 +17,9 @@ export const Fluent = () => {
             honest, clear and efficient service designed to source the best
             funding solution for your needs.
           </div>
+          <hr></hr>
         </div>
       </div>
-      <hr></hr>
     </>
   );
 };

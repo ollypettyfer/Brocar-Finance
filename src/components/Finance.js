@@ -1,12 +1,13 @@
 import React from "react";
-import car1 from "./images/car1.jpeg";
-import car2 from "./images/car2.jpeg";
-import car3 from "./images/car3.jpeg";
+import car1 from "./images/brocar-1.jpg";
+import car2 from "./images/brocar-2.jpg";
+import car3 from "./images/brocar-6.jpg";
 
 export const Finance = () => {
   return (
     <section className="section is-medium ">
       <div className="container">
+        <hr></hr>
         <h1 className="title p-6 has-text-centered title-edit is-2">
           Finance Options
         </h1>
@@ -28,7 +29,7 @@ export const Finance = () => {
               </div>
               <div className="card-content">
                 <div className="content">
-                  <p className="title is-4">PCP</p>
+                  <p className="title is-4">Personal Contract Purchase</p>
                 </div>
                 <div className="content">
                   Personal Contract Purchase, commonly referred to as PCP, can
@@ -57,7 +58,7 @@ export const Finance = () => {
               </div>
               <div className="card-content">
                 <div className="content">
-                  <p className="title is-4">HP</p>
+                  <p className="title is-4">Hire Purchase</p>
                 </div>
 
                 <div className="content">

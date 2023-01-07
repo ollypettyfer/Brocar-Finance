@@ -75,6 +75,18 @@ export const Navbar = () => {
             <>
               <div className="navbar-link is-arrowless">
                 <Scroll.Link
+                  to="scroll-to-fluent"
+                  className="navbar-item navbar-btn is-link"
+                  spy={true}
+                  smooth={true}
+                  offset={0}
+                  duration={500}
+                >
+                  About us
+                </Scroll.Link>
+              </div>
+              <div className="navbar-link is-arrowless">
+                <Scroll.Link
                   to="finance-section"
                   className="navbar-item navbar-btn is-link"
                   spy={true}
@@ -94,7 +106,7 @@ export const Navbar = () => {
                   offset={0}
                   duration={500}
                 >
-                  Car Types
+                  How it works
                 </Scroll.Link>
               </div>
               <div className="navbar-link is-arrowless">
