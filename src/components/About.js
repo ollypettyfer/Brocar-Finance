@@ -52,7 +52,7 @@ export const About = () => {
           </div>
           <div className="container has-text-centered">
             <a href="#scroll-to-contact">
-              <button className="button is-primary has-text-black ">
+              <button className="button btn-sty is-large has-text-white ">
                 Contact Us
               </button>
             </a>

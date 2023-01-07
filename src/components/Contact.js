@@ -15,11 +15,11 @@ export const Contact = () => {
             <div className="column">
               <form
                 className="p-6"
-                action="https://formsubmit.co/enquiries@brocarfinance.co.uk"
+                action="https://formsubmit.co/1995064511345de11db5569c71841467"
                 method="POST"
               >
                 <h1 className="title is-3 has-text-centered has-text-black">
-                  Send an enquiry
+                  Speak to the team
                 </h1>
                 <div className="field">
                   <label className="label contact-label">Name</label>
@@ -71,7 +71,7 @@ export const Contact = () => {
 
                 <div className="field is-grouped is-justify-content-center">
                   <div className="control">
-                    <button className="button is-primary has-text-black ">
+                    <button className="button btn-sty has-text-white ">
                       Submit
                     </button>
                   </div>

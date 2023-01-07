@@ -11,7 +11,7 @@ body {
 }
 
 .g-hover:hover {
-  color: rgba(18, 153, 106, 0.819);
+  color: #149682;
 }
 
 .navbar-item img {
@@ -40,7 +40,7 @@ body {
 }
 
 a.navbar-item:hover {
-  color: rgba(18, 153, 106, 0.819);
+  color: #149682;
 }
 
 .hero {
@@ -63,7 +63,7 @@ a.navbar-item:hover {
 }
 
 .title-edit {
-  color: rgba(18, 153, 106, 0.819);
+  color: #149682;
 }
 
 .hero-title {
@@ -76,7 +76,7 @@ a.navbar-item:hover {
 }
 
 .form-bg {
-  background-color: rgba(18, 153, 106, 0.819);
+  background-color: #149682;
 }
 
 .hr {
@@ -103,6 +103,11 @@ a.navbar-item:hover {
   margin-right: 30px;
 }
 
+.btn-sty {
+  background-color: #149682;
+  border-color: none;
+}
+
 .modal-container {
   height: 70vh;
 }
@@ -116,7 +121,7 @@ button {
 }
 
 .carousel-container {
-  background: #c8e0d6;
+  background: #149682;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -140,10 +145,7 @@ button {
           justify-content: center;
   -webkit-transition: 1s cubic-bezier(0.39, 0.575, 0.565, 1);
   transition: 1s cubic-bezier(0.39, 0.575, 0.565, 1);
-}
-
-.add-border {
-  border: 6px solid rgba(18, 153, 106, 0.819);
+  color: white;
 }
 
 .column-gap {
@@ -152,5 +154,9 @@ button {
 
 .footer-links-wrapper {
   margin-top: 60px;
+}
+
+hr {
+  background-color: #149682;
 }
 /*# sourceMappingURL=App.css.map */

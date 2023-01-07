@@ -21,18 +21,18 @@ export const Hero = () => {
         </div>
         <div className="has-text-centered">
           <div className=" container has-text-white is-size-5-mobile is-size-2-desktop mb-4">
-            Financial solutions for all your automotive needs
+            Financial solutions for all of your automotive needs
           </div>
-          <button className="button mb-6 is-primary">
+          <button className="button mb-6 btn-sty is-large">
             <Scroll.Link
-              className="has-text-black "
+              className="has-text-white "
               to="contact"
               spy={true}
               smooth={true}
               offset={-63}
               duration={500}
             >
-              Contact
+              Speak to the team
             </Scroll.Link>
           </button>
         </div>

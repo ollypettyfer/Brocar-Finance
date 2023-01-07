@@ -13,7 +13,7 @@ body{
 }
 
 .g-hover:hover {
-    color: rgba(18, 153, 106, 0.819)
+    color: rgb(20, 150, 130)
 }
 
 //NAV BAR LOGO SIZE
@@ -37,7 +37,7 @@ flex-grow: 1; justify-content: center;
 }
 
 a.navbar-item:hover{
-color: rgba(18, 153, 106, 0.819)
+color: rgb(20, 150, 130)
 }
 
 //HERO IMAGE
@@ -61,7 +61,7 @@ color: rgba(18, 153, 106, 0.819)
 
 //Titles
 .title-edit{
-    color: rgba(18, 153, 106, 0.819);
+    color: rgb(20, 150, 130);
 }
 
 //HERO CONTENT
@@ -82,7 +82,7 @@ color: rgba(18, 153, 106, 0.819)
 }
 
 .form-bg{
-    background-color: rgba(18, 153, 106, 0.819);
+    background-color: rgb(20, 150, 130);
 }
 
 .hr{
@@ -111,7 +111,11 @@ color: rgba(18, 153, 106, 0.819)
     margin-right: 30px;
 }
 
-
+//buttons
+.btn-sty{
+background-color: rgb(20, 150, 130);
+border-color: rgb(0,0,0,0,)
+}
 
 
 
@@ -130,7 +134,7 @@ button{
 
 //carousel
 .carousel-container{
-    background: #c8e0d6;
+    background: rgb(20, 150, 130);
     display: flex;
     // flex-wrap: nowrap;
     overflow: hidden;
@@ -147,11 +151,12 @@ button{
     align-items: center;
     justify-content: center;
     transition: 1s cubic-bezier(0.39, 0.575, 0.565, 1);
+    color: white;
 }
-
-.add-border{
-    border: 6px solid rgba(18, 153, 106, 0.819);
-}
+// Removed?
+// .add-border{
+//     border: 6px solid rgba(18, 153, 106, 0.819);
+// }
 
 .column-gap{
     gap: 20px;
@@ -160,4 +165,8 @@ button{
 //footer components
 .footer-links-wrapper{
     margin-top: 60px;
+}
+
+hr{
+    background-color:rgb(20, 150, 130) ;
 }
