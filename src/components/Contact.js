@@ -105,16 +105,18 @@ export const Contact = () => {
 
               <div className="field">
                 <label className="label contact-label">OPENING HOURS</label>
-                <h2>Mon-Fri</h2>
-                <p>09:00-1700</p>
-                <h2>Sat</h2>
-                <p>09:00-1300</p>
+                <h2>Monday - Friday</h2>
+                <p>08:30-1800</p>
+                <h2>Saturday</h2>
+                <p>09:00-1600</p>
               </div>
               <div className="field">
                 <label className="label contact-label">Address</label>
                 <p>
-                  Regus House, Fairbourne Drive, <br></br>Atterbury, Milton
-                  Keynes<br></br> MK10 9RG
+                  <a href="https://goo.gl/maps/z7o1G7hHTHWWDEj37">
+                    Regus House, Fairbourne Drive, <br></br>Atterbury, Milton
+                    Keynes<br></br> MK10 9RG
+                  </a>
                 </p>
               </div>
               <div className="field">
