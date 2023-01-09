@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 
 const Carousel = () => {
   const data = [
+    "Great service from Karel at Brocar! He was extremely helpful and knowledgeable. I would highly recommend.",
     "Very helpful and got my car sorted and delivered. They answered all my questions and were always very professional. Highly recommend.",
     "Marcus has always been my go to when it comes to purchasing cars, now him and the rest of the team at Brocar were able to save me money on my monthly payments along with the invaluable advice throughout the process, thank you!!",
     "Excellent honest service which goes a long way with me. I have had issues with other finance companies but from the very start, they took me through the procedures and gave me options which suited my budget. I didn’t feel rushed and I would highly recommend. I plan to change my car after 3-4 years and I will most certainly return. Thank you guys.",
