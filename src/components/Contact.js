@@ -88,7 +88,9 @@ export const Contact = () => {
               <div className="field">
                 <label className="label contact-label">CALL NOW</label>
 
-                <h2 className="">01908 032694</h2>
+                <a href="tel:+01908 032694" className=" g-hover">
+                  01908 032694
+                </a>
               </div>
 
               <div className="field">
@@ -113,7 +115,10 @@ export const Contact = () => {
               <div className="field">
                 <label className="label contact-label">Address</label>
                 <p>
-                  <a href="https://goo.gl/maps/z7o1G7hHTHWWDEj37">
+                  <a
+                    href="https://goo.gl/maps/z7o1G7hHTHWWDEj37"
+                    className="has-text-black g-hover"
+                  >
                     Regus House, Fairbourne Drive, <br></br>Atterbury, Milton
                     Keynes<br></br> MK10 9RG
                   </a>

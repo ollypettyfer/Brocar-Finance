@@ -26,7 +26,7 @@ export const Complaints = (setShowNav) => {
               {" "}
               <b>Email:</b>
               <a
-                className="has-text-warning pl-2"
+                className="title-edit pl-2"
                 href="mailto:complaints@brocarfinance.co.uk"
               >
                 complaints@brocarfinance.co.uk
@@ -81,7 +81,7 @@ export const Complaints = (setShowNav) => {
           <p>
             <b>Email:</b>
             <a
-              className="has-text-warning pl-2"
+              className="title-edit pl-2"
               href="mailto:complaint.info@financial-ombudsman.org.uk"
             >
               complaint.info@financial-ombudsman.org.uk
@@ -94,7 +94,7 @@ export const Complaints = (setShowNav) => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              className="has-text-warning pl-2"
+              className="title-edit pl-2"
               href="https://www.financial-ombudsman.org.uk"
             >
               www.financial-ombudsman.org.uk
