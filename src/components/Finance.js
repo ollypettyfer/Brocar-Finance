@@ -1,7 +1,7 @@
 import React from "react";
-import car1 from "./images/brocar-1.jpg";
-import car2 from "./images/brocar-2.jpg";
-import car3 from "./images/brocar-6.jpg";
+import car1 from "./images/brocar-13.avif";
+import car2 from "./images/brocar-14.avif";
+import car3 from "./images/brocar-15.avif";
 
 export const Finance = () => {
   return (
