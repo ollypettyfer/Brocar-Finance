@@ -5,8 +5,7 @@ export const Fluent = () => {
     <>
       <div className="section has-text-centered" id="scroll-to-fluent">
         <div className="container">
-          <hr></hr>
-          <div className=" title is-2 title-edit">Fluent In Finance</div>
+          <div className=" title is-3 title-edit">Fluent In Finance</div>
           <div className="">
             After 15 years of experience working on behalf of various prestige
             brand dealerships we have realised that car dealerships are often

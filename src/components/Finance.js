@@ -21,7 +21,7 @@ export const Finance = () => {
           <div className="column  has-text-centered">
             {/* <div className="columns">
             <div className="column"> */}
-            <div className="card">
+            <div className="card card-shadow">
               <div className="card-image">
                 <figure className="image is-3by2">
                   <img src={car1} alt="Placeholder"></img>
@@ -29,7 +29,9 @@ export const Finance = () => {
               </div>
               <div className="card-content">
                 <div className="content">
-                  <p className="title is-4">Personal Contract Purchase</p>
+                  <p className="title title-edit is-4 ">
+                    Personal Contract Purchase
+                  </p>
                 </div>
                 <div className="content">
                   Personal Contract Purchase, commonly referred to as PCP, can
@@ -50,7 +52,7 @@ export const Finance = () => {
           </div>
           <div className="column has-text-centered">
             {" "}
-            <div className="card">
+            <div className="card card-shadow">
               <div className="card-image">
                 <figure className="image is-3by2">
                   <img src={car2} alt="Placeholder"></img>
@@ -58,7 +60,7 @@ export const Finance = () => {
               </div>
               <div className="card-content">
                 <div className="content">
-                  <p className="title is-4">Hire Purchase</p>
+                  <p className="title is-4 title-edit">Hire Purchase</p>
                 </div>
 
                 <div className="content">
@@ -81,7 +83,7 @@ export const Finance = () => {
           </div>
           <div className="column has-text-centered">
             {" "}
-            <div className="card">
+            <div className="card card-shadow">
               <div className="card-image">
                 <figure className="image is-3by2">
                   <img src={car3} alt="Placeholder"></img>
@@ -89,7 +91,7 @@ export const Finance = () => {
               </div>
               <div className="card-content">
                 <div className="content">
-                  <p className="title is-4">Refinance Your Car</p>
+                  <p className="title is-4 title-edit">Refinance Your Car</p>
                 </div>
                 <div className="content">
                   The cost of living crisis has played its part in the increased

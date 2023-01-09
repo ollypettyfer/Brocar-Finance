@@ -13,10 +13,7 @@ export const Cars = () => {
           <h1 className="title is-2 p-3 has-text-centered is-2 title-edit">
             How It Works
           </h1>
-          <p className="subtitle pb-4 has-text-centered">
-            Years of industry experience combine to deliver our clients
-            essential benefits.
-          </p>
+
           <div className="columns column-gap">
             <div className="column has-text-centered mb-3">
               <div className="">
@@ -24,7 +21,7 @@ export const Cars = () => {
                   <div className="content">
                     <p className="title">Find your car</p>
                   </div>
-                  <div className="card-image">
+                  <div className="card-image is-justify-content-center is-flex">
                     <figure className="image is-128x128">
                       <img src={find} alt="car"></img>
                     </figure>
@@ -45,7 +42,7 @@ export const Cars = () => {
                   <div className="content">
                     <p className="title ">Apply for your finance</p>
                   </div>
-                  <div className="card-image">
+                  <div className="card-image is-justify-content-center is-flex">
                     <figure className="image is-128x128 ">
                       <img src={finance} alt="car"></img>
                     </figure>
@@ -67,7 +64,7 @@ export const Cars = () => {
                   <div className="content">
                     <p className="title">Take Delivery</p>
                   </div>
-                  <div className="card-image">
+                  <div className="card-image is-justify-content-center is-flex">
                     <figure className="image is-128x128 ">
                       <img src={deliver} alt="car"></img>
                     </figure>
