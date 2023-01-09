@@ -7,7 +7,7 @@ export const Fluent = () => {
         <div className="container">
           <hr></hr>
           <div className=" title is-2 title-edit">Fluent In Finance</div>
-          <div>
+          <div className="">
             After 15 years of experience working on behalf of various prestige
             brand dealerships we have realised that car dealerships are often
             experts in selling cars, but not necessarily in funding them. At
@@ -17,7 +17,6 @@ export const Fluent = () => {
             honest, clear and efficient service designed to source the best
             funding solution for your needs.
           </div>
-          <hr></hr>
         </div>
       </div>
     </>

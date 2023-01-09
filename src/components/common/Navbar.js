@@ -45,7 +45,7 @@ export const Navbar = () => {
       <nav className="navbar" id="navbar-color">
         <div className="navbar-brand">
           <a className="navbar-item pl-6" href="/">
-            <img src={navbarlogo} alt="BROCAR FINANCE LOGO"></img>
+            <img src={navbarlogo} alt="Brocar finance logo"></img>
           </a>
 
           <div
