@@ -1,5 +1,6 @@
 import React from "react";
 import Carousel from "./Carousel";
+import green from "./images/green.jpeg";
 
 export const Trustapilot = () => {
   return (
@@ -13,6 +14,11 @@ export const Trustapilot = () => {
           What Our Customers Say
         </div>
         <div className="mb-4">
+          <div className="is-flex is-justify-content-center">
+            <figure className="image img-size">
+              <img src={green} alt=""></img>
+            </figure>
+          </div>
           <Carousel />
         </div>
         <div

@@ -17,19 +17,19 @@ export const About = () => {
           </h2>
           <div className="columns ">
             <div className="column is-one-third">
-              <div class="card ">
-                <div class="card-content">
-                  <div class="media">
-                    <div class="media-left">
-                      <figure class="image is-48x48">
+              <div className="card ">
+                <div className="card-content">
+                  <div className="media">
+                    <div className="media-left">
+                      <figure className="image is-48x48">
                         <img src={tick} alt=""></img>
                       </figure>
                     </div>
-                    <div class="media-content">
-                      <p class="title is-4">Save Time and Effort</p>
+                    <div className="media-content">
+                      <p className="title is-4">Save Time and Effort</p>
                     </div>
                   </div>
-                  <div class="content">
+                  <div className="content">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Phasellus nec iaculis mauris.
                     <br></br>
@@ -40,19 +40,21 @@ export const About = () => {
               </div>
             </div>
             <div className="column is-one-third">
-              <div class="card">
-                <div class="card-content">
-                  <div class="media">
-                    <div class="media-left">
-                      <figure class="image is-48x48">
+              <div className="card">
+                <div className="card-content">
+                  <div className="media">
+                    <div className="media-left">
+                      <figure className="image is-48x48">
                         <img src={tick} alt=""></img>
                       </figure>
                     </div>
-                    <div class="media-content">
-                      <p class="title is-4">Professional Customer Service</p>
+                    <div className="media-content">
+                      <p className="title is-4">
+                        Professional Customer Service
+                      </p>
                     </div>
                   </div>
-                  <div class="content">
+                  <div className="content">
                     Your dedicated account manager will be knowledgable,
                     diligent and efficient whilst presenting information to you
                     in an easy to understand and friendly manner.
@@ -63,19 +65,19 @@ export const About = () => {
               </div>
             </div>
             <div className="column is-one-third">
-              <div class="card">
-                <div class="card-content">
-                  <div class="media">
-                    <div class="media-left">
-                      <figure class="image is-48x48">
+              <div className="card">
+                <div className="card-content">
+                  <div className="media">
+                    <div className="media-left">
+                      <figure className="image is-48x48">
                         <img src={tick} alt=""></img>
                       </figure>
                     </div>
-                    <div class="media-content">
-                      <p class="title is-4">In Safe Hands</p>
+                    <div className="media-content">
+                      <p className="title is-4">In Safe Hands</p>
                     </div>
                   </div>
-                  <div class="content">
+                  <div className="content">
                     Years of industry experience combine to deliver our clients
                     essential benefits.
                     <br></br>
