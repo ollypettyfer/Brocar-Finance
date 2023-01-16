@@ -94,7 +94,7 @@ export const Finance = () => {
                 <div className="content">
                   <p className="title is-4 title-edit">Refinance Your Car</p>
                 </div>
-                <div className="content is-size-7-mobile is-size-6-desktop">
+                <div className="content is-size-7-tablet is-size-6-desktop">
                   The cost of living crisis has played its part in the increased
                   uptake of this funding method. <br></br>
                   <br></br>Whether you’re at the end of your agreement and want
