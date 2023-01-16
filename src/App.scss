@@ -122,6 +122,12 @@ color: #3ba27e
     margin-right: 30px;
 }
 
+//card height level
+.card-ht{
+ height: 270px;
+
+}
+
 //buttons
 .btn-sty{
 background-color: #3ba27e;
@@ -132,6 +138,8 @@ border-color: rgb(0,0,0,0,)
 .card-shadow{
     box-shadow: 0 0.5em 1em -0.125em rgba(59, 162, 126, 0.300),
         0 0 0 1px rgba(59, 162, 126, 0.300) !important;
+
+        height: 700px;
 }
 
 
@@ -152,6 +160,7 @@ button{
 
 .img-size{
     width: 200px;
+    margin-bottom: -30px;
 }
 
 .carousel-container{

@@ -1,6 +1,6 @@
 import React from "react";
 import Carousel from "./Carousel";
-import green from "./images/green.jpeg";
+import green from "./images/stars1.png";
 
 export const Trustapilot = () => {
   return (

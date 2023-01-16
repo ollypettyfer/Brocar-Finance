@@ -1,6 +1,6 @@
 import React from "react";
 import { Fluent } from "./Fluent";
-import tick from "./images/tickupdate.png";
+import tick from "./images/tick1.png";
 
 export const About = () => {
   return (
@@ -17,7 +17,7 @@ export const About = () => {
           </h2>
           <div className="columns ">
             <div className="column is-one-third">
-              <div className="card ">
+              <div className="card card-ht">
                 <div className="card-content">
                   <div className="media">
                     <div className="media-left">
@@ -30,8 +30,10 @@ export const About = () => {
                     </div>
                   </div>
                   <div className="content">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Phasellus nec iaculis mauris.
+                    We will take the hard work of shopping the market of car
+                    finance out of your hands, by comparing our hand selected
+                    panel of lenders to find you a cheaper finance solution than
+                    what may be available from the dealership.
                     <br></br>
                     <br></br>
                     <br></br>
@@ -40,7 +42,7 @@ export const About = () => {
               </div>
             </div>
             <div className="column is-one-third">
-              <div className="card">
+              <div className="card card-ht">
                 <div className="card-content">
                   <div className="media">
                     <div className="media-left">
@@ -65,8 +67,8 @@ export const About = () => {
               </div>
             </div>
             <div className="column is-one-third">
-              <div className="card">
-                <div className="card-content">
+              <div className="card card-ht">
+                <div className="card-content ">
                   <div className="media">
                     <div className="media-left">
                       <figure className="image is-48x48">
