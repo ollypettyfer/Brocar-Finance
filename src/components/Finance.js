@@ -116,6 +116,25 @@ export const Finance = () => {
             {/* </div>
           </div> */}
           </div>
+          <div className="column has-text-centered">
+            {" "}
+            <div className="card card-shadow">
+              <div className="card-image">
+                <figure className="image is-3by2">
+                  <img src={car2} alt="Placeholder"></img>
+                </figure>
+              </div>
+              <div className="card-content">
+                <div className="content">
+                  <p className="title is-4 title-edit">NEW COLUMN</p>
+                </div>
+
+                <div className="content is-size-7-tablet is-size-6-desktop">
+                  AWAITING CONTENT<br></br>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
