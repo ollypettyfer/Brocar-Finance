@@ -17,7 +17,7 @@ export const About = () => {
           </h2>
           <div className="columns ">
             <div className="column is-one-third">
-              <div className="card card-ht">
+              <div className="card card-ht about-shadow">
                 <div className="card-content">
                   <div className="media">
                     <div className="media-left">
@@ -42,7 +42,7 @@ export const About = () => {
               </div>
             </div>
             <div className="column is-one-third">
-              <div className="card card-ht">
+              <div className="card card-ht about-shadow">
                 <div className="card-content">
                   <div className="media">
                     <div className="media-left">
@@ -67,7 +67,7 @@ export const About = () => {
               </div>
             </div>
             <div className="column is-one-third">
-              <div className="card card-ht">
+              <div className="card card-ht about-shadow">
                 <div className="card-content ">
                   <div className="media">
                     <div className="media-left">

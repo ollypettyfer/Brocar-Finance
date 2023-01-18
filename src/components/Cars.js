@@ -1,15 +1,15 @@
 import React from "react";
 import find from "./images/flow1.png";
 import finance from "./images/flow2.png";
-import deliver from "./images/flow3.png";
+import deliver from "./images/flow4.png";
 
 export const Cars = () => {
   return (
     <>
       {/* How can we help section */}
-
       <section className="section">
         <div className="container">
+          <hr></hr>
           <h1 className="title is-2 p-3 has-text-centered is-2 title-edit">
             How It Works
           </h1>
@@ -19,7 +19,7 @@ export const Cars = () => {
               <div className="">
                 <div className="card-content">
                   <div className="content">
-                    <p className="title">Find your car</p>
+                    <p className="title title-edit">Find your car</p>
                   </div>
                   <div className="card-image is-justify-content-center is-flex">
                     <figure className="image is-128x128">
@@ -40,7 +40,7 @@ export const Cars = () => {
               <div className="">
                 <div className="card-content">
                   <div className="content">
-                    <p className="title ">Apply for your finance</p>
+                    <p className="title title-edit">Apply for your finance</p>
                   </div>
                   <div className="card-image is-justify-content-center is-flex">
                     <figure className="image is-128x128 ">
@@ -62,7 +62,7 @@ export const Cars = () => {
               <div className="">
                 <div className="card-content">
                   <div className="content">
-                    <p className="title">Take Delivery</p>
+                    <p className="title title-edit">Take Delivery</p>
                   </div>
                   <div className="card-image is-justify-content-center is-flex">
                     <figure className="image is-128x128 ">

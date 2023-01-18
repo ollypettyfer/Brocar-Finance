@@ -59,12 +59,12 @@ color: #3ba27e
     gap: 11em;
 }
 
-.about-section{
-    background-image: url(./components//images/logo1.jpg);
-    background-position: center;
-        background-size: cover;
+// .about-section{
+//     background-image: url(./components//images/logo1.jpg);
+//     background-position: center;
+//         background-size: cover;
         
-}
+// }
 
 //Titles
 .title-edit{
@@ -142,6 +142,11 @@ border-color: rgb(0,0,0,0,)
         height: 700px;
 }
 
+.about-shadow{
+    box-shadow: 0 0.5em 1em -0.125em rgba(59, 162, 126, 0.300),
+            0 0 0 1px rgba(59, 162, 126, 0.300) !important;
+}
+
 
 //Modal
 .modal-container{
@@ -183,10 +188,7 @@ button{
     transition: 1s cubic-bezier(0.39, 0.575, 0.565, 1);
     color: white;
 }
-// Removed?
-// .add-border{
-//     border: 6px solid rgba(18, 153, 106, 0.819);
-// }
+
 
 .column-gap{
     gap: 20px;

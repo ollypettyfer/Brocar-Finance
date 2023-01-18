@@ -1,6 +1,7 @@
 import React from "react";
 import Carousel from "./Carousel";
 import green from "./images/stars1.png";
+import saf from "./images/saf.jpg";
 
 export const Trustapilot = () => {
   return (
@@ -40,6 +41,11 @@ export const Trustapilot = () => {
           >
             Trustpilot
           </a>
+        </div>
+        <div className="is-flex is-justify-content-space-evenly mt-5">
+          <figure className="image is-128x128">
+            <img src={saf} alt="saf logo"></img>
+          </figure>
         </div>
       </div>
     </div>
