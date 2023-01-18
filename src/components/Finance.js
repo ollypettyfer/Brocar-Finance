@@ -5,7 +5,7 @@ import car3 from "./images/brocar-15.avif";
 
 export const Finance = () => {
   return (
-    <section className="section is-medium ">
+    <section className="section mb-5 ">
       <div className="container">
         <hr></hr>
         <h1 className="title p-6 has-text-centered title-edit is-2">
