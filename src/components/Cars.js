@@ -2,6 +2,7 @@ import React from "react";
 import find from "./images/flow1.png";
 import finance from "./images/flow2.png";
 import deliver from "./images/flow4.png";
+import arrow1 from "./images/arrow1.png";
 
 export const Cars = () => {
   return (
@@ -15,7 +16,7 @@ export const Cars = () => {
           </h1>
 
           <div className="columns column-gap">
-            <div className="column has-text-centered mb-3">
+            <div className="column has-text-centered mb-3 ">
               <div className="">
                 <div className="card-content">
                   <div className="content">
@@ -35,6 +36,7 @@ export const Cars = () => {
                 </div>
               </div>
             </div>
+
             <div className="column has-text-centered mb-3">
               {" "}
               <div className="">
