@@ -64,16 +64,19 @@ export const Finance = () => {
                 </div>
 
                 <div className="content is-size-7-tablet is-size-6-desktop">
-                  Hire Purchase is a straight forward way off spreading the cost
-                  of your vehicle over a fixed period, usually between 24 and 60
-                  months.<br></br>
-                  <br></br> Fixed monthly repayments with a fixed interest rate
-                  can make budgeting easier. This is usually the funding method
-                  of choice for customers who plan on keeping their car for the
-                  long term. <br></br>
-                  <br></br>With HP the customer decides the deposit, typically
-                  up to 50% of the vehicle value, with the remaining balance
-                  along with the interest is repaid over the agreement term.
+                  Hire purchase has been a very popular way for customers to
+                  fund the purchase of their vehicles.
+                  <br></br>
+                  <br></br>
+                  Hire purchase is a fixed cost loan secured onto the vehicle.
+                  You will usually pay a cash deposit, part exchange a vehicle
+                  or both and make monthly payments typically between a 24 or 60
+                  month term.
+                  <br></br>
+                  <br></br>
+                  At the end of the term you will pay a small option to purchase
+                  fee and the ownership of the vehicle is now yours. <br></br>
+                  <br></br>
                   <br></br>
                   <br></br>
                   <br></br>

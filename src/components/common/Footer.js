@@ -46,8 +46,14 @@ export const Footer = () => {
           regulated by the Financial Conduct Authority (our Financial Conduct
           Authority Registry Number is 944254). VAT number TBC. Brocar Ltd is a
           credit broker and not a lender. We can introduce you to a group of
-          selected lenders. Calls are recorded for compliance and training
-          purposes.
+          selected lenders who will be able to assist you in financing your
+          purchase or re-financing / releasing equity from your current asset.
+          We may receive a payment(s) or other benefits from finance providers
+          should you decide to enter into an agreement with them, typically
+          either a fixed fee or a fixed percentage of the amount you borrow. The
+          payment we receive may vary between finance providers and product
+          types. The payment received does not impact the finance rate offered.
+          Calls may be recorded for compliance and training purposes.
         </h2>
       </div>
     </footer>
