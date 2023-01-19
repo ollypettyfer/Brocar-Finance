@@ -23,7 +23,8 @@ export const CookiePolicy = () => {
           may not function fully or as intended. <br></br>
           <br></br>4. Thiss cookie policy should be read alongside, and in
           addition to, our Privacy Policy, which can be found
-          at:www.brocarfinance.co.uk. What are cookies? <br></br>
+          at:www.brocarfinance.co.uk.
+          <h3>What are cookies?</h3>
           <br></br>5. Acookie is a small text file placed on your computer by
           this Website when you visit certain parts of the Website and/or when
           you use certain features of the Website. <br></br>
@@ -36,8 +37,8 @@ export const CookiePolicy = () => {
           we store about you may be linked to the information obtained from and
           stored in cookies. For more information on how such personal
           information is handled and stored, refer to our Privacy Policy which
-          is available online at: www.brocarfinance.co.uk.<br></br> Types of
-          cookies<br></br>
+          is available online at: www.brocarfinance.co.uk.<br></br>
+          <h3>Types of cookies</h3>
           <br></br> 8. This Website uses the following cookies: Type of cookie
           Purpose Strictly necessary cookies These are cookies that are required
           for the operation of the Website. They include, for example, cookies
@@ -56,7 +57,9 @@ export const CookiePolicy = () => {
           <br></br> 9. You can find a list of the cookies that we use in the
           attached Cookie Schedule. <br></br>10. We have carefully chosen these
           cookies and have taken steps to ensure that your privacy is protected
-          and respected at all times. How to control your cookies <br></br>
+          and respected at all times.
+          <br></br>
+          <h3>How to control your cookies</h3>
           <br></br>11. You can choose to enable or disable cookies in your
           internet browser. By default, most internet browsers accept cookies
           but this can be changed. For further details, please see the help menu
@@ -71,21 +74,24 @@ export const CookiePolicy = () => {
           <br></br>
           14. For more information generally on cookies, including how to
           disable them, please refer to aboutcookies.org. You will also find
-          details on how to delete cookies from your computer.<br></br> Changes
-          to this policy <br></br>
+          details on how to delete cookies from your computer.<br></br>
+          <h3>Changes to this policy</h3>
           <br></br>15. Brocar Finance reserves the right to change this cookie
           policy as we may deem necessary from time to time or as may be
           required by law. Any changes will be immediately posted on the Website
           and you are deemed to have accepted the terms of the cookie policy on
           your first use of the Website following the alterations.<br></br>{" "}
-          Contact details <br></br>
+          <h3>Contact details</h3>
           <br></br>16. The Website is owned by Brocar Finance incorporated in
           England and Wales with registered number 01908 032694 whose registered
           office is at Regus House, Fairbourne Drive, Milton Keynes, MK10 9RG,
           England.<br></br>
           <br></br> 17. You may contact us: a. by telephone at 01908 032694. b.
           by email at enquiries@brocarfinance.co.uk. c. using the contact form
-          on the Website.<br></br> Attribution <br></br>
+          on the Website.<br></br>
+          <h3>
+            Attribution <br></br>
+          </h3>
           <br></br>18. This cookie policy was created using a document from
           Rocket Lawyer(https://www.rocketlawyer.com/gb/en). This policy was
           created on 09 January 2023. COOKIE SCHEDULE Below is a list of the
