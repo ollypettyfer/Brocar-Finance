@@ -1,7 +1,8 @@
 import React from "react";
-import car1 from "./images/brocar-13.avif";
-import car2 from "./images/brocar-14.avif";
-import car3 from "./images/brocar-15.avif";
+import car1 from "./images/brocar-14.jpg";
+import car2 from "./images/brocar-09.jpg";
+import car3 from "./images/brocar-10.jpg";
+import car4 from "./images/brocar-12.jpg";
 
 export const Finance = () => {
   return (
@@ -124,7 +125,7 @@ export const Finance = () => {
             <div className="card card-shadow">
               <div className="card-image">
                 <figure className="image is-3by2">
-                  <img src={car2} alt="Placeholder"></img>
+                  <img src={car4} alt="Placeholder"></img>
                 </figure>
               </div>
               <div className="card-content">
