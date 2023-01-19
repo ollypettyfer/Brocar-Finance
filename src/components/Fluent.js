@@ -15,6 +15,12 @@ export const Fluent = () => {
             car, whilst we supply the finance package. We pride ourselves in an
             honest, clear and efficient service designed to source the best
             funding solution for your needs.
+            <br></br>
+            <br></br>
+            Whilst many car buyers continue to fund their vehicle through their
+            car dealership or bank, we work with some of the biggest lenders in
+            the industry to offer competitive finance products and offer clients
+            greater choice and flexibility.
           </div>
         </div>
       </div>
