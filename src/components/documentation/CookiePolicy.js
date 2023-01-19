@@ -84,8 +84,8 @@ export const CookiePolicy = () => {
           office is at Regus House, Fairbourne Drive, Milton Keynes, MK10 9RG,
           England.<br></br>
           <br></br> 17. You may contact us: a. by telephone at 01908 032694. b.
-          by email atenquiries@brocarfinance.co.uk. c. using the contact form on
-          the Website.<br></br> Attribution <br></br>
+          by email at enquiries@brocarfinance.co.uk. c. using the contact form
+          on the Website.<br></br> Attribution <br></br>
           <br></br>18. This cookie policy was created using a document from
           Rocket Lawyer(https://www.rocketlawyer.com/gb/en). This policy was
           created on 09 January 2023. COOKIE SCHEDULE Below is a list of the

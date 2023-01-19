@@ -113,103 +113,178 @@ export const PrivacyPolicy = () => {
           </ol>
           in each case, in accordance with this privacy policy.
           <br></br>
-          Data that is received from third parties Brocar LTD will receive Data
-          about you from the following third parties: we may ask a Credit
-          Reference Agency (CRA) to provide information about you, this is done
-          to assess creditworthiness and product suitability, check your
-          identity and prevent criminal activity; we may receive information
-          about you from private or trade sellers to assist us in arranging a
-          finance package for you. Data that is collected automatically To the
-          extent that you access the Website, we will collect your Data
-          automatically, for example: we automatically collect some information
-          about your visit to the Website. This information helps us to make
-          improvements to Website content and navigation, and includes your IP
-          address, the date, times and frequency with which you access the
-          Website and the way you use and interact with its content. Keeping
-          Data secure We will use technical and organisational measures to
-          safeguard your Data, for example: access to your account is controlled
-          by a password and a user name that is unique to you. we store your
-          Data on secure servers. payment details are encrypted using SSL
-          technology (typically you will see a lock icon or green address bar
-          (or both) in your browser when we use this technology. Technical and
-          organisational measures include measures to deal with any suspected
-          data breach. If you suspect any misuse or loss or unauthorised access
-          to your Data, please let us know immediately by contacting us via this
-          e-mail address: marcus.gittens@brocarfinance.co.uk. If you want
-          detailed information from Get Safe Online on how to protect your
-          information and your computers and devices against fraud, identity
-          theft, viruses and many other online problems, please visit
+          <h3>Data that is received from third parties</h3>
+          <br></br>
+          8. Brocar LTD will receive Data about you from the following third
+          parties:
+          <ol>
+            <li>
+              {" "}
+              we may ask a Credit Reference Agency (CRA) to provide information
+              about you, this is done to assess creditworthiness and product
+              suitability, check your identity and prevent criminal activity;
+            </li>
+            <li>
+              {" "}
+              we may receive information about you from private or trade sellers
+              to assist us in arranging a finance package for you.
+            </li>
+          </ol>
+          <h3>Data that is collected automatically</h3>
+          <br></br>
+          9. To the extent that you access the Website, we will collect your
+          Data automatically, for example:
+          <br></br>
+          <ol>
+            <li>
+              we automatically collect some information about your visit to the
+              Website. This information helps us to make improvements to Website
+              content and navigation, and includes your IP address, the date,
+              times and frequency with which you access the Website and the way
+              you use and interact with its content.
+            </li>
+          </ol>
+          <br></br>
+          <h3>Keeping Data secure</h3>
+          <br></br>
+          10. We will use technical and organisational measures to safeguard
+          your Data, for example:
+          <ol>
+            <li>
+              access to your account is controlled by a password and a user name
+              that is unique to you.
+            </li>
+            <li>we store your Data on secure servers.</li>
+            <li>
+              payment details are encrypted using SSL technology (typically you
+              will see a lock icon or green address bar (or both) in your
+              browser when we use this technology.
+            </li>
+          </ol>
+          <br></br>
+          11. Technical and organisational measures include measures to deal
+          with any suspected data breach. If you suspect any misuse or loss or
+          unauthorised access to your Data, please let us know immediately by
+          contacting us via this e-mail address:
+          marcus.gittens@brocarfinance.co.uk.
+          <br></br>
+          12. If you want detailed information from Get Safe Online on how to
+          protect your information and your computers and devices against fraud,
+          identity theft, viruses and many other online problems, please visit
           www.getsafeonline.org. Get Safe Online is supported by HM Government
-          and leading businesses. Data retention Unless a longer retention
-          period is required or permitted by law, we will only hold your Data on
-          our systems for the period necessary to fulfil the purposes outlined
-          in this privacy policy or until you request that the Data be deleted.
-          Even if we delete your Data, it may persist on backup or archival
-          media for legal, tax or regulatory purposes. Your rights You have the
-          following rights in relation to your Data: Right to access - the right
-          to request (i) copies of the information we hold about you at any
-          time, or (ii) that we modify, update or delete such information. If we
-          provide you with access to the information we hold about you, we will
-          not charge you for this, unless your request is "manifestly unfounded
-          or excessive." Where we are legally permitted to do so, we may refuse
-          your request. If we refuse your request, we will tell you the reasons
-          why. Right to correct - the right to have your Data rectified if it is
-          inaccurate or incomplete. Right to erase - the right to request that
-          we delete or remove your Data from our systems. Right to restrict our
-          use of your Data - the right to "block" us from using your Data or
-          limit the way in which we can use it. Right to data portability - the
-          right to request that we move, copy or transfer your Data. Right to
-          object - the right to object to our use of your Data including where
-          we use it for our legitimate interests. To make enquiries, exercise
-          any of your rights set out above, or withdraw your consent to the
-          processing of your Data (where consent is our legal basis for
-          processing your Data), please contact us via this e-mail address:
-          marcus.gittens@brocarfinance.co.uk. If you are not satisfied with the
-          way a complaint you make in relation to your Data is handled by us,
-          you may be able to refer your complaint to the relevant data
-          protection authority. For the UK, this is the Information
-          Commissioner's Office (ICO). The ICO's contact details can be found on
-          their website at https://ico.org.uk/. It is important that the Data we
-          hold about you is accurate and current. Please keep us informed if
-          your Data changes during the period for which we hold it. Links to
-          other websites This Website may, from time to time, provide links to
-          other websites. We have no control over such websites and are not
+          and leading businesses.
+          <h3>Data retention</h3>
+          <br></br>
+          13. Unless a longer retention period is required or permitted by law,
+          we will only hold your Data on our systems for the period necessary to
+          fulfil the purposes outlined in this privacy policy or until you
+          request that the Data be deleted.
+          <br></br>
+          14. Even if we delete your Data, it may persist on backup or archival
+          media for legal, tax or regulatory purposes.
+          <br></br>
+          <h3>Your rights</h3>
+          You have the following rights in relation to your Data:
+          <ol>
+            <li>
+              Right to access - the right to request (i) copies of the
+              information we hold about you at any time, or (ii) that we modify,
+              update or delete such information. If we provide you with access
+              to the information we hold about you, we will not charge you for
+              this, unless your request is "manifestly unfounded or excessive."
+              Where we are legally permitted to do so, we may refuse your
+              request. If we refuse your request, we will tell you the reasons
+              why.
+            </li>
+            <li>
+              Right to correct - the right to have your Data rectified if it is
+              inaccurate or incomplete.
+            </li>
+            <li>
+              Right to erase - the right to request that we delete or remove
+              your Data from our systems.
+            </li>
+            <li>
+              Right to restrict our use of your Data - the right to "block" us
+              from using your Data or limit the way in which we can use it.
+            </li>
+            <li>
+              Right to data portability - the right to request that we move,
+              copy or transfer your Data.
+            </li>
+            <li>
+              Right to object - the right to object to our use of your Data
+              including where we use it for our legitimate interests.
+            </li>
+          </ol>
+          16. To make enquiries, exercise any of your rights set out above, or
+          withdraw your consent to the processing of your Data (where consent is
+          our legal basis for processing your Data), please contact us via this
+          e-mail address: marcus.gittens@brocarfinance.co.uk.
+          <br></br>
+          17. If you are not satisfied with the way a complaint you make in
+          relation to your Data is handled by us, you may be able to refer your
+          complaint to the relevant data protection authority. For the UK, this
+          is the Information Commissioner's Office (ICO). The ICO's contact
+          details can be found on their website at https://ico.org.uk/.
+          <br></br>
+          18. It is important that the Data we hold about you is accurate and
+          current. Please keep us informed if your Data changes during the
+          period for which we hold it.
+          <br></br>
+          <h3>Links to other websites</h3>
+          19. This Website may, from time to time, provide links to other
+          websites. We have no control over such websites and are not
           responsible for the content of these websites. This privacy policy
           does not extend to your use of such websites. You are advised to read
           the privacy policy or statement of other websites prior to using them.
-          Changes of business ownership and control Brocar LTD may, from time to
-          time, expand or reduce our business and this may involve the sale
-          and/or the transfer of control of all or part of Brocar LTD. Data
-          provided by Users will, where it is relevant to any part of our
-          business so transferred, be transferred along with that part and the
-          new owner or newly controlling party will, under the terms of this
-          privacy policy, be permitted to use the Data for the purposes for
-          which it was originally supplied to us. We may also disclose Data to a
-          prospective purchaser of our business or any part of it. In the above
-          instances, we will take steps with the aim of ensuring your privacy is
-          protected. General You may not transfer any of your rights under this
-          privacy policy to any other person. We may transfer our rights under
-          this privacy policy where we reasonably believe your rights will not
-          be affected. If any court or competent authority finds that any
-          provision of this privacy policy (or part of any provision) is
-          invalid, illegal or unenforceable, that provision or part-provision
-          will, to the extent required, be deemed to be deleted, and the
-          validity and enforceability of the other provisions of this privacy
-          policy will not be affected. Unless otherwise agreed, no delay, act or
-          omission by a party in exercising any right or remedy will be deemed a
-          waiver of that, or any other, right or remedy. This Agreement will be
-          governed by and interpreted according to the law of England and Wales.
-          All disputes arising under the Agreement will be subject to the
-          exclusive jurisdiction of the English and Welsh courts. Changes to
-          this privacy policy Brocar LTD reserves the right to change this
-          privacy policy as we may deem necessary from time to time or as may be
-          required by law. Any changes will be immediately posted on the Website
-          and you are deemed to have accepted the terms of the privacy policy on
-          your first use of the Website following the alterations. You may
-          contact Brocar LTD by email at marcus.gittens@brocarfinance.co.uk.
-          Attribution This privacy policy was created using a document from
-          Rocket Lawyer (https://www.rocketlawyer.com/gb/en). This privacy
-          policy was created on .
+          <br></br>
+          <h3>Changes of business ownership and control</h3>
+          20. Brocar LTD may, from time to time, expand or reduce our business
+          and this may involve the sale and/or the transfer of control of all or
+          part of Brocar LTD. Data provided by Users will, where it is relevant
+          to any part of our business so transferred, be transferred along with
+          that part and the new owner or newly controlling party will, under the
+          terms of this privacy policy, be permitted to use the Data for the
+          purposes for which it was originally supplied to us.
+          <br></br>
+          21. We may also disclose Data to a prospective purchaser of our
+          business or any part of it.
+          <br></br>
+          22. In the above instances, we will take steps with the aim of
+          ensuring your privacy is protected.
+          <br></br>
+          <h3>General</h3>
+          23. You may not transfer any of your rights under this privacy policy
+          to any other person. We may transfer our rights under this privacy
+          policy where we reasonably believe your rights will not be affected.
+          <br></br>
+          24. If any court or competent authority finds that any provision of
+          this privacy policy (or part of any provision) is invalid, illegal or
+          unenforceable, that provision or part-provision will, to the extent
+          required, be deemed to be deleted, and the validity and enforceability
+          of the other provisions of this privacy policy will not be affected.
+          <br></br>
+          25. Unless otherwise agreed, no delay, act or omission by a party in
+          exercising any right or remedy will be deemed a waiver of that, or any
+          other, right or remedy.
+          <br></br>
+          26. This Agreement will be governed by and interpreted according to
+          the law of England and Wales. All disputes arising under the Agreement
+          will be subject to the exclusive jurisdiction of the English and Welsh
+          courts.
+          <br></br>
+          <h3>Changes to this privacy</h3>
+          27. policy Brocar LTD reserves the right to change this privacy policy
+          as we may deem necessary from time to time or as may be required by
+          law. Any changes will be immediately posted on the Website and you are
+          deemed to have accepted the terms of the privacy policy on your first
+          use of the Website following the alterations. You may contact Brocar
+          LTD by email at admin@brocarfinance.co.uk.
+          <h3>Attribution This</h3>
+          privacy policy was created using a document from Rocket Lawyer
+          (https://www.rocketlawyer.com/gb/en). This privacy policy was created
+          on .
         </div>
       </div>
     </section>

@@ -39,9 +39,9 @@ export const Footer = () => {
           </ul>
         </nav>
 
-        <h2 className="has-text-centered ">
+        <h2 className="has-text-centered footer-sty">
           Brocar Ltd Registered in England and Wales under registration number:
-          13157992. Headquarters: Brocar, Regus House, Fairbourne Drive, Milton
+          13157992. Headoffice: Brocar, Regus House, Fairbourne Drive, Milton
           Keynes, MK10 9RG, United Kingdom. Brocar Ltd is authorised and
           regulated by the Financial Conduct Authority (our Financial Conduct
           Authority Registry Number is 944254). VAT number TBC. Brocar Ltd is a
