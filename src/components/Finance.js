@@ -130,11 +130,24 @@ export const Finance = () => {
               </div>
               <div className="card-content">
                 <div className="content">
-                  <p className="title is-4 title-edit">NEW COLUMN</p>
+                  <p className="title is-4 title-edit">Lease Purchase</p>
                 </div>
 
                 <div className="content is-size-7-tablet is-size-6-desktop">
-                  AWAITING CONTENT<br></br>
+                  Lease Purchase is often compared to Hire Purchase, the main
+                  difference between the two agreements is that Lease Purchase
+                  agreements have a balloon payment. This can make it a
+                  preferred method of funding to customers where their priority
+                  is keeping their monthly payment low.
+                  <br></br>
+                  <br></br>
+                  The finance company will use information you provide such as
+                  the term you would like the finance over and what mileage you
+                  plan to do on the vehicle to set a balloon payment based on
+                  the expected value of the car at the end of the term. You can
+                  then make a lump sum payment to clear the balloon payment and
+                  keep the car or use the vehicle as part exchange against
+                  another.
                 </div>
               </div>
             </div>
