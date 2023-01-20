@@ -35,8 +35,8 @@ export const Complaints = (setShowNav) => {
             <li>
               <p>
                 <b>Post: </b>
-                Complaints Department Brocar Finance 15-17 Upper George Street,
-                Luton, LU1 2RD
+                Brocar Finance, Regus House, Fairbourne Drive, Atterbury, Milton
+                Keynes MK10 9RG
               </p>
             </li>
           </ul>

@@ -34,7 +34,7 @@ export const Finance = () => {
                     Personal Contract Purchase
                   </p>
                 </div>
-                <div className="content is-size-7-tablet is-size-6-desktop">
+                <div className="content is-size-7-tablet is-size-6-widescreen is-size-7-desktop">
                   Personal Contract Purchase, commonly referred to as PCP, can
                   be best described as a long term rental where customers can
                   use their vehicle until the end of their agreement before
@@ -43,10 +43,18 @@ export const Finance = () => {
                   <br></br> The flexibility, lower monthly payments and
                   guaranteed minimum future values are all reasons why this is
                   an increasingly popular option. <br></br>
-                  <br></br>In the past few years with company car taxes rising,
+                  {/* <br></br>In the past few years with company car taxes rising,
                   many people opting out of company car schemes, particular
                   those with car allowances, have moved to this method of
-                  funding to help avoid company car tax.
+                  funding to help avoid company car tax. */}
+                  <br></br>
+                  At the end of the agreement there are three options for you to
+                  choose from. Pay the GMFV (including any option to purchase
+                  fee) and take ownership of the vehicle. Hand back the vehicle
+                  subject to condition and mileage. Part exchange the vehicle
+                  for another one, where you can use any equity you may have
+                  along with a deposit if required. You should also be aware
+                  that you could have to cover any shortfall.
                 </div>
               </div>
             </div>
@@ -64,7 +72,7 @@ export const Finance = () => {
                   <p className="title is-4 title-edit">Hire Purchase</p>
                 </div>
 
-                <div className="content is-size-7-tablet is-size-6-desktop">
+                <div className="content is-size-7-tablet is-size-7-desktop is-size-6-widescreen">
                   Hire purchase has been a very popular way for customers to
                   fund the purchase of their vehicles.
                   <br></br>
@@ -98,7 +106,7 @@ export const Finance = () => {
                 <div className="content">
                   <p className="title is-4 title-edit">Refinance Your Car</p>
                 </div>
-                <div className="content is-size-7-tablet is-size-6-desktop">
+                <div className="content is-size-7-tablet is-size-7-desktop is-size-6-widescreen">
                   The cost of living crisis has played its part in the increased
                   uptake of this funding method. <br></br>
                   <br></br>Whether you’re at the end of your agreement and want
@@ -133,7 +141,7 @@ export const Finance = () => {
                   <p className="title is-4 title-edit">Lease Purchase</p>
                 </div>
 
-                <div className="content is-size-7-tablet is-size-6-desktop">
+                <div className="content is-size-7-tablet is-size-7-desktop is-size-6-widescreen">
                   Lease Purchase is often compared to Hire Purchase, the main
                   difference between the two agreements is that Lease Purchase
                   agreements have a balloon payment. This can make it a
