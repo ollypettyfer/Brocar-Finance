@@ -1,6 +1,7 @@
 import React from "react";
-import fb from "./images/fb.png";
-import insta from "./images/insta.png";
+import fb from "./images/facen.png";
+import insta from "./images/instan.png";
+import linkedin from "./images/linked.png";
 
 export const Contact = () => {
   return (
@@ -18,7 +19,7 @@ export const Contact = () => {
                 action="https://formsubmit.co/1995064511345de11db5569c71841467"
                 method="POST"
               >
-                <h1 className="title is-3 has-text-centered has-text-black">
+                <h1 className="title is-3 has-text-centered  title-edit">
                   Speak to the team
                 </h1>
                 <div className="field">
@@ -61,7 +62,7 @@ export const Contact = () => {
                   <div className="control">
                     <input
                       className="input"
-                      placeholder="What would you like to talk to us about today?"
+                      placeholder="Get a quote? More infomation? How much can I borrow?"
                       type="text"
                       name="message"
                       required
@@ -82,7 +83,7 @@ export const Contact = () => {
 
             {/* column 2 */}
             <div className="column has-text-centered">
-              <h1 className="title is-3 has-text-black">Get in touch</h1>
+              <h1 className="title is-3 title-edit contact-t">Get in touch</h1>
               <br></br>
 
               <div className="field">
@@ -133,11 +134,22 @@ export const Contact = () => {
                   <img src={fb} alt="insta icon" className="pr-1"></img>
                 </a>
                 <a
-                  href="https://www.instagram.com/kbp1410_"
+                  href="https://www.google.com"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <img src={insta} alt="facebook icon"></img>
+                </a>
+                <a
+                  href="https://www.google.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    id="linked-icon"
+                    src={linkedin}
+                    alt="facebook icon"
+                  ></img>
                 </a>
               </div>
             </div>

@@ -8,6 +8,7 @@ import { Finance } from "../Finance";
 import { Cars } from "../Cars";
 import { Element } from "react-scroll";
 import { useStateContext } from "../context/ContextProvider";
+import { Buttons } from "../Buttons";
 
 export const Home = () => {
   const { setHomeLink } = useStateContext();
@@ -36,8 +37,8 @@ export const Home = () => {
       <Element id="contact">
         <Contact />
       </Element>
-
       <Footer />
+      <Buttons />
     </>
   );
 };
