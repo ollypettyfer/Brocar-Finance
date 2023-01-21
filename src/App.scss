@@ -21,19 +21,36 @@ body{
     max-height: 3rem;
 }
 
+.navbar-item{
+    color: white;
+}
+
 .nav-center{
 flex-grow: 1; justify-content: center;
 }
 
+.navbar-burger{
+    color: #3ba27e;
+}
+
+// .navbar-btn{
+// color: white;
+
+// }
+
 .navbar{
+    // /* Make it stick/fixed */
     position: fixed;
-        /* Make it stick/fixed */
-        top: -70px;
+    background-color: #0a0a0a00;
+    width: 100%;
+    /* Full width */
+        transition: top 0.4s;
+            /* Transition effect when sliding down (and up) */
+       
+        top: -5px;
         /* Hide the navbar 50 px outside of the top view */
-        width: 100%;
-        /* Full width */
-        transition: top 0.3s;
-        /* Transition effect when sliding down (and up) */
+      
+  
 }
 
 a.navbar-item:hover{
@@ -88,6 +105,10 @@ color: #3ba27e
     
 }
 
+#linked-icon{
+    margin-left: 4px;
+}
+
 .phn-sty{
     color: black !important;
 }
@@ -104,6 +125,10 @@ color: #3ba27e
 .contact-label {
     color: black;
     font-size: 1.2em;
+}
+
+.contact-t{
+    margin-top: 40px;
 }
 
 //columns
@@ -131,7 +156,7 @@ color: #3ba27e
 //buttons
 .btn-sty{
 background-color: #3ba27e;
-border-color: rgb(0,0,0,0,)
+border-color: #00000000
 }
 
 //finance
@@ -216,4 +241,38 @@ hr{
 .arrow2{
     background-image: url(./components/images/arrow2.png);
         background-position: center;
+}
+
+//mobile buttons
+.m-btn{
+    bottom: -37px;
+    top: initial;
+    position: fixed;
+  width: 100%;
+  transition: bottom 0.3s ;
+}
+
+.button-stick{
+    width: 50% !important;
+    text-align: center;
+    background-color: #3ba27e;
+    color: white;
+    padding: 5px;
+    border: solid white 2px;
+
+}
+
+.con-buttons{
+    bottom: 50px;
+        /* Hide the navbar 50 px outside of the top view */
+    
+        transition: top 0.3s;
+        /* Transition effect when sliding down (and up) */
+}
+
+//media buttons
+@media (min-width: 769px) {
+    .button-stick {
+        visibility: hidden;
+    }
 }

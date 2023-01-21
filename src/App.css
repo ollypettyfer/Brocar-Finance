@@ -11,11 +11,15 @@ body {
 }
 
 .g-hover:hover {
-  color: #149682;
+  color: #3ba27e;
 }
 
 .navbar-item img {
   max-height: 3rem;
+}
+
+.navbar-item {
+  color: white;
 }
 
 .nav-center {
@@ -27,20 +31,24 @@ body {
           justify-content: center;
 }
 
+.navbar-burger {
+  color: #3ba27e;
+}
+
 .navbar {
   position: fixed;
-  /* Make it stick/fixed */
-  top: -70px;
-  /* Hide the navbar 50 px outside of the top view */
+  background-color: #0a0a0a00;
   width: 100%;
   /* Full width */
-  -webkit-transition: top 0.3s;
-  transition: top 0.3s;
+  -webkit-transition: top 0.4s;
+  transition: top 0.4s;
   /* Transition effect when sliding down (and up) */
+  top: -5px;
+  /* Hide the navbar 50 px outside of the top view */
 }
 
 a.navbar-item:hover {
-  color: #149682;
+  color: #3ba27e;
 }
 
 .hero {
@@ -63,7 +71,7 @@ a.navbar-item:hover {
 }
 
 .title-edit {
-  color: #149682;
+  color: #3ba27e;
 }
 
 .hero-title {
@@ -75,8 +83,16 @@ a.navbar-item:hover {
   padding-top: 120px;
 }
 
+#linked-icon {
+  margin-left: 4px;
+}
+
+.phn-sty {
+  color: black !important;
+}
+
 .form-bg {
-  background-color: #149682;
+  background-color: #3ba27e;
 }
 
 .hr {
@@ -86,6 +102,10 @@ a.navbar-item:hover {
 .contact-label {
   color: black;
   font-size: 1.2em;
+}
+
+.contact-t {
+  margin-top: 40px;
 }
 
 .columns {
@@ -103,9 +123,24 @@ a.navbar-item:hover {
   margin-right: 30px;
 }
 
+.card-ht {
+  height: 270px;
+}
+
 .btn-sty {
-  background-color: #149682;
-  border-color: none;
+  background-color: #3ba27e;
+  border-color: #00000000;
+}
+
+.card-shadow {
+  -webkit-box-shadow: 0 0.5em 1em -0.125em rgba(59, 162, 126, 0.3), 0 0 0 1px rgba(59, 162, 126, 0.3) !important;
+          box-shadow: 0 0.5em 1em -0.125em rgba(59, 162, 126, 0.3), 0 0 0 1px rgba(59, 162, 126, 0.3) !important;
+  height: 850px;
+}
+
+.about-shadow {
+  -webkit-box-shadow: 0 0.5em 1em -0.125em rgba(59, 162, 126, 0.3), 0 0 0 1px rgba(59, 162, 126, 0.3) !important;
+          box-shadow: 0 0.5em 1em -0.125em rgba(59, 162, 126, 0.3), 0 0 0 1px rgba(59, 162, 126, 0.3) !important;
 }
 
 .modal-container {
@@ -120,8 +155,13 @@ button {
   margin-top: 30px;
 }
 
+.img-size {
+  width: 200px;
+  margin-bottom: -30px;
+}
+
 .carousel-container {
-  background: #149682;
+  background: #3ba27e;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -157,6 +197,52 @@ button {
 }
 
 hr {
-  background-color: #149682;
+  background-color: #3ba27e;
+}
+
+.footer-sty {
+  font-size: 10px;
+}
+
+.arrow1 {
+  background-image: url(./components/images/arrow1.png);
+  background-position: center;
+}
+
+.arrow2 {
+  background-image: url(./components/images/arrow2.png);
+  background-position: center;
+}
+
+.m-btn {
+  bottom: -37px;
+  top: initial;
+  position: fixed;
+  width: 100%;
+  -webkit-transition: bottom 0.3s;
+  transition: bottom 0.3s;
+}
+
+.button-stick {
+  width: 50% !important;
+  text-align: center;
+  background-color: #3ba27e;
+  color: white;
+  padding: 5px;
+  border: solid white 2px;
+}
+
+.con-buttons {
+  bottom: 50px;
+  /* Hide the navbar 50 px outside of the top view */
+  -webkit-transition: top 0.3s;
+  transition: top 0.3s;
+  /* Transition effect when sliding down (and up) */
+}
+
+@media (min-width: 769px) {
+  .button-stick {
+    visibility: hidden;
+  }
 }
 /*# sourceMappingURL=App.css.map */

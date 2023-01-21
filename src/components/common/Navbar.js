@@ -10,9 +10,23 @@ window.onscroll = function () {
 
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("test").style.color = "#3ba27e";
+    document.getElementById("test2").style.color = "#3ba27e";
+    document.getElementById("test3").style.color = "#3ba27e";
+    document.getElementById("test4").style.color = "#3ba27e";
+    document.getElementById("test5").style.color = "#3ba27e";
+    document.getElementById("navbar-color").style.backgroundColor = "white";
     document.getElementById("navbar-color").style.top = "0";
+    document.getElementById("con-buttons").style.bottom = "0px";
   } else {
-    document.getElementById("navbar-color").style.top = "-70px";
+    document.getElementById("navbar-color").style.top = "-0.1px";
+    document.getElementById("navbar-color").style.backgroundColor = "#0a0a0a00";
+    document.getElementById("test").style.color = "white";
+    document.getElementById("test2").style.color = "white";
+    document.getElementById("test3").style.color = "white";
+    document.getElementById("test4").style.color = "white";
+    document.getElementById("test5").style.color = "white";
+    document.getElementById("con-buttons").style.bottom = "-40px";
   }
 }
 
@@ -65,7 +79,7 @@ export const Navbar = () => {
           {/* <div className="navbar-start"></div> */}
           <div className="navbar-start nav-center"></div>
           <div className="navbar-link is-arrowless">
-            <a className=" navbar-item is-link navbar-btn" href="/">
+            <a className=" navbar-item is-link navbar-btn" href="/" id="test">
               Home
             </a>
           </div>
@@ -81,6 +95,7 @@ export const Navbar = () => {
                   smooth={true}
                   offset={-150}
                   duration={500}
+                  id="test2"
                 >
                   About us
                 </Scroll.Link>
@@ -94,6 +109,7 @@ export const Navbar = () => {
                   smooth={true}
                   offset={0}
                   duration={500}
+                  id="test3"
                 >
                   How it works
                 </Scroll.Link>
@@ -106,6 +122,7 @@ export const Navbar = () => {
                   smooth={true}
                   offset={50}
                   duration={500}
+                  id="test4"
                 >
                   Finance Options
                 </Scroll.Link>
@@ -118,6 +135,7 @@ export const Navbar = () => {
                   smooth={true}
                   offset={0}
                   duration={500}
+                  id="test5"
                 >
                   Contact
                 </Scroll.Link>
