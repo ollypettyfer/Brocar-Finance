@@ -3,9 +3,9 @@ import React from "react";
 export const Complaints = (setShowNav) => {
   return (
     <>
-      <div className="container">
+      <section className="section">
         <div className="footer-links-wrapper">
-          <h1 className="title">Complaints Procedure</h1>
+          <h1 className="title mt-6">Complaints Procedure</h1>
           <p>
             At Brocar finance customer service is of the utmost importance to
             what we do. Whilst we do our best to minimise the risk of any
@@ -105,7 +105,7 @@ export const Complaints = (setShowNav) => {
             Conduct Authority (944254)
           </p>
         </div>
-      </div>
+      </section>
     </>
   );
 };

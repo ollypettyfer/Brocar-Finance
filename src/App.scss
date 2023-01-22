@@ -22,7 +22,7 @@ body{
 }
 
 .navbar-item{
-    color: white;
+    color: #3ba27e;
 }
 
 .nav-center{
@@ -41,7 +41,7 @@ flex-grow: 1; justify-content: center;
 .navbar{
     // /* Make it stick/fixed */
     position: fixed;
-    background-color: #0a0a0a00;
+    background-color: white;
     width: 100%;
     /* Full width */
         transition: top 0.4s;
@@ -49,8 +49,12 @@ flex-grow: 1; justify-content: center;
        
         top: -5px;
         /* Hide the navbar 50 px outside of the top view */
-      
   
+}
+
+
+div#navMenu.navbar-menu.is-active{
+    min-height: 100vh;
 }
 
 a.navbar-item:hover{
@@ -270,9 +274,30 @@ hr{
         /* Transition effect when sliding down (and up) */
 }
 
+.quote-btn{
+    color: #3ba27e;
+    border: solid #3ba27e 3px;
+    border-radius: 10px;
+    margin: 2px;
+    max-width: 106px;
+}
+
 //media buttons
 @media (min-width: 769px) {
     .button-stick {
         visibility: hidden;
+    }
+
+    .arrow-m{
+        display: none !important;
+    }
+}
+
+
+@media (max-width: 768px) {
+   
+
+    .arrow-d {
+        display: none;
     }
 }

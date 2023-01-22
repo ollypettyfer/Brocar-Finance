@@ -20,12 +20,13 @@ function scrollFunction() {
     document.getElementById("con-buttons").style.bottom = "0px";
   } else {
     document.getElementById("navbar-color").style.top = "-0.1px";
-    document.getElementById("navbar-color").style.backgroundColor = "#0a0a0a00";
-    document.getElementById("test").style.color = "white";
-    document.getElementById("test2").style.color = "white";
-    document.getElementById("test3").style.color = "white";
-    document.getElementById("test4").style.color = "white";
-    document.getElementById("test5").style.color = "white";
+    document.getElementById("navbar-color").style.backgroundColor =
+      "rgba(0,0,0,0.0)";
+    document.getElementById("test").style.color = "#3ba27e";
+    document.getElementById("test2").style.color = "#3ba27e";
+    document.getElementById("test3").style.color = "#3ba27e";
+    document.getElementById("test4").style.color = "#3ba27e";
+    document.getElementById("test5").style.color = "#3ba27e";
     document.getElementById("con-buttons").style.bottom = "-40px";
   }
 }
@@ -139,6 +140,22 @@ export const Navbar = () => {
                 >
                   Contact
                 </Scroll.Link>
+              </div>
+              <div className="navbar-link is-arrowless">
+                <a
+                  href="tel:+01908 032694"
+                  className="navbar-btn quote-btn navbar-item"
+                >
+                  CALL NOW
+                </a>
+              </div>
+              <div className="navbar-link is-arrowless">
+                <a
+                  href="#contact"
+                  className=" navbar-btn quote-btn navbar-item"
+                >
+                  GET A QUOTE
+                </a>
               </div>
             </>
           )}
