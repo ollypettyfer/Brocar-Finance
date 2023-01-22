@@ -2,7 +2,7 @@ import React from "react";
 
 export const CookiePolicy = () => {
   return (
-    <section className="section">
+    <section className="section mt-6">
       <div className="container">
         <div className="content">
           <h3>Scope of this policy </h3>
