@@ -30,10 +30,10 @@ export const About = () => {
                     </div>
                   </div>
                   <div className="content">
-                    We will take the hard work of shopping the market of car
-                    finance out of your hands, by comparing our hand selected
-                    panel of lenders to find you a cheaper finance solution than
-                    what may be available from the dealership.
+                    We will take the hard work of analysing the market of car
+                    finance out of your hands, by comparing our selected panel
+                    of lenders to find you a cheaper finance solution than what
+                    may be available from the dealership.
                     <br></br>
                     <br></br>
                     <br></br>
@@ -89,58 +89,6 @@ export const About = () => {
                 </div>
               </div>
             </div>
-            {/* <div className="column has-text-centered ">
-              <div className="is-flex is-justify-content-center ">
-                <div className="image is-48x48">
-                  <img src={tick} alt="car"></img>
-                </div>
-                <h2 className="subtitle is-size-3">Save Time and Effort</h2>
-              </div>
-              <p className="content pb-6">
-                We will take the hard work of shopping the market of car finance
-                out of your hands, by comparing our hand selected panel of
-                lenders to find you a cheaper finance solution than what may be
-                available from the dealership.
-              </p>
-            </div> */}
-            {/* <div className="column has-text-centered ">
-              <div className="is-flex is-justify-content-center ">
-                <div className="image is-48x48">
-                  <img src={tick} alt="car"></img>
-                </div>
-                <h2 className="subtitle is-size-3">
-                  {" "}
-                  Professional Customer Service
-                </h2>
-              </div>
-              <p className="content pb-6">
-                Your dedicated account manager will be knowledgable, diligent
-                and efficient whilst presenting information to you in an easy to
-                understand and friendly manner.
-              </p>
-            </div>
-
-            <div className="column has-text-centered ">
-              <div className="is-flex is-justify-content-center ">
-                <div className="image is-48x48">
-                  <img src={tick} alt="car"></img>
-                </div>
-                <h2 className="subtitle is-size-3">In safe hands</h2>
-              </div>
-              <p className="content pb-6">
-                Years of industry experience combine to deliver our clients
-                essential benefits.
-              </p>
-            </div> */}
-            {/* MAYBE ADD THIRD IF CONTENT COMES! */}
-            {/* <div className="column">
-            <h2 className="subtitle">Professional Customer Service</h2>
-            <p className="content pb-6">
-            Your dedicated account manager will be knowledgable, diligent and
-            efficient whilst presenting information to you in an easy to
-            understand and friendly manner.
-            </p>
-            </div> */}
           </div>
           <div className="container has-text-centered">
             <a href="#scroll-to-contact">

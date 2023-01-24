@@ -23,6 +23,7 @@ body{
 
 .navbar-item{
     color: #3ba27e;
+    
 }
 
 .nav-center{
@@ -33,6 +34,17 @@ flex-grow: 1; justify-content: center;
     color: #3ba27e;
 }
 
+.call-btn{
+    background-color: #3ba27e;
+    color: white;
+    border-radius: 6px;
+   
+}
+
+.nav-action-btn{
+    display: flex;
+        justify-content: flex-end;
+}
 // .navbar-btn{
 // color: white;
 
@@ -41,7 +53,7 @@ flex-grow: 1; justify-content: center;
 .navbar{
     // /* Make it stick/fixed */
     position: fixed;
-    background-color: white;
+    background-color: #ffffff00;
     width: 100%;
     /* Full width */
         transition: top 0.4s;
@@ -55,11 +67,13 @@ flex-grow: 1; justify-content: center;
 
 div#navMenu.navbar-menu.is-active{
     min-height: 100vh;
+    text-align: right;
+    border-bottom: solid #3ba27e 1px;
 }
 
-a.navbar-item:hover{
-color: #3ba27e
-}
+// a.navbar-item:hover{
+// color: #3ba27e
+// }
 
 //HERO IMAGE
 .hero{
@@ -275,9 +289,10 @@ hr{
 }
 
 .quote-btn{
-    color: #3ba27e;
+    color: white;
+    background-color: #3ba27e;
     border: solid #3ba27e 3px;
-    border-radius: 10px;
+    border-radius: 6px;
     margin: 2px;
     max-width: 106px;
 }
@@ -295,9 +310,11 @@ hr{
 
 
 @media (max-width: 768px) {
-   
-
     .arrow-d {
         display: none;
+    }
+
+    #test, #test2, #test3, #test4, #test5{
+        border-bottom:solid #3ba27e 1px
     }
 }
