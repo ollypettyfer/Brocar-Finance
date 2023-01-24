@@ -1,5 +1,6 @@
 import React from "react";
 import navbarlogo from "../images/navbarlogo.png";
+
 import * as Scroll from "react-scroll";
 import { useStateContext } from "../context/ContextProvider";
 
@@ -141,18 +142,19 @@ export const Navbar = () => {
                   Contact
                 </Scroll.Link>
               </div>
-              <div className="navbar-link is-arrowless">
+              <div className="navbar-link is-arrowless ml-2 mr-2 nav-action-btn">
                 <a
                   href="tel:+01908 032694"
-                  className="navbar-btn quote-btn navbar-item"
+                  className="navbar-item navbar-btn is-link  call-btn"
                 >
                   CALL NOW
                 </a>
               </div>
-              <div className="navbar-link is-arrowless">
+
+              <div className="navbar-link is-arrowless mr-2 nav-action-btn">
                 <a
                   href="#contact"
-                  className=" navbar-btn quote-btn navbar-item"
+                  className=" navbar-btn is-link navbar-item call-btn"
                 >
                   GET A QUOTE
                 </a>

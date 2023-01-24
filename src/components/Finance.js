@@ -19,7 +19,7 @@ export const Finance = () => {
           for further information
         </p>
         <div className="columns">
-          <div className="column  has-text-centered">
+          <div className="column  ">
             {/* <div className="columns">
             <div className="column"> */}
             <div className="card card-shadow">
@@ -30,36 +30,33 @@ export const Finance = () => {
               </div>
               <div className="card-content">
                 <div className="content">
-                  <p className="title title-edit is-4 ">
+                  <p className="title title-edit is-4 has-text-centered ">
                     Personal Contract Purchase
                   </p>
                 </div>
                 <div className="content is-size-7-tablet is-size-6-widescreen is-size-7-desktop">
                   Personal Contract Purchase, commonly referred to as PCP, can
                   be best described as a long term rental where customers can
-                  use their vehicle until the end of their agreement before
+                  use their vehicle until the end of their agreement, before
                   deciding whether they want to keep their vehicle or not.
                   <br></br>
                   <br></br> The flexibility, lower monthly payments and
-                  guaranteed minimum future values are all reasons why this is
-                  an increasingly popular option. <br></br>
-                  {/* <br></br>In the past few years with company car taxes rising,
-                  many people opting out of company car schemes, particular
-                  those with car allowances, have moved to this method of
-                  funding to help avoid company car tax. */}
+                  guaranteed minimum future value (GMFV) are all reasons why
+                  this is an increasingly popular option.
+                  <br></br>
                   <br></br>
                   At the end of the agreement there are three options for you to
-                  choose from. Pay the GMFV (including any option to purchase
-                  fee) and take ownership of the vehicle. Hand back the vehicle
-                  subject to condition and mileage. Part exchange the vehicle
+                  choose from: pay the GMFV (including any option to purchase
+                  fee) and take ownership of the vehicle, hand back the vehicle
+                  subject to condition and mileage or part exchange the vehicle
                   for another one, where you can use any equity you may have
                   along with a deposit if required. You should also be aware
-                  that you could have to cover any shortfall.
+                  that you may have to cover any shortfall.
                 </div>
               </div>
             </div>
           </div>
-          <div className="column has-text-centered">
+          <div className="column ">
             {" "}
             <div className="card card-shadow">
               <div className="card-image">
@@ -69,7 +66,9 @@ export const Finance = () => {
               </div>
               <div className="card-content">
                 <div className="content">
-                  <p className="title is-4 title-edit">Hire Purchase</p>
+                  <p className="title is-4 title-edit has-text-centered">
+                    Hire Purchase
+                  </p>
                 </div>
 
                 <div className="content is-size-7-tablet is-size-7-desktop is-size-6-widescreen">
@@ -77,14 +76,17 @@ export const Finance = () => {
                   fund the purchase of their vehicles.
                   <br></br>
                   <br></br>
-                  Hire purchase is a fixed cost loan secured onto the vehicle.
+                  Hire purchase is a fixed cost loan secured to the vehicle.
+                  <br></br>
+                  <br></br>
                   You will usually pay a cash deposit, part exchange a vehicle
-                  or both and make monthly payments typically between a 24 or 60
-                  month term.
+                  or both and make monthly payments typically between 24 or 60
+                  months.
                   <br></br>
                   <br></br>
                   At the end of the term you will pay a small option to purchase
-                  fee and the ownership of the vehicle is now yours. <br></br>
+                  fee and the ownership of the vehicle will be yours.
+                  <br></br>
                   <br></br>
                   <br></br>
                   <br></br>
@@ -94,7 +96,7 @@ export const Finance = () => {
               </div>
             </div>
           </div>
-          <div className="column has-text-centered">
+          <div className="column ">
             {" "}
             <div className="card card-shadow">
               <div className="card-image">
@@ -104,15 +106,18 @@ export const Finance = () => {
               </div>
               <div className="card-content">
                 <div className="content">
-                  <p className="title is-4 title-edit">Refinance Your Car</p>
+                  <p className="title is-4 title-edit has-text-centered">
+                    Refinance Your Car
+                  </p>
                 </div>
                 <div className="content is-size-7-tablet is-size-7-desktop is-size-6-widescreen">
                   The cost of living crisis has played its part in the increased
-                  uptake of this funding method. <br></br>
+                  uptake of this funding method.
+                  <br></br>
                   <br></br>Whether you’re at the end of your agreement and want
                   to keep your car, hoping to reduce your monthly outgoings or
-                  if you want to take steps towards ownership of your vehicle
-                  this could be an option worth exploring.<br></br>
+                  you want to take steps towards ownership of your vehicle, this
+                  could be an option worth exploring.<br></br>
                   <br></br> You would essentially be taking out a new finance
                   agreement and settling any finance you may currently have,
                   which can lower monthly payments or reduce the remaining term
@@ -125,10 +130,8 @@ export const Finance = () => {
                 </div>
               </div>
             </div>
-            {/* </div>
-          </div> */}
           </div>
-          <div className="column has-text-centered">
+          <div className="column ">
             {" "}
             <div className="card card-shadow">
               <div className="card-image">
@@ -138,24 +141,27 @@ export const Finance = () => {
               </div>
               <div className="card-content">
                 <div className="content">
-                  <p className="title is-4 title-edit">Lease Purchase</p>
+                  <p className="title is-4 title-edit has-text-centered">
+                    Lease Purchase
+                  </p>
                 </div>
 
                 <div className="content is-size-7-tablet is-size-7-desktop is-size-6-widescreen">
                   Lease Purchase is often compared to Hire Purchase, the main
                   difference between the two agreements is that Lease Purchase
-                  agreements have a balloon payment. This can make it a
-                  preferred method of funding to customers where their priority
-                  is keeping their monthly payment low.
+                  agreements have a balloon payment.
                   <br></br>
                   <br></br>
-                  The finance company will use information you provide such as
+                  This can make it a preferred method of funding for customers
+                  where the priority is keeping their monthly payment low.
+                  <br></br>
+                  <br></br>
+                  The finance company will use information you provide such as,
                   the term you would like the finance over and what mileage you
-                  plan to do on the vehicle to set a balloon payment based on
+                  plan to do on the vehicle to set a balloon payment - based on
                   the expected value of the car at the end of the term. You can
-                  then make a lump sum payment to clear the balloon payment and
-                  keep the car or use the vehicle as part exchange against
-                  another.
+                  then pay a lump sum to clear the balloon payment and keep the
+                  vehicle or use it as part exchange against another.
                 </div>
               </div>
             </div>
