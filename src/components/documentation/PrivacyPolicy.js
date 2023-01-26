@@ -1,6 +1,9 @@
 import React from "react";
 
 export const PrivacyPolicy = () => {
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <section className="section mt-6">
       <div className="container">
@@ -16,29 +19,32 @@ export const PrivacyPolicy = () => {
           <br></br>
           <h4>Please read this privacy policy carefully.</h4>
           <br></br>
-          Definitions and interpretation In this privacy policy, the following
-          definitions are used: Data collectively all information that you
-          submit to Brocar LTD via the Website. This definition incorporates,
-          where applicable, the definitions provided in the Data Protection
-          Laws; Data Protection Laws any applicable law relating to the
-          processing of personal Data, including but not limited to the GDPR,
-          and any national implementing and supplementary laws, regulations and
-          secondary legislation; GDPR the UK General Data Protection Regulation;
-          Brocar LTD, we or us Brocar LTD, a company incorporated in England and
-          Wales with registered number 13157992 whose registered office is at
-          Regus House, Fairbourne Drive, Milton Keynes, Buckinghamshire, MK10
-          9RG; User or you any third party that accesses the Website and is not
-          either (i) employed by Brocar LTD and acting in the course of their
-          employment or (ii) engaged as a consultant or otherwise providing
-          services to Brocar LTD and accessing the Website in connection with
-          the provision of such services; and Website the website that you are
-          currently using, www.brocarfinance.co.uk, and any sub-domains of this
-          site unless expressly excluded by their own terms and conditions.
+          <p>
+            Definitions and interpretation In this privacy policy, the following
+            definitions are used: Data collectively all information that you
+            submit to Brocar LTD via the Website. This definition incorporates,
+            where applicable, the definitions provided in the Data Protection
+            Laws; Data Protection Laws any applicable law relating to the
+            processing of personal Data, including but not limited to the GDPR,
+            and any national implementing and supplementary laws, regulations
+            and secondary legislation; GDPR the UK General Data Protection
+            Regulation; Brocar LTD, we or us Brocar LTD, a company incorporated
+            in England and Wales with registered number 13157992 whose
+            registered office is at Regus House, Fairbourne Drive, Milton
+            Keynes, Buckinghamshire, MK10 9RG; User or you any third party that
+            accesses the Website and is not either (i) employed by Brocar LTD
+            and acting in the course of their employment or (ii) engaged as a
+            consultant or otherwise providing services to Brocar LTD and
+            accessing the Website in connection with the provision of such
+            services; and Website the website that you are currently using,
+            www.brocarfinance.co.uk, and any sub-domains of this site unless
+            expressly excluded by their own terms and conditions.
+          </p>
           <br></br>
-          <br></br>
-          2. In this privacy policy, unless the context requires a different
-          interpretation:
-          <br></br>
+          <p>
+            2. In this privacy policy, unless the context requires a different
+            interpretation:
+          </p>
           <ol>
             a. the singular includes the plural and vice versa;
             <br></br>
@@ -56,14 +62,13 @@ export const PrivacyPolicy = () => {
             e. the headings and sub-headings do not form part of this privacy
             policy.
           </ol>
-          <br></br>
           <h3>Scope of this privacy policy</h3>
           3. This privacy policy applies only to the actions of Brocar LTD and
           Users with respect to this Website. It does not extend to any websites
           that can be accessed from this Website including, but not limited to,
           any links we may provide to social media websites.
           <br></br>
-          4.For purposes of the applicable Data Protection Laws, Brocar LTD is
+          4. For purposes of the applicable Data Protection Laws, Brocar LTD is
           the "data controller". This means that Brocar LTD determines the
           purposes for which, and the manner in which, your Data is processed.
           <br></br>
@@ -95,7 +100,6 @@ export const PrivacyPolicy = () => {
             <li>data is received from other sources;</li>
             <li>and data is collected automatically.</li>
           </ol>
-          <br></br>
           <h3>Data that is given to us by you</h3>
           <br></br>
           7. Brocar LTD will collect your Data in a number of ways, for example:
@@ -144,7 +148,6 @@ export const PrivacyPolicy = () => {
               you use and interact with its content.
             </li>
           </ol>
-          <br></br>
           <h3>Keeping Data secure</h3>
           <br></br>
           10. We will use technical and organisational measures to safeguard

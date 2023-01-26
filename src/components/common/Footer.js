@@ -4,6 +4,7 @@ import { useStateContext } from "../context/ContextProvider";
 
 export const Footer = () => {
   const { setHomeLink } = useStateContext();
+
   return (
     <footer className="footer">
       <div className="container">
