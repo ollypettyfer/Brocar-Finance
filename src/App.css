@@ -62,6 +62,10 @@ body {
   /* Hide the navbar 50 px outside of the top view */
 }
 
+#logo-grey {
+  display: none;
+}
+
 div#navMenu.navbar-menu.is-active {
   min-height: 100vh;
   text-align: right;
