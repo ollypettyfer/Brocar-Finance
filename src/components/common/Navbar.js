@@ -69,6 +69,13 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
+//hide nav mobile on click
+
+function removeActive() {
+  var element = document.getElementById("navMenu");
+  element.classList.remove("is-active");
+}
+
 export const Navbar = () => {
   const { homeLink } = useStateContext();
   return (
@@ -122,6 +129,7 @@ export const Navbar = () => {
                   offset={-150}
                   duration={500}
                   id="test2"
+                  onClick={removeActive}
                 >
                   About us
                 </Scroll.Link>
@@ -136,6 +144,7 @@ export const Navbar = () => {
                   offset={0}
                   duration={500}
                   id="test3"
+                  onClick={removeActive}
                 >
                   How it works
                 </Scroll.Link>
@@ -149,6 +158,7 @@ export const Navbar = () => {
                   offset={50}
                   duration={500}
                   id="test4"
+                  onClick={removeActive}
                 >
                   Finance Options
                 </Scroll.Link>
@@ -162,6 +172,7 @@ export const Navbar = () => {
                   offset={0}
                   duration={500}
                   id="test5"
+                  onClick={removeActive}
                 >
                   Contact
                 </Scroll.Link>
