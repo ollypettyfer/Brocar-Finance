@@ -1,6 +1,6 @@
 import React from "react";
 import navbarlogo from "../images/navbarlogo.png";
-import navbarlogowhite from "../images/navbar-logo-white.png";
+import navbarlogowhite from "../images/white-logo2.png";
 
 import * as Scroll from "react-scroll";
 import { useStateContext } from "../context/ContextProvider";
@@ -190,6 +190,7 @@ export const Navbar = () => {
                 <a
                   href="#contact"
                   className=" navbar-btn is-link navbar-item call-btn"
+                  onClick={removeActive}
                 >
                   GET A QUOTE
                 </a>
