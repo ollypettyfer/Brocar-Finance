@@ -1,5 +1,6 @@
 import React from "react";
 import navbarlogo from "../images/navbarlogo.png";
+import navbarlogowhite from "../images/navbar-logo-white.png";
 
 import * as Scroll from "react-scroll";
 import { useStateContext } from "../context/ContextProvider";
@@ -7,7 +8,21 @@ import { useStateContext } from "../context/ContextProvider";
 //navbar scroll
 window.onscroll = function () {
   scrollFunction();
+  scrollFunction2();
 };
+
+function scrollFunction2() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("logo-white").style.display = "none";
+    document.getElementById("logo-grey").style.display = "block";
+  } else if (
+    document.body.scrollTop < 20 ||
+    document.documentElement.scrollTop < 20
+  ) {
+    document.getElementById("logo-white").style.display = "block";
+    document.getElementById("logo-grey").style.display = "none";
+  }
+}
 
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
@@ -61,7 +76,16 @@ export const Navbar = () => {
       <nav className="navbar" id="navbar-color">
         <div className="navbar-brand">
           <a className="navbar-item pl-6" href="/">
-            <img src={navbarlogo} alt="Brocar finance logo"></img>
+            <img
+              src={navbarlogowhite}
+              alt="Brocar finance logo"
+              id="logo-white"
+            ></img>
+            <img
+              src={navbarlogo}
+              alt="Brocar finance logo"
+              id="logo-grey"
+            ></img>
           </a>
 
           <div
