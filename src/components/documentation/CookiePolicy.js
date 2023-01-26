@@ -1,6 +1,9 @@
 import React from "react";
 
 export const CookiePolicy = () => {
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <section className="section mt-6">
       <div className="container">

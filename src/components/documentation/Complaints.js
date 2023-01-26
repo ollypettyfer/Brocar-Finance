@@ -1,6 +1,9 @@
 import React from "react";
 
 export const Complaints = (setShowNav) => {
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <section className="section">
