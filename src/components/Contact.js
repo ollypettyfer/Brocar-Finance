@@ -26,7 +26,7 @@ export const Contact = () => {
                   <label className="label contact-label">Name</label>
                   <div className="control">
                     <input
-                      className="input"
+                      className="input home-contact"
                       type="text"
                       name="name"
                       required
@@ -37,7 +37,7 @@ export const Contact = () => {
                 <div className="field">
                   <label className="label contact-label">Contact Number</label>
                   <input
-                    className="input "
+                    className="input home-contact"
                     type="text"
                     name="number"
                     required
@@ -48,7 +48,7 @@ export const Contact = () => {
                   <label className="label contact-label">Email</label>
 
                   <input
-                    className="input"
+                    className="input home-contact"
                     type="email"
                     name="email"
                     required
@@ -61,7 +61,7 @@ export const Contact = () => {
                   </label>
                   <div className="control">
                     <input
-                      className="input"
+                      className="input home-contact"
                       placeholder="Get a quote? More infomation? How much can I borrow?"
                       type="text"
                       name="message"

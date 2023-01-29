@@ -9,6 +9,7 @@ import { Cars } from "../Cars";
 import { Element } from "react-scroll";
 import { useStateContext } from "../context/ContextProvider";
 import { Buttons } from "../Buttons";
+import { Modal2 } from "./Modal2";
 
 export const Home = () => {
   const { setHomeLink } = useStateContext();
@@ -17,6 +18,7 @@ export const Home = () => {
   return (
     <>
       <Hero />
+      <Modal2 />
 
       <About />
 

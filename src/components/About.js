@@ -91,12 +91,19 @@ export const About = () => {
             </div>
           </div>
           <div className="container has-text-centered">
-            <a href="#scroll-to-contact">
+            {/* <a href="#scroll-to-contact">
               <button className="button btn-sty is-large has-text-white ">
                 Get a quote
               </button>
-            </a>
+            </a> */}
+            <div
+              data-target="modal-js-example"
+              className=" button btn-sty is-large has-text-white  js-modal-trigger mt-6"
+            >
+              GET A QUOTE
+            </div>
           </div>
+          <br></br>
           <hr></hr>
         </div>
       </section>

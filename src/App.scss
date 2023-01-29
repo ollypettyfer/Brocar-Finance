@@ -74,6 +74,72 @@ div#navMenu.navbar-menu.is-active{
     border-bottom: solid #3ba27e 1px;
 }
 
+.input{
+    border-radius: 0%;
+    box-shadow: none;
+}
+
+.home-contact{
+    color: black !important;
+    border-bottom: solid #3ba27e !important;
+}
+
+.m-input{
+border-bottom: solid #3ba27e !important;
+}
+
+.input,
+.select select,
+.textarea{
+    border-color: #00000000;
+    color: white;
+}
+
+.modal-background{
+    background-image: url(./components/images/modal-bk-bw.png);
+    background-size: cover;
+}
+
+.modal-btn{
+    display: flex !important;
+    justify-content: center;
+        
+}
+
+.select:not(.is-multiple):not(.is-loading)::after{
+    border-color: #3ba27e;
+}
+
+.modal-content{
+    width: 88%;
+}
+
+.input,
+.select select,
+.textarea{
+    background-color: #fff0;
+}
+
+.box{
+    background-color: #2c2b2b;
+    opacity: 95%;
+}
+
+.m-content{
+    color: white;
+}
+
+.delete::after,
+.delete::before,
+.modal-close::after,
+.modal-close::before{
+    background-color: #3ba27e;
+}
+
+.dd-s{
+    color: white;
+}
+
 // a.navbar-item:hover{
 // color: #3ba27e
 // }

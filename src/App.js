@@ -11,6 +11,7 @@ import { Complaints } from "./components/documentation/Complaints";
 import { Fluent } from "./components/Fluent";
 import { CookiePolicy } from "./components/documentation/CookiePolicy";
 import { PrivacyPolicy } from "./components/documentation/PrivacyPolicy";
+import { Modal2 } from "./components/common/Modal2";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path="/complaints" element={<Complaints />}></Route>
           <Route path="/cookies" element={<CookiePolicy />}></Route>
           <Route path="/privacy" element={<PrivacyPolicy />}></Route>
+          <Route path="/modal2" element={<Modal2 />}></Route>
         </Routes>
       </BrowserRouter>
     </>
