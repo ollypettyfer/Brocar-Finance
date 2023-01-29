@@ -20,9 +20,12 @@ export const Buttons = () => {
       <a href="tel:+01908 032694" className="button-stick">
         CALL
       </a>
-      <a href="#scroll-to-contact" className="button-stick">
+      <div
+        data-target="modal-js-example"
+        className="button-stick js-modal-trigger"
+      >
         GET A QUOTE
-      </a>
+      </div>
     </div>
   );
 };
