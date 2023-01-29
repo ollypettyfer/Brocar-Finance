@@ -187,13 +187,13 @@ export const Navbar = () => {
               </div>
 
               <div className="navbar-link is-arrowless mr-2 nav-action-btn">
-                <a
-                  href="#contact"
-                  className=" navbar-btn is-link navbar-item call-btn"
+                <div
+                  data-target="modal-js-example"
+                  className=" navbar-btn is-link navbar-item call-btn js-modal-trigger"
                   onClick={removeActive}
                 >
                   GET A QUOTE
-                </a>
+                </div>
               </div>
             </>
           )}

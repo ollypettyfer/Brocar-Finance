@@ -2,7 +2,7 @@ import React from "react";
 // import find from "./images/flow1.png";
 // import finance from "./images/flow2.png";
 // import deliver from "./images/flow4.png";
-import arrow from "./images/arrow-d.png";
+import arrow from "./images/arrow.d1.png";
 import arrowm from "./images/arrow-m.png";
 
 export const Cars = () => {
