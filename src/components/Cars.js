@@ -52,6 +52,15 @@ export const Cars = () => {
           <div className=" arrow-m is-flex is-justify-content-center">
             <img src={arrowm} alt=""></img>
           </div>
+
+          <div className="has-text-centered">
+            <div
+              data-target="modal-js-example"
+              className=" button btn-sty is-large has-text-white  js-modal-trigger mt-6"
+            >
+              GET A QUOTE
+            </div>
+          </div>
         </div>
       </section>
     </>
