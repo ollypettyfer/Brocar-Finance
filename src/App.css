@@ -87,6 +87,25 @@ div#navMenu.navbar-menu.is-active {
   border-bottom: solid #3ba27e !important;
 }
 
+.input:active,
+.input:focus,
+.is-active.input,
+.is-active.textarea,
+.is-focused.input,
+.is-focused.textarea,
+.select select.is-active,
+.select select.is-focused,
+.select select:active,
+.select select:focus,
+.textarea:active,
+.textarea:focus {
+  border-color: #485fc700;
+  -webkit-box-shadow: 0 0 0 0 none;
+          box-shadow: 0 0 0 0 none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
 .input,
 .select select,
 .textarea {

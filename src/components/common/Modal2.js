@@ -77,7 +77,7 @@ export const Modal2 = () => {
                   <label className="label m-content">Full Name</label>
                   <div class="control">
                     <input
-                      class="input m-input"
+                      class="input m-input is-focused"
                       type="text"
                       name="Name"
                     ></input>
@@ -166,12 +166,16 @@ export const Modal2 = () => {
                 <br></br>
                 <div className="field">
                   <label className="label m-content">Finance Term</label>
-                  <div class="control">
-                    <input
-                      class="input m-input"
-                      type="text"
-                      name="Term"
-                    ></input>
+                  <div className="control m-input">
+                    <div className="select is-fullwidth">
+                      <select className="dd-s" name="Finance-Term">
+                        <option className="dd-s">Please Select</option>
+                        <option>24</option>
+                        <option>36</option>
+                        <option>48</option>
+                        <option>60</option>
+                      </select>
+                    </div>
                   </div>
                 </div>
                 <br></br>

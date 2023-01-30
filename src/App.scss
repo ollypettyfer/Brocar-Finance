@@ -77,7 +77,9 @@ div#navMenu.navbar-menu.is-active{
 .input{
     border-radius: 0%;
     box-shadow: none;
+   
 }
+
 
 .home-contact{
     color: black !important;
@@ -85,8 +87,27 @@ div#navMenu.navbar-menu.is-active{
 }
 
 .m-input{
-border-bottom: solid #3ba27e !important;
+border-bottom: solid #3ba27e !important;       
+   
 }
+
+ .input:active,
+ .input:focus,
+ .is-active.input,
+ .is-active.textarea,
+ .is-focused.input,
+ .is-focused.textarea,
+ .select select.is-active,
+ .select select.is-focused,
+ .select select:active,
+ .select select:focus,
+ .textarea:active,
+ .textarea:focus{
+    border-color: #485fc700;
+        box-shadow: 0 0 0 0 none;
+        box-shadow: none;
+ }
+       
 
 .input,
 .select select,
