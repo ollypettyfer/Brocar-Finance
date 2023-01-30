@@ -17,7 +17,7 @@ export const Buttons = () => {
   //   }
   return (
     <div className="is-flex m-btn" id="con-buttons">
-      <a href="tel:+01908 032694" className="button-stick">
+      <a href="tel:+441908 032694" className="button-stick">
         CALL
       </a>
       <div
