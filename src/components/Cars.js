@@ -1,9 +1,6 @@
 import React from "react";
-// import find from "./images/flow1.png";
-// import finance from "./images/flow2.png";
-// import deliver from "./images/flow4.png";
 import arrow from "./images/arrow.d1.png";
-import arrowm from "./images/arrow-m.png";
+import arrowm from "./images/arrow.m1.png";
 
 export const Cars = () => {
   return (
@@ -15,37 +12,6 @@ export const Cars = () => {
           <h1 className="title is-2 p-3 has-text-centered is-2 title-edit">
             How It Works
           </h1>
-
-          {/* <div className="columns column-gap">
-            <div className="column has-text-centered ">
-              <div className="card-content">
-                <div className="card-image is-justify-content-center is-flex">
-                  <figure className="image is-128x128">
-                    <img src={find} alt="car"></img>
-                  </figure>
-                </div>
-              </div>
-            </div>
-
-            <div className="column has-text-centered">
-              <div className="card-content">
-                <div className="card-image is-justify-content-center is-flex">
-                  <figure className="image is-128x128 ">
-                    <img src={finance} alt="car"></img>
-                  </figure>
-                </div>
-              </div>
-            </div>
-            <div className="column has-text-centered ">
-              <div className="card-content">
-                <div className="card-image is-justify-content-center is-flex">
-                  <figure className="image is-128x128 ">
-                    <img src={deliver} alt="car"></img>
-                  </figure>
-                </div>
-              </div>
-            </div>
-          </div> */}
           <div className="arrow-d mt-6">
             <img src={arrow} alt=""></img>
           </div>
