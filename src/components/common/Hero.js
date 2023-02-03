@@ -20,10 +20,10 @@ export const Hero = () => {
           {/* <Modal open={isOpen} onClose={() => setIsOpen(false)}></Modal> */}
         </div>
         <div className="has-text-centered">
-          <div className=" container has-text-white is-size-5-mobile is-size-2-desktop mb-4">
+          <div className=" container has-text-white is-size-5-mobile is-size-2-desktop mb-3">
             Financial solutions for all of your automotive needs
           </div>
-          <button className="button mb-6 btn-sty is-large">
+          <button className="button mb-3 btn-sty is-large">
             <Scroll.Link
               className="has-text-white "
               to="contact"
@@ -38,7 +38,7 @@ export const Hero = () => {
         </div>
         {/* <!-- TrustBox widget - Micro Review Count --> */}
         <div
-          className="trustpilot-widget mb-6"
+          className="trustpilot-widget"
           data-locale="en-GB"
           data-template-id="5419b6a8b0d04a076446a9ad"
           data-businessunit-id="6373f3ecf759da4900b007be"
