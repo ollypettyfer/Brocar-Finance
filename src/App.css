@@ -166,6 +166,10 @@ div#navMenu.navbar-menu.is-active {
   overflow: hidden;
 }
 
+.trustpilot-widget {
+  margin-bottom: 7rem;
+}
+
 .hero-background {
   position: absolute;
   -o-object-fit: cover;
