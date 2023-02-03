@@ -1,6 +1,6 @@
 // import React, { useState } from "react";
 // import Modal from "./Modal";
-import Mockup from "../images/MockUpEdit2.jpg";
+import Mockup from "../images/MockUpEdit3.png";
 import * as Scroll from "react-scroll";
 
 export const Hero = () => {
@@ -38,7 +38,7 @@ export const Hero = () => {
         </div>
         {/* <!-- TrustBox widget - Micro Review Count --> */}
         <div
-          className="trustpilot-widget mb-4"
+          className="trustpilot-widget mb-6"
           data-locale="en-GB"
           data-template-id="5419b6a8b0d04a076446a9ad"
           data-businessunit-id="6373f3ecf759da4900b007be"

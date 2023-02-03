@@ -75,9 +75,9 @@ export const Modal2 = () => {
               <div className="column">
                 <div className="field">
                   <label className="label m-content">Full Name</label>
-                  <div class="control">
+                  <div className="control">
                     <input
-                      class="input m-input is-focused"
+                      className="input m-input is-focused"
                       type="text"
                       name="Name"
                     ></input>
@@ -86,9 +86,9 @@ export const Modal2 = () => {
                 <br></br>
                 <div className="field">
                   <label className="label m-content">Contact Number</label>
-                  <div class="control">
+                  <div className="control">
                     <input
-                      class="input m-input"
+                      className="input m-input"
                       type="text"
                       name="Number"
                     ></input>
@@ -97,9 +97,9 @@ export const Modal2 = () => {
                 </div>
                 <div className="field">
                   <label className="label m-content">Email Address</label>
-                  <div class="control">
+                  <div className="control">
                     <input
-                      class="input m-input"
+                      className="input m-input"
                       type="text"
                       name="Email"
                     ></input>
@@ -108,9 +108,9 @@ export const Modal2 = () => {
                 <br></br>
                 <div className="field">
                   <label className="label m-content">Amount Required</label>
-                  <div class="control">
+                  <div className="control">
                     <input
-                      class="input m-input"
+                      className="input m-input"
                       type="text"
                       name="Amount"
                     ></input>
@@ -123,9 +123,9 @@ export const Modal2 = () => {
                   <label className="label m-content">
                     Vehicle Make and Model
                   </label>
-                  <div class="control">
+                  <div className="control">
                     <input
-                      class="input m-input"
+                      className="input m-input"
                       type="text"
                       name="Vehicle"
                     ></input>

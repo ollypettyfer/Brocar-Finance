@@ -19,27 +19,62 @@ export const PrivacyPolicy = () => {
           <br></br>
           <h4>Please read this privacy policy carefully.</h4>
           <br></br>
-          <p>
-            Definitions and interpretation In this privacy policy, the following
-            definitions are used: Data collectively all information that you
-            submit to Brocar LTD via the Website. This definition incorporates,
-            where applicable, the definitions provided in the Data Protection
-            Laws; Data Protection Laws any applicable law relating to the
-            processing of personal Data, including but not limited to the GDPR,
-            and any national implementing and supplementary laws, regulations
-            and secondary legislation; GDPR the UK General Data Protection
-            Regulation; Brocar LTD, we or us Brocar LTD, a company incorporated
-            in England and Wales with registered number 13157992 whose
-            registered office is at Regus House, Fairbourne Drive, Milton
-            Keynes, Buckinghamshire, MK10 9RG; User or you any third party that
-            accesses the Website and is not either (i) employed by Brocar LTD
-            and acting in the course of their employment or (ii) engaged as a
-            consultant or otherwise providing services to Brocar LTD and
-            accessing the Website in connection with the provision of such
-            services; and Website the website that you are currently using,
-            www.brocarfinance.co.uk, and any sub-domains of this site unless
-            expressly excluded by their own terms and conditions.
-          </p>
+          <h3>Definitions and interpretation</h3>
+          <br></br>
+          <p>In this privacy policy, the following definitions are used:</p>
+          <table className="table is-bordered">
+            <tbody>
+              <tr>
+                <td> Data</td>
+                <td>
+                  {" "}
+                  collectively all information that you submit to Brocar LTD via
+                  the Website. This definition incorporates, where applicable,
+                  the definitions provided in the Data Protection Laws;
+                </td>
+              </tr>
+              <tr>
+                <td>Data Protection Laws</td>
+                <td>
+                  Any applicable law relating to the processing of personal
+                  Data, including but not limited to the GDPR, and any national
+                  implementing and supplementary laws, regulations and secondary
+                  legislation;
+                </td>
+              </tr>
+              <tr>
+                <td>GDPR </td>
+                <td>The UK General Data Protection Regulation;</td>
+              </tr>
+              <tr>
+                <td>Brocar LTD, we or us</td>
+                <td>
+                  Brocar LTD, a company incorporated in England and Wales with
+                  registered number 13157992 whose registered office is at Regus
+                  House, Fairbourne Drive, Milton Keynes, Buckinghamshire, MK10
+                  9RG;
+                </td>
+              </tr>
+              <tr>
+                <td>User or you</td>
+                <td>
+                  any third party that accesses the Website and is not either
+                  (i) employed by Brocar LTD and acting in the course of their
+                  employment or (ii) engaged as a consultant or otherwise
+                  providing services to Brocar LTD and accessing the Website in
+                  connection with the provision of such services;
+                </td>
+              </tr>
+              <tr>
+                <td>Website</td>
+                <td>
+                  the website that you are currently using,
+                  www.brocarfinance.co.uk, and any sub-domains of this site
+                  unless expressly excluded by their own terms and conditions.
+                </td>
+              </tr>
+            </tbody>
+          </table>
           <br></br>
           <p>
             2. In this privacy policy, unless the context requires a different
