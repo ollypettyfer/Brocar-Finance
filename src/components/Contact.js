@@ -134,7 +134,7 @@ export const Contact = () => {
                   <img src={fb} alt="insta icon" className="pr-1"></img>
                 </a>
                 <a
-                  href="https://www.google.com"
+                  href="https://www.instagram.com/brocarfinance"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

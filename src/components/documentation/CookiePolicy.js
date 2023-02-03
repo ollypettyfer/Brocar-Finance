@@ -4,6 +4,7 @@ export const CookiePolicy = () => {
   React.useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
   return (
     <section className="section mt-6">
       <div className="container">
@@ -42,25 +43,53 @@ export const CookiePolicy = () => {
           information is handled and stored, refer to our Privacy Policy which
           is available online at: www.brocarfinance.co.uk.<br></br>
           <h3>Types of cookies</h3>
-          <br></br> 8. This Website uses the following cookies: Type of cookie
-          Purpose Strictly necessary cookies These are cookies that are required
-          for the operation of the Website. They include, for example, cookies
-          that enable you to log into secure areas of the Website, use a
-          shopping cart or make use of e-billing services.
-          Analytical/performance cookies These cookies allow us to recognise and
-          count the number of visitors and to see how visitors move around our
-          Website when they are using it. This helps us to improve the way our
-          Website works, for example, by ensuring that users are finding what
-          they are looking for easily. Functionality cookies These are used to
-          recognise you when you return to our Website. This enables us to
-          personalise our content for you, greet you by name and remember your
-          preferences (for example, your choice of language or region). By using
-          the Website, you agree to our placement of functionality cookies.{" "}
+          <br></br> 8. This Website uses the following cookies:
+          <br></br>
+          <br></br>
+          <table className="table is-bordered">
+            <tbody>
+              <tr>
+                <th>Type of cookie</th>
+                <th>Purpose</th>
+              </tr>
+              <tr>
+                <td>Strictly necessary cookies</td>
+                <td>
+                  These are cookies that are required for the operation of the
+                  Website. They include, for example, cookies that enable you to
+                  log into secure areas of the Website, use a shopping cart or
+                  make use of e-billing services.
+                </td>
+              </tr>
+              <tr>
+                <td> Analytical/performance cookies</td>
+                <td>
+                  {" "}
+                  These cookies allow us to recognise and count the number of
+                  visitors and to see how visitors move around our Website when
+                  they are using it. This helps us to improve the way our
+                  Website works, for example, by ensuring that users are finding
+                  what they are looking for easily.
+                </td>
+              </tr>
+              <tr>
+                <td>Functionality cookies</td>
+                <td>
+                  These are used to recognise you when you return to our
+                  Website. This enables us to personalise our content for you,
+                  greet you by name and remember your preferences (for example,
+                  your choice of language or region). By using the Website, you
+                  agree to our placement of functionality cookies.{" "}
+                </td>
+              </tr>
+            </tbody>
+          </table>
           <br></br>
           <br></br> 9. You can find a list of the cookies that we use in the
-          attached Cookie Schedule. <br></br>10. We have carefully chosen these
-          cookies and have taken steps to ensure that your privacy is protected
-          and respected at all times.
+          attached Cookie Schedule. <br></br>
+          <br></br>10. We have carefully chosen these cookies and have taken
+          steps to ensure that your privacy is protected and respected at all
+          times.
           <br></br>
           <h3>How to control your cookies</h3>
           <br></br>11. You can choose to enable or disable cookies in your
@@ -89,9 +118,21 @@ export const CookiePolicy = () => {
           England and Wales with registered number 01908 032694 whose registered
           office is at Regus House, Fairbourne Drive, Milton Keynes, MK10 9RG,
           England.<br></br>
-          <br></br> 17. You may contact us: a. by telephone at 01908 032694. b.
-          by email at enquiries@brocarfinance.co.uk. c. using the contact form
-          on the Website.<br></br>
+          <br></br> <b>17. You may contact us:</b>
+          <br></br>
+          <ol>
+            <li>
+              By telephone at 01908 032694.<br></br>
+            </li>
+            <li>
+              By email at{" "}
+              <a href="mailto:enquiries@brocarfinance.co.uk">
+                enquiries@brocarfinance.co.uk
+              </a>
+            </li>
+            <li>Using the contact form on the Website.</li>
+          </ol>
+          <br></br>
           <h3>
             Attribution <br></br>
           </h3>
@@ -115,6 +156,34 @@ export const CookiePolicy = () => {
           and thus anonymous. These cookies allow us to analyse website use such
           as which pages are most popular and how visitors move around the site.
           The information collected does not directly identify any individuals.
+          <br></br>
+          <br></br>
+          <h3>Analytical/performance cookies</h3>
+          We use the following analytical/performance cookies:
+          <br></br>
+          <table className="table is-bordered">
+            <tbody>
+              <tr>
+                <th>Name of cookie</th>
+                <th>Purpose of cookie</th>
+              </tr>
+              <tr>
+                <td>Performance/statistics cookies Analytics Cookies</td>
+                <td>
+                  These cookies collect information about how you use our
+                  website (e.g. which Internet browser you use, how often you
+                  visit our website, which pages you open, or how long you stay
+                  on our website). These cookies do not store any information
+                  that enables visitors to be personally identified. The
+                  information collected with the help of these cookies is
+                  aggregated, and thus anonymous. These cookies allow us to
+                  analyse website use such as which pages are most popular and
+                  how visitors move around the site. The information collected
+                  does not directly identify any individuals.
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
     </section>
