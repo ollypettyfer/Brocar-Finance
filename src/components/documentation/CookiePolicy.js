@@ -11,10 +11,9 @@ export const CookiePolicy = () => {
         <div className="content">
           <h3>Scope of this policy </h3>
           <br></br>
-          <br></br> 1. Brocar Finance(we or us or our) uses cookies when you
-          visit our website, www.brocarfinance.co.uk, (the Website) to help
-          customise the Website and improve your experience using the Website.{" "}
-          <br></br>
+          <br></br> 1. Brocar LTD(we or us or our) uses cookies when you visit
+          our website, www.brocarfinance.co.uk, (the Website) to help customise
+          the Website and improve your experience using the Website. <br></br>
           <br></br>2. This policy applies between you, the user of this Website,
           and us, Brocar Finance, the owner and provider of this Website.
           <br></br>
@@ -25,11 +24,11 @@ export const CookiePolicy = () => {
           better experience and service. You may, if you wish, deny consent to
           the placing of these cookies; however, certain features of the Website
           may not function fully or as intended. <br></br>
-          <br></br>4. Thiss cookie policy should be read alongside, and in
+          <br></br>4. This cookie policy should be read alongside, and in
           addition to, our Privacy Policy, which can be found
           at:www.brocarfinance.co.uk.
           <h3>What are cookies?</h3>
-          <br></br>5. Acookie is a small text file placed on your computer by
+          <br></br>5. A cookie is a small text file placed on your computer by
           this Website when you visit certain parts of the Website and/or when
           you use certain features of the Website. <br></br>
           <br></br>6. This Website may place and access certain cookies on your
@@ -114,7 +113,7 @@ export const CookiePolicy = () => {
           and you are deemed to have accepted the terms of the cookie policy on
           your first use of the Website following the alterations.<br></br>{" "}
           <h3>Contact details</h3>
-          <br></br>16. The Website is owned by Brocar Finance incorporated in
+          <br></br>16. The Website is owned by Brocar LTD incorporated in
           England and Wales with registered number 01908 032694 whose registered
           office is at Regus House, Fairbourne Drive, Milton Keynes, MK10 9RG,
           England.<br></br>
