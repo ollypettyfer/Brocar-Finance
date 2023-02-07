@@ -100,7 +100,7 @@ export const About = () => {
               data-target="modal-js-example"
               className=" button btn-sty is-large has-text-white  js-modal-trigger mt-6"
             >
-              GET A QUOTE
+              Speak To The Team
             </div>
           </div>
           <br></br>
