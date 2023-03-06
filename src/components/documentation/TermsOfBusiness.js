@@ -7,7 +7,7 @@ export const TermsOfBusiness = (setShowNav) => {
   return (
     <section className="section">
       <div className="container">
-        <div className="title mt-6 mb-6">TermsOfBusiness</div>
+        <div className="title mt-6 mb-6">Terms Of Business</div>
 
         <div className="content">
           <h3>The products that we offer?</h3>
