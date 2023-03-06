@@ -37,6 +37,24 @@ export const Footer = () => {
                 Complaints
               </Link>
             </li>
+            <li>
+              <Link
+                to={"/termsofbusiness"}
+                className="has-text-black"
+                onClick={() => setHomeLink(true)}
+              >
+                Terms Of Business
+              </Link>
+            </li>
+            <li>
+              <Link
+                to={"/disclosure"}
+                className="has-text-black"
+                onClick={() => setHomeLink(true)}
+              >
+                Intial Disclosure
+              </Link>
+            </li>
           </ul>
         </nav>
 
@@ -46,12 +64,12 @@ export const Footer = () => {
           Regus House, Fairbourne Drive, Milton Keynes, MK10 9RG, United
           Kingdom. Brocar Ltd is authorised and regulated by the Financial
           Conduct Authority (our Financial Conduct Authority Registry Number is
-          944254). Brocar Ltd is a credit broker and not a lender. We can
-          introduce you to a group of selected lenders who will be able to
-          assist you in financing your purchase or refinancing / releasing
-          equity from your current asset. We may receive a payment(s) or other
-          benefits from finance providers should you decide to enter into an
-          agreement with them, typically either a fixed fee or a fixed
+          944254). VAT number - 432 6544 04. Brocar Ltd is a credit broker and
+          not a lender. We can introduce you to a group of selected lenders who
+          will be able to assist you in financing your purchase or refinancing /
+          releasing equity from your current asset. We may receive a payment(s)
+          or other benefits from finance providers should you decide to enter
+          into an agreement with them, typically either a fixed fee or a fixed
           percentage of the amount you borrow. The payment we receive may vary
           between finance providers and product types. The payment received does
           not impact the finance rate offered. Calls may be recorded for

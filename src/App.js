@@ -12,6 +12,8 @@ import { Fluent } from "./components/Fluent";
 import { CookiePolicy } from "./components/documentation/CookiePolicy";
 import { PrivacyPolicy } from "./components/documentation/PrivacyPolicy";
 import { Modal2 } from "./components/common/Modal2";
+import { TermsOfBusiness } from "./components/documentation/TermsOfBusiness";
+import { Disclosure } from "./components/documentation/Disclosure";
 
 function App() {
   return (
@@ -28,6 +30,8 @@ function App() {
           <Route path="/complaints" element={<Complaints />}></Route>
           <Route path="/cookies" element={<CookiePolicy />}></Route>
           <Route path="/privacy" element={<PrivacyPolicy />}></Route>
+          <Route path="/termsofbusiness" element={<TermsOfBusiness />}></Route>
+          <Route path="/disclosure" element={<Disclosure />}></Route>
           <Route path="/modal2" element={<Modal2 />}></Route>
         </Routes>
       </BrowserRouter>
