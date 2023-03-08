@@ -312,15 +312,15 @@ export const PrivacyPolicy = () => {
           will be subject to the exclusive jurisdiction of the English and Welsh
           courts.
           <br></br>
-          <h3>Changes to this privacy</h3>
-          27. policy Brocar LTD reserves the right to change this privacy policy
-          as we may deem necessary from time to time or as may be required by
-          law. Any changes will be immediately posted on the Website and you are
-          deemed to have accepted the terms of the privacy policy on your first
-          use of the Website following the alterations. You may contact Brocar
-          LTD by email at admin@brocarfinance.co.uk.
-          <h3>Attribution This</h3>
-          privacy policy was created using a document from Rocket Lawyer
+          <h3>Changes to this privacy policy</h3>
+          27. Brocar LTD reserves the right to change this privacy policy as we
+          may deem necessary from time to time or as may be required by law. Any
+          changes will be immediately posted on the Website and you are deemed
+          to have accepted the terms of the privacy policy on your first use of
+          the Website following the alterations. You may contact Brocar LTD by
+          email at admin@brocarfinance.co.uk.
+          <h3>Attribution </h3>
+          This privacy policy was created using a document from Rocket Lawyer
           (https://www.rocketlawyer.com/gb/en). This privacy policy was created
           on .
         </div>
