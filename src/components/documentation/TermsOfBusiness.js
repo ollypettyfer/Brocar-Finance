@@ -1,4 +1,6 @@
 import React from "react";
+// import Link from "react-scroll/modules/components/Link";
+import { Link } from "react-router-dom";
 
 export const TermsOfBusiness = (setShowNav) => {
   React.useEffect(() => {
@@ -118,8 +120,8 @@ export const TermsOfBusiness = (setShowNav) => {
           </p>
           <h3>Privacy, Data Protection and Confidentiality</h3>
           <p>
-            Please find a link to our <a href="/privacy">privacy policy </a>and
-            our <a href="/complaints">complaints policy</a> here.
+            Please find a link to our <Link to="/privacy">privacy policy</Link>{" "}
+            and our <Link to="/complaints">complaints policy here.</Link>
           </p>
         </div>
       </div>
