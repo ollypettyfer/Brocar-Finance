@@ -8,6 +8,7 @@ export const About = () => {
       <section className="section about-section">
         <div className="container">
           <hr></hr>
+
           <h2 className="title is-size-2 has-text-centered title-edit">
             About Us
           </h2>

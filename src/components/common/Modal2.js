@@ -1,6 +1,96 @@
-import React from "react";
+import React, { useState } from "react";
+// import { submitForm } from "../../Lib/axios";
 
 export const Modal2 = () => {
+  const axios = require("axios");
+  const [data, setData] = useState({
+    formData: {
+      AmountToBorrow: "",
+      Term: "",
+      FinanceDetails: {
+        FinanceTypeId: "",
+      },
+      Vehicles: [
+        {
+          Make: "",
+        },
+      ],
+      Applicants: [
+        {
+          Email: "",
+          Forename: "",
+          Surname: "",
+          Mobile: "",
+        },
+      ],
+    },
+  });
+
+  const handleInput = (event) => {
+    const formData = { ...data.formData };
+    formData[event.target.name] = event.target.value;
+    setData({ formData });
+
+    console.log(formData);
+  };
+
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+
+    let config = {
+      method: "post",
+      url: "https://api.autoconvert.co.uk/application/submit",
+      headers: {
+        "X-ApiKey": "9c640c61-d1a7-4de6-8d68-53939b939231",
+        key: "9c640c61-d1a7-4de6-8d68-53939b939231",
+        "Content-Type": "application/json",
+      },
+      data: data,
+    };
+
+    axios(config)
+      .then((response) => {
+        console.log(JSON.stringify(response.data));
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+
+    // axios
+    //   .post(
+    //     url,
+    //     {
+
+    // AmountToBorrow: data.formData.AmountToBorrow,
+    // Term: data.formData.Term,
+    // FinanceDetails: {
+    //   FinanceTypeId: data.formData.FinanceTypeId,
+    // },
+    // Vehicles: [
+    //   {
+    //     Make: data.formData.Vehicles.Make,
+    //   },
+    // ],
+    // Applicants: [
+    //   {
+    //     Email: data.formData.Applicants.Email,
+    //     Forename: data.formData.Applicants.Forename,
+    //     Surname: data.formData.Applicants.Surname,
+    //     Mobile: data.formData.Applicants.Mobile,
+    //   },
+    // ],
+    //   },
+    //   {
+    //
+    //   }
+    // )
+    // .then((res) => {
+    //   console.log(res.data);
+    // });
+  };
+
+  // MAKE MODEL WORK/POPUP
+
   document.addEventListener("DOMContentLoaded", () => {
     // Functions to open and close a modal
     function openModal($el) {
@@ -52,6 +142,7 @@ export const Modal2 = () => {
       }
     });
   });
+
   return (
     <div id="modal-js-example" className="modal">
       <div className="modal-background"></div>
@@ -68,18 +159,34 @@ export const Modal2 = () => {
           </h4>
           <br></br>
           <form
-            action="https://formsubmit.co/1995064511345de11db5569c71841467"
-            method="POST"
+            // action="https://formsubmit.co/1995064511345de11db5569c71841467"
+            // method="POST"
+            onSubmit={handleSubmit}
           >
             <div className="columns is-8">
               <div className="column">
                 <div className="field">
-                  <label className="label m-content">Full Name</label>
+                  <label className="label m-content">First Name</label>
                   <div className="control">
                     <input
                       className="input m-input is-focused"
                       type="text"
-                      name="Name"
+                      name="[Applicants][0]Forename"
+                      value={data.formData.Applicants.Forename}
+                      onChange={handleInput}
+                    ></input>
+                  </div>
+                </div>
+                <br></br>
+                <div className="field">
+                  <label className="label m-content">Surname</label>
+                  <div className="control">
+                    <input
+                      className="input m-input is-focused"
+                      type="text"
+                      name="Surname"
+                      value={data.formData.Applicants.Surname}
+                      onChange={handleInput}
                     ></input>
                   </div>
                 </div>
@@ -90,7 +197,9 @@ export const Modal2 = () => {
                     <input
                       className="input m-input"
                       type="text"
-                      name="Number"
+                      name="Mobile"
+                      value={data.formData.Applicants.Mobile}
+                      onChange={handleInput}
                     ></input>
                   </div>
                   <br></br>
@@ -102,6 +211,8 @@ export const Modal2 = () => {
                       className="input m-input"
                       type="text"
                       name="Email"
+                      value={data.formData.Applicants.Email}
+                      onChange={handleInput}
                     ></input>
                   </div>
                 </div>
@@ -112,7 +223,9 @@ export const Modal2 = () => {
                     <input
                       className="input m-input"
                       type="text"
-                      name="Amount"
+                      name="AmountToBorrow"
+                      value={data.formData.AmountToBorrow}
+                      onChange={handleInput}
                     ></input>
                   </div>
                 </div>
@@ -127,7 +240,9 @@ export const Modal2 = () => {
                     <input
                       className="input m-input"
                       type="text"
-                      name="Vehicle"
+                      name="Make"
+                      value={data.formData.Vehicles.Make}
+                      onChange={handleInput}
                     ></input>
                   </div>
                 </div>
@@ -153,12 +268,17 @@ export const Modal2 = () => {
                   </label>
                   <div className="control m-input">
                     <div className="select is-fullwidth">
-                      <select className="dd-s" name="Finance-Type">
+                      <select
+                        className="dd-s"
+                        name="FinanceTypeId"
+                        value={data.formData.FinanceDetails.FinanceTypeId}
+                        onChange={handleInput}
+                      >
                         <option className="dd-s">Please Select</option>
-                        <option>Personal Contract Purchase</option>
-                        <option>Hire Purchase</option>
-                        <option>Lease Purchase</option>
-                        <option>I’m not sure</option>
+                        <option value={2}>Personal Contract Purchase</option>
+                        <option value={1}>Hire Purchase</option>
+                        <option value={3}>Lease Purchase</option>
+                        <option value={6}>I’m not sure</option>
                       </select>
                     </div>
                   </div>
@@ -168,12 +288,17 @@ export const Modal2 = () => {
                   <label className="label m-content">Finance Term</label>
                   <div className="control m-input">
                     <div className="select is-fullwidth">
-                      <select className="dd-s" name="Finance-Term">
+                      <select
+                        className="dd-s"
+                        name="Term"
+                        value={data.formData.Term}
+                        onChange={handleInput}
+                      >
                         <option className="dd-s">Please Select</option>
-                        <option>24</option>
-                        <option>36</option>
-                        <option>48</option>
-                        <option>60</option>
+                        <option value={24}>24</option>
+                        <option value={36}>36</option>
+                        <option value={48}>48</option>
+                        <option value={60}>60</option>
                       </select>
                     </div>
                   </div>
@@ -182,7 +307,13 @@ export const Modal2 = () => {
               </div>
             </div>
             <div className="modal-btn">
-              <button className="button btn-sty has-text-white">Submit</button>
+              <button
+                className="button btn-sty has-text-white"
+                type="submit"
+                value="submit"
+              >
+                Submit
+              </button>
             </div>
           </form>
         </div>

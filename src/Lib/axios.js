@@ -1,6 +1,70 @@
-// import axios from "axios";
+import React from "react";
 
-// const baseUrl = "http://api.weatherapi.com/v1/current.json?&";
+export const axios = () => {
+  const axios = require("axios");
+  let data = JSON.stringify({
+    AmountToBorrow: 20000,
+    Term: 20,
+    FinanceDetails: {
+      FinanceTypeId: "2",
+    },
+    Vehicles: [
+      {
+        Make: "Fiat",
+      },
+    ],
+    Applicants: [
+      {
+        Email: "APITESTING@test.co.uk",
+        Forename: "Olly",
+        Surname: "Test",
+        Mobile: "+447777777777",
+      },
+    ],
+  });
+
+  let config = {
+    method: "post",
+    url: "https://api.autoconvert.co.uk/application/submit",
+    headers: {
+      "X-ApiKey": "9c640c61-d1a7-4de6-8d68-53939b939231",
+      key: "9c640c61-d1a7-4de6-8d68-53939b939231",
+      "Content-Type": "application/json",
+    },
+    data: data,
+  };
+
+  axios(config)
+    .then((response) => {
+      console.log(JSON.stringify(response.data));
+    })
+    .catch((error) => {
+      console.log(error);
+    });
+
+  return (
+    <>
+      <div>axios</div>
+      <div
+        style={{
+          textAlign: "center",
+          width: "100px",
+          border: "1px solid gray",
+          borderRadius: "5px",
+        }}
+      >
+        Send data to backend
+      </div>
+      ;
+    </>
+  );
+};
+
+//   const requestConfig = {
+//     headers: { Authorization: `Bearer ${apikey()}` },
+//   };
+//   return axios.post(`${baseUrl}/application/submit`, formData, requestConfig);
+// console.log(`👀 This is the response form the CREATECOUNTRY api call`, data)
 
 // const apiKey = "d59a749a63ac477eaf0160701221606";
 
