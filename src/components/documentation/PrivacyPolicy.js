@@ -322,7 +322,61 @@ export const PrivacyPolicy = () => {
           <h3>Attribution </h3>
           This privacy policy was created using a document from Rocket Lawyer
           (https://www.rocketlawyer.com/gb/en). This privacy policy was created
-          on .
+          on .<br></br>
+          <h3>How we might share your information</h3>
+          <p>
+            The third parties with who we may need to share personal information
+            to help us provide services and products to you are detailed within
+            this section.
+          </p>
+          <p>
+            If you have any questions regarding this please contact us at
+            enquiries@brocarfinance.co.uk
+          </p>
+          <p>
+            Mallard finance -{" "}
+            <a
+              href="https://www.mallardfinance.co.uk/pdf/privacy.pdf"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+              https://www.mallardfinance.co.uk/pdf/privacy.pdf
+            </a>
+          </p>
+          <p>
+            Davenham -{" "}
+            <a
+              href="https://www.davenhamassetfinance.co.uk/davenham-asset-finance-privacy-notice.html"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+              https://www.davenhamassetfinance.co.uk/davenham-asset-finance-privacy-notice.html
+            </a>
+          </p>
+          <p>
+            Glenside Finance -{" "}
+            <a
+              href="https://glensidefinance.co.uk/privacy-policy "
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+              https://glensidefinance.co.uk/privacy-policy
+            </a>
+          </p>
+          <p>
+            Automoney -{" "}
+            <a
+              href="https://www.davenhamassetfinance.co.uk/davenham-asset-finance-privacy-notice.html"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+              https://automoneymotorfinance.co.uk/privacy-policy/
+            </a>
+          </p>
         </div>
       </div>
     </section>
