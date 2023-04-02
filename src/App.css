@@ -380,4 +380,22 @@ hr {
     border-bottom: solid #3ba27e 1px;
   }
 }
+
+@media (max-width: 1408px) {
+  .fc {
+    font-size: 0.8rem !important;
+  }
+}
+
+@media (max-width: 894px) {
+  .fc {
+    font-size: 0.71rem !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .fc {
+    font-size: 0.9rem !important;
+  }
+}
 /*# sourceMappingURL=App.css.map */
