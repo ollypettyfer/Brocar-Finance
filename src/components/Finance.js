@@ -34,7 +34,7 @@ export const Finance = () => {
                     Personal Contract Purchase
                   </p>
                 </div>
-                <div className="content is-size-7-tablet is-size-6-widescreen is-size-7-desktop">
+                <div className="content is-size-7-tablet is-size-6-widescreen is-size-7-desktop fc">
                   Personal Contract Purchase, commonly referred to as PCP, can
                   be best described as a long term rental where customers can
                   use their vehicle until the end of their agreement, before
@@ -71,7 +71,7 @@ export const Finance = () => {
                   </p>
                 </div>
 
-                <div className="content is-size-7-tablet is-size-7-desktop is-size-6-widescreen">
+                <div className="content is-size-7-tablet is-size-7-desktop is-size-6-widescreen fc">
                   Hire purchase has been a very popular way for customers to
                   fund the purchase of their vehicles.
                   <br></br>
@@ -110,7 +110,7 @@ export const Finance = () => {
                     Refinance Your Car
                   </p>
                 </div>
-                <div className="content is-size-7-tablet is-size-7-desktop is-size-6-widescreen">
+                <div className="content is-size-7-tablet is-size-7-desktop is-size-6-widescreen fc">
                   The cost of living crisis has played its part in the increased
                   uptake of this funding method.
                   <br></br>
@@ -146,7 +146,7 @@ export const Finance = () => {
                   </p>
                 </div>
 
-                <div className="content is-size-7-tablet is-size-7-desktop is-size-6-widescreen">
+                <div className="content is-size-7-tablet is-size-7-desktop is-size-6-widescreen fc">
                   Lease Purchase is often compared to Hire Purchase, the main
                   difference between the two agreements is that Lease Purchase
                   agreements have a balloon payment.
