@@ -1,6 +1,115 @@
-import React from "react";
+import React, { useState } from "react";
+import axios from "axios";
 
 export const Modal2 = () => {
+  const [data, setData] = useState({
+    formData: {
+      Email: "",
+      Forename: "",
+      Surname: "",
+      Mobile: "",
+      AmountToBorrow: "",
+      Term: "",
+      FinanceTypeId: "",
+      Make: "",
+    },
+  });
+
+  //Looks for user input change
+  const handleInput = (event) => {
+    const formData = { ...data.formData };
+    formData[event.target.name] = event.target.value;
+    setData({ formData });
+    console.log(formData);
+  };
+
+  //FORMATED DATA TO POST TO AUTOCONVERT API
+  const formattedData = {
+    Applicants: [
+      {
+        Email: data.formData.Email,
+        Forename: data.formData.Forename,
+        Surname: data.formData.Surname,
+        Mobile: data.formData.Mobile,
+      },
+    ],
+    Vehicles: [
+      {
+        Make: data.formData.Make,
+      },
+    ],
+    FinanceDetails: {
+      FinanceTypeId: data.formData.FinanceTypeId,
+    },
+    AmountToBorrow: data.formData.AmountToBorrow,
+    Term: data.formData.Term,
+  };
+  const jsonData = JSON.stringify(formattedData);
+  console.log(jsonData, "formatted datas");
+
+  //Submited data
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    axios
+      .post("/.netlify/functions/add", formattedData)
+
+      .then((response) => {
+        console.log(response, "THE REPOSNSE OFF ADDING DATA TO SERVER");
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+    const fetchData = async () => {
+      const results = await axios.get(".netlify/functions/post");
+      console.log(results, "my results GET DATA FROM netlify server");
+      const returnedData = results.data;
+      console.log(returnedData, "my returned data");
+      return returnedData;
+    };
+
+    const sendDataToAC = async (returnedData) => {
+      const headers = {
+        "Content-Type": "application/json",
+        "X-ApiKey": "9c640c61-d1a7-4de6-8d68-53939b939231",
+      };
+      // const cleanData = {
+      //   AmountToBorrow: returnedData.AmountToBorrow,
+      //   Applicants: [
+      //     {
+      //       Email: returnedData.Applicants.Email,
+      //       Forename: returnedData.Applicants.Forename,
+      //       Mobile: returnedData.Applicants.Mobile,
+      //       Surname: returnedData.Applicants.Surname,
+      //     },
+      //   ],
+      //   FinanceDetails: {
+      //     FinanceTypeId: returnedData[1].FinanceDetails,
+      //   },
+      //   Term: returnedData.Term,
+      //   Vehicles: [
+      //     {
+      //       Make: returnedData[1].Make,
+      //     },
+      //   ],
+      // };
+      // console.log(cleanData);
+
+      const response = await axios.post(
+        "https://api.autoconvert.co.uk/application/submit",
+        returnedData,
+        { headers }
+      );
+      const responseData = response.data;
+      return responseData;
+    };
+
+    fetchData()
+      .then(sendDataToAC)
+      .then((responseData) => console.log(responseData))
+      .catch((error) => console.error(error));
+  };
+
+  //MODAL
   document.addEventListener("DOMContentLoaded", () => {
     // Functions to open and close a modal
     function openModal($el) {
@@ -67,10 +176,7 @@ export const Modal2 = () => {
             helping your dream purchase become a reality.
           </h4>
           <br></br>
-          <form
-            action="https://formsubmit.co/1995064511345de11db5569c71841467"
-            method="POST"
-          >
+          <form onSubmit={handleSubmit}>
             <div className="columns is-8">
               <div className="column">
                 <div className="field">
@@ -79,9 +185,25 @@ export const Modal2 = () => {
                     <input
                       className="input m-input is-focused"
                       type="text"
-                      name="Name"
+                      name="Forename"
+                      value={data.formData.Forename}
+                      onChange={handleInput}
                     ></input>
                   </div>
+                </div>
+                <br></br>
+                <div className="field">
+                  <label className="label m-content">Surname</label>
+                  <div className="control">
+                    <input
+                      className="input m-input"
+                      type="text"
+                      name="Surname"
+                      value={data.formData.Surname}
+                      onChange={handleInput}
+                    ></input>
+                  </div>
+                  <br></br>
                 </div>
                 <br></br>
                 <div className="field">
@@ -90,11 +212,14 @@ export const Modal2 = () => {
                     <input
                       className="input m-input"
                       type="text"
-                      name="Number"
+                      name="Mobile"
+                      value={data.formData.Mobile}
+                      onChange={handleInput}
                     ></input>
                   </div>
                   <br></br>
                 </div>
+                <br></br>
                 <div className="field">
                   <label className="label m-content">Email Address</label>
                   <div className="control">
@@ -102,6 +227,8 @@ export const Modal2 = () => {
                       className="input m-input"
                       type="text"
                       name="Email"
+                      value={data.formData.Email}
+                      onChange={handleInput}
                     ></input>
                   </div>
                 </div>
@@ -112,7 +239,9 @@ export const Modal2 = () => {
                     <input
                       className="input m-input"
                       type="text"
-                      name="Amount"
+                      name="AmountToBorrow"
+                      value={data.formData.AmountToBorrow}
+                      onChange={handleInput}
                     ></input>
                   </div>
                 </div>
@@ -127,7 +256,9 @@ export const Modal2 = () => {
                     <input
                       className="input m-input"
                       type="text"
-                      name="Vehicle"
+                      name="Make"
+                      value={data.formData.Make}
+                      onChange={handleInput}
                     ></input>
                   </div>
                 </div>
@@ -153,12 +284,17 @@ export const Modal2 = () => {
                   </label>
                   <div className="control m-input">
                     <div className="select is-fullwidth">
-                      <select className="dd-s" name="Finance-Type">
+                      <select
+                        className="dd-s"
+                        name="FinanceTypeId"
+                        value={data.formData.FinanceTypeId}
+                        onChange={handleInput}
+                      >
                         <option className="dd-s">Please Select</option>
-                        <option>Personal Contract Purchase</option>
-                        <option>Hire Purchase</option>
-                        <option>Lease Purchase</option>
-                        <option>I’m not sure</option>
+                        <option value={2}>Personal Contract Purchase</option>
+                        <option value={1}>Hire Purchase</option>
+                        <option value={3}>Lease Purchase</option>
+                        <option value={6}>I’m not sure</option>
                       </select>
                     </div>
                   </div>
@@ -168,12 +304,17 @@ export const Modal2 = () => {
                   <label className="label m-content">Finance Term</label>
                   <div className="control m-input">
                     <div className="select is-fullwidth">
-                      <select className="dd-s" name="Finance-Term">
+                      <select
+                        className="dd-s"
+                        name="Term"
+                        value={data.formData.Term}
+                        onChange={handleInput}
+                      >
                         <option className="dd-s">Please Select</option>
-                        <option>24</option>
-                        <option>36</option>
-                        <option>48</option>
-                        <option>60</option>
+                        <option value={24}>24</option>
+                        <option value={36}>36</option>
+                        <option value={48}>48</option>
+                        <option value={60}>60</option>
                       </select>
                     </div>
                   </div>
