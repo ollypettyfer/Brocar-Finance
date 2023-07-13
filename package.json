@@ -17,6 +17,7 @@
     "react-scroll": "^1.8.8",
     "sas": "^3.0.4",
     "sass": "^1.49.7",
+    "uuid": "^7.0.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
